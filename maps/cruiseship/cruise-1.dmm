@@ -35,7 +35,7 @@
 /area/cruise/first)
 "ck" = (
 /obj/structure/lattice,
-/turf/unsimulated/beach/water,
+/turf/exterior/water,
 /area/cruise/sea)
 "co" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -59,7 +59,7 @@
 /area/cruise/first)
 "cS" = (
 /obj/structure/grille,
-/turf/unsimulated/beach/water,
+/turf/exterior/water,
 /area/cruise/sea)
 "du" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -408,7 +408,7 @@
 /turf/simulated/floor,
 /area/cruise/first)
 "vg" = (
-/turf/unsimulated/beach/water,
+/turf/exterior/water,
 /area/cruise/sea)
 "vi" = (
 /obj/structure/railing/mapped,
@@ -464,10 +464,10 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/cruise/first)
 "xq" = (
-/obj/abstract/level_data_spawner/main_level{
+/obj/abstract/level_data_spawner/cruise/sea{
 	name = "Ship First Deck"
 	},
-/turf/unsimulated/beach/water,
+/turf/exterior/water,
 /area/cruise/sea)
 "xR" = (
 /obj/structure/ladder,

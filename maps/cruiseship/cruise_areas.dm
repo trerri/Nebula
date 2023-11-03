@@ -2,16 +2,19 @@
 	holomap_color = HOLOMAP_AREACOLOR_CREW
 	name = "\proper Sky"
 	icon_state = "purple"
-	base_turf = /turf/exterior/open
+	is_outside = OUTSIDE_YES
+
 /area/cruise/sea
 	name = "\proper Sea"
 	icon_state = "blue2"
-	base_turf = /turf/unsimulated/beach/water
+	is_outside = OUTSIDE_YES
 
 /area/cruise/first
 	name = "\improper Cruise Ship First Deck"
 	icon_state = "engineering"
-	base_turf = /turf/unsimulated/beach/water
+
+/area/cruise/first/indoor
+	is_outside = OUTSIDE_NO
 
 /area/cruise/second
 	name = "\improper Cruise Ship Second Deck"

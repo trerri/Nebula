@@ -223,7 +223,7 @@
 /turf/simulated/floor,
 /area/cruise/third)
 "MO" = (
-/obj/abstract/level_data_spawner/main_level{
+/obj/abstract/level_data_spawner/cruise{
 	name = "Ship Third Deck"
 	},
 /turf/simulated/open,

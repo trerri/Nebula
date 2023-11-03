@@ -324,7 +324,7 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/second)
 "ug" = (
-/obj/abstract/level_data_spawner/main_level{
+/obj/abstract/level_data_spawner/cruise{
 	name = "Ship Second Deck"
 	},
 /turf/simulated/open,
