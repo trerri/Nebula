@@ -1,10 +1,12 @@
 /area/cruise
 	holomap_color = HOLOMAP_AREACOLOR_CREW
+	name = "\proper Sky"
 	icon_state = "purple"
-
+	base_turf = /turf/exterior/open
 /area/cruise/sea
 	name = "\proper Sea"
 	icon_state = "blue2"
+	base_turf = /turf/unsimulated/beach/water
 
 /area/cruise/first
 	name = "\improper Cruise Ship First Deck"

@@ -4,12 +4,14 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/industrial/warning/dust,
-/turf/simulated/floor)
+/turf/simulated/floor,
+/area/cruise/third)
 "cw" = (
 /obj/machinery/atmospherics/portables_connector,
 /obj/machinery/portable_atmospherics/canister/empty,
 /obj/effect/floor_decal/industrial/outline/red,
-/turf/simulated/floor/tiled/dark/monotile)
+/turf/simulated/floor/tiled/dark/monotile,
+/area/cruise/third)
 "dx" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 5
@@ -17,7 +19,8 @@
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 10
 	},
-/turf/simulated/floor)
+/turf/simulated/floor,
+/area/cruise/third)
 "eg" = (
 /obj/machinery/light{
 	dir = 8
@@ -25,7 +28,8 @@
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/steel_grid)
+/turf/simulated/floor/tiled/steel_grid,
+/area/cruise/third)
 "eD" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 6
@@ -33,37 +37,45 @@
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 8
 	},
-/turf/simulated/floor)
+/turf/simulated/floor,
+/area/cruise/third)
 "hv" = (
 /obj/machinery/alarm{
 	dir = 1;
 	pixel_y = -21
 	},
-/turf/simulated/floor)
+/turf/simulated/floor,
+/area/cruise/third)
 "iI" = (
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 9
 	},
-/turf/simulated/floor/tiled/steel_grid)
+/turf/simulated/floor/tiled/steel_grid,
+/area/cruise/third)
 "jb" = (
 /obj/machinery/light,
-/turf/simulated/open)
+/turf/simulated/open,
+/area/cruise/third)
 "lK" = (
-/turf/simulated/floor/glass)
+/turf/simulated/floor/glass,
+/area/cruise/third)
 "lY" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
-/turf/simulated/floor)
+/turf/simulated/floor,
+/area/cruise/third)
 "nG" = (
 /turf/simulated/open,
-/area/space)
+/area/cruise)
 "nN" = (
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/steel_grid)
+/turf/simulated/floor/tiled/steel_grid,
+/area/cruise/third)
 "pB" = (
 /obj/effect/floor_decal/industrial/warning/dust,
-/turf/simulated/floor/tiled/steel_grid)
+/turf/simulated/floor/tiled/steel_grid,
+/area/cruise/third)
 "pH" = (
 /obj/machinery/light{
 	dir = 1
@@ -71,7 +83,8 @@
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 9
 	},
-/turf/simulated/floor/tiled/steel_grid)
+/turf/simulated/floor/tiled/steel_grid,
+/area/cruise/third)
 "rX" = (
 /obj/structure/railing/mapped{
 	dir = 8
@@ -80,16 +93,19 @@
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 4
 	},
-/turf/simulated/floor)
+/turf/simulated/floor,
+/area/cruise/third)
 "sH" = (
 /obj/effect/wallframe_spawn/reinforced,
-/turf/simulated/floor/plating)
+/turf/simulated/floor/plating,
+/area/cruise/third)
 "uC" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 5
 	},
 /obj/effect/floor_decal/industrial/warning/dust,
-/turf/simulated/floor)
+/turf/simulated/floor,
+/area/cruise/third)
 "uK" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 9
@@ -97,39 +113,53 @@
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 6
 	},
-/turf/simulated/floor)
+/turf/simulated/floor,
+/area/cruise/third)
 "vo" = (
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 5
 	},
-/turf/simulated/floor)
+/turf/simulated/floor,
+/area/cruise/third)
 "ww" = (
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/simulated/open)
+/turf/simulated/open,
+/area/cruise/third)
 "wD" = (
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/steel_grid)
+/turf/simulated/floor/tiled/steel_grid,
+/area/cruise/third)
 "xD" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden,
 /obj/effect/floor_decal/industrial/warning/dust,
-/turf/simulated/floor)
+/turf/simulated/floor,
+/area/cruise/third)
 "yv" = (
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 9
 	},
-/turf/simulated/floor)
+/turf/simulated/floor,
+/area/cruise/third)
 "Al" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 8
 	},
-/turf/simulated/floor)
+/turf/simulated/floor,
+/area/cruise/third)
 "AD" = (
-/turf/simulated/floor/tiled/steel_grid)
+/turf/simulated/floor/tiled/steel_grid,
+/area/cruise/third)
+"Dh" = (
+/obj/abstract/map_data{
+	height = 2
+	},
+/turf/simulated/open,
+/area/cruise)
 "Em" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 10
@@ -137,19 +167,23 @@
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 4
 	},
-/turf/simulated/floor)
+/turf/simulated/floor,
+/area/cruise/third)
 "Es" = (
-/turf/simulated/floor)
+/turf/simulated/floor,
+/area/cruise/third)
 "EO" = (
 /obj/structure/railing/mapped{
 	dir = 1
 	},
-/turf/simulated/floor)
+/turf/simulated/floor,
+/area/cruise/third)
 "Ff" = (
 /obj/machinery/atmospherics/portables_connector,
 /obj/machinery/portable_atmospherics/canister/air,
 /obj/effect/floor_decal/industrial/outline/blue,
-/turf/simulated/floor/tiled/dark/monotile)
+/turf/simulated/floor/tiled/dark/monotile,
+/area/cruise/third)
 "Fk" = (
 /obj/machinery/light{
 	dir = 1
@@ -157,58 +191,70 @@
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 5
 	},
-/turf/simulated/floor/tiled/steel_grid)
+/turf/simulated/floor/tiled/steel_grid,
+/area/cruise/third)
 "GA" = (
 /obj/machinery/power/debug_items/infinite_generator,
 /obj/structure/cable/yellow{
 	icon_state = "0-2"
 	},
-/turf/simulated/floor)
+/turf/simulated/floor,
+/area/cruise/third)
 "HC" = (
 /obj/effect/floor_decal/industrial/warning/dust,
-/turf/simulated/floor)
+/turf/simulated/floor,
+/area/cruise/third)
 "Ke" = (
-/turf/simulated/open)
+/turf/simulated/open,
+/area/cruise/third)
 "KS" = (
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/steel_grid)
+/turf/simulated/floor/tiled/steel_grid,
+/area/cruise/third)
 "LP" = (
-/turf/simulated/wall/r_wall/prepainted)
+/turf/simulated/wall/r_wall/prepainted,
+/area/cruise/third)
 "MG" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-4"
 	},
-/turf/simulated/floor)
+/turf/simulated/floor,
+/area/cruise/third)
 "MO" = (
 /obj/abstract/level_data_spawner/main_level{
 	name = "Ship Third Deck"
 	},
 /turf/simulated/open,
-/area/space)
+/area/cruise)
 "Nz" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 9
 	},
 /obj/effect/floor_decal/industrial/warning/dust,
-/turf/simulated/floor)
+/turf/simulated/floor,
+/area/cruise/third)
 "NO" = (
 /obj/machinery/light,
-/turf/simulated/floor)
+/turf/simulated/floor,
+/area/cruise/third)
 "NP" = (
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 1
 	},
-/turf/simulated/floor)
+/turf/simulated/floor,
+/area/cruise/third)
 "OJ" = (
 /obj/machinery/door/airlock/external/glass,
-/turf/simulated/floor/tiled/steel_ridged)
+/turf/simulated/floor/tiled/steel_ridged,
+/area/cruise/third)
 "Qg" = (
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor)
+/turf/simulated/floor,
+/area/cruise/third)
 "QH" = (
 /obj/machinery/power/apc{
 	dir = 1;
@@ -221,47 +267,57 @@
 	pixel_x = 11;
 	pixel_y = 31
 	},
-/turf/simulated/floor)
+/turf/simulated/floor,
+/area/cruise/third)
 "TM" = (
 /obj/structure/catwalk,
-/turf/simulated/open)
+/turf/simulated/open,
+/area/cruise/third)
 "TO" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 4
 	},
-/turf/simulated/floor)
+/turf/simulated/floor,
+/area/cruise/third)
 "UC" = (
 /obj/structure/ladder,
-/turf/simulated/open)
+/turf/simulated/open,
+/area/cruise/third)
 "UM" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
-/turf/simulated/floor)
+/turf/simulated/floor,
+/area/cruise/third)
 "UV" = (
 /obj/machinery/light{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/steel_grid)
+/turf/simulated/floor/tiled/steel_grid,
+/area/cruise/third)
 "Wn" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
-/turf/simulated/floor)
+/turf/simulated/floor,
+/area/cruise/third)
 "WU" = (
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 6
 	},
-/turf/simulated/floor/tiled/steel_grid)
+/turf/simulated/floor/tiled/steel_grid,
+/area/cruise/third)
 "Xg" = (
 /obj/structure/railing/mapped{
 	dir = 4
 	},
-/turf/simulated/floor)
+/turf/simulated/floor,
+/area/cruise/third)
 "Ye" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
-/turf/simulated/floor)
+/turf/simulated/floor,
+/area/cruise/third)
 "Zr" = (
 /obj/effect/floor_decal/industrial/warning/dust/corner{
 	dir = 1
@@ -269,7 +325,8 @@
 /obj/effect/floor_decal/industrial/warning/dust/corner{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/steel_grid)
+/turf/simulated/floor/tiled/steel_grid,
+/area/cruise/third)
 
 (1,1,1) = {"
 nG
@@ -377,7 +434,7 @@ nG
 nG
 nG
 nG
-nG
+Dh
 "}
 (3,1,1) = {"
 nG
