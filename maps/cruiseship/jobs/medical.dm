@@ -161,7 +161,7 @@
 		SKILL_CHEMISTRY = SKILL_MAX
 	)
 	skill_points = 16
-
+/*
 /datum/job/counselor
 	title = "Counselor"
 	alt_titles = list("Mentalist")
@@ -198,15 +198,7 @@
 		/datum/computer_file/program/suit_sensors,
 		/datum/computer_file/program/camera_monitor
 	)
-	give_psionic_implant_on_join = FALSE
-
-/datum/job/counselor/equip(var/mob/living/carbon/human/H)
-	if(H.mind.role_alt_title == "Counselor")
-		psi_faculties = list("[PSI_REDACTION]" = PSI_RANK_OPERANT)
-	if(H.mind.role_alt_title == "Mentalist")
-		psi_faculties = list("[PSI_COERCION]" = PSI_RANK_OPERANT)
-	return ..()
-
+*/
 // Department-flavor IDs
 /obj/item/card/id/medical
 	name = "identification card"

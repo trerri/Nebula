@@ -1,7 +1,7 @@
 /datum/map/cruise
 	default_job_type = /datum/job/tourist
 	default_department_type = /decl/department/civilian
-	id_hud_icons = 'maps/cruise/hud.dmi'
+	id_hud_icons = 'maps/cruiseship/hud.dmi'
 	allowed_jobs = list(
 		/datum/job/captain,
 		/datum/job/hop,
