@@ -19,10 +19,10 @@
 		/datum/job/cmo,
 		/datum/job/doctor,
 		/datum/job/chemist,
-		/datum/job/counselor,
 		/datum/job/hos,
 		/datum/job/detective,
 		/datum/job/warden,
-		/datum/job/officer,
-		/datum/job/clown
+		/datum/job/officer
 	)
+
+//TODO: add counselor and clown
