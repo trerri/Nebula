@@ -156,7 +156,7 @@
 /area/cruise/third)
 "Dh" = (
 /obj/abstract/map_data{
-	height = 2
+	height = 3
 	},
 /turf/simulated/open,
 /area/cruise)
