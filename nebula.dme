@@ -3692,6 +3692,7 @@
 #include "maps\antag_spawn\wizard\wizard.dm"
 #include "maps\away_sites_testing\away_sites_testing_define.dm"
 #include "maps\example\example_define.dm"
+#include "maps\example\example_departments.dm"
 #include "maps\exodus\exodus_define.dm"
 #include "maps\ministation\ministation_define.dm"
 #include "maps\modpack_testing\modpack_testing_define.dm"
