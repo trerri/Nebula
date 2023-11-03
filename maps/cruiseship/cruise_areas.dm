@@ -9,7 +9,7 @@
 /area/cruise/first
 	name = "\improper Cruise Ship First Deck"
 	icon_state = "engineering"
-	base_turf = /turf/exterior/open_ocean
+	base_turf = /turf/unsimulated/beach/water
 
 /area/cruise/second
 	name = "\improper Cruise Ship Second Deck"
