@@ -12,8 +12,6 @@
 /decl/hierarchy/outfit/job/tourist
 	name = "Job - Cruise Ship Tourist"
 
-	id_hud_icons = 'maps/cruiseship/hud.dmi'
-
 /datum/job/chaplain
 	title = "Chaplain"
 	department_types = list(/decl/department/civilian)

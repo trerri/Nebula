@@ -29,7 +29,6 @@
 	#include "outfits/command.dm"
 	#include "outfits/engineering.dm"
 	#include "outfits/medical.dm"
-	#include "outfits/science.dm"
 	#include "outfits/security.dm"
 
 	#define USING_MAP_DATUM /datum/map/cruise
