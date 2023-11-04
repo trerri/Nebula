@@ -467,9 +467,6 @@
 /obj/effect/floor_decal/corner/blue/mono,
 /turf/simulated/floor/tiled/white/monotile,
 /area/cruise/second)
-"GT" = (
-/turf/simulated/floor/shuttle_ceiling,
-/area/cruise)
 "HF" = (
 /obj/structure/rack,
 /obj/item/stack/material/reinforced/mapped/plasteel/fifty,
@@ -6832,11 +6829,11 @@ vQ
 vQ
 rP
 vQ
-GT
-GT
-GT
-GT
-GT
+vQ
+vQ
+vQ
+vQ
+vQ
 vQ
 lI
 Ky
@@ -7089,11 +7086,11 @@ vQ
 vQ
 rP
 vQ
-GT
-GT
-GT
-GT
-GT
+vQ
+vQ
+vQ
+vQ
+vQ
 vQ
 lI
 Ky
@@ -7346,11 +7343,11 @@ vQ
 vQ
 rP
 vQ
-GT
-GT
-GT
-GT
-GT
+vQ
+vQ
+vQ
+vQ
+vQ
 vQ
 Zd
 ni
