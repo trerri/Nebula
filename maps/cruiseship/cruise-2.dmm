@@ -15,11 +15,23 @@
 /obj/structure/railing/mapped,
 /turf/simulated/open,
 /area/cruise/second)
+"ch" = (
+/obj/effect/floor_decal/corner/white{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/dark,
+/area/cruise/second)
 "cH" = (
 /obj/structure/stairs{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
+/area/cruise/second)
+"dm" = (
+/obj/effect/floor_decal/corner/white/three_quarters{
+	dir = 2
+	},
+/turf/simulated/floor/tiled/dark,
 /area/cruise/second)
 "dR" = (
 /obj/machinery/light/small{
@@ -80,6 +92,18 @@
 	},
 /obj/effect/floor_decal/corner/orange/three_quarters,
 /turf/simulated/floor/tiled/steel_grid,
+/area/cruise/second)
+"ig" = (
+/obj/effect/floor_decal/corner/white{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/dark,
+/area/cruise/second)
+"im" = (
+/obj/effect/floor_decal/corner/white/three_quarters{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
 /area/cruise/second)
 "jX" = (
 /obj/effect/floor_decal/corner/blue/mono,
@@ -155,6 +179,12 @@
 "no" = (
 /turf/simulated/floor/tiled,
 /area/cruise/second)
+"nB" = (
+/obj/effect/floor_decal/corner/white{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/dark,
+/area/cruise/second)
 "nC" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 5
@@ -175,6 +205,12 @@
 	pixel_y = 24
 	},
 /turf/simulated/floor/tiled/steel_grid,
+/area/cruise/second)
+"pj" = (
+/obj/effect/floor_decal/corner/white/three_quarters{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
 /area/cruise/second)
 "pk" = (
 /obj/effect/floor_decal/corner/mauve{
@@ -261,6 +297,12 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/second)
+"sE" = (
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/cruise/second)
 "sT" = (
 /obj/machinery/light_switch/on{
 	dir = 1;
@@ -302,6 +344,10 @@
 	icon_state = "0-2"
 	},
 /turf/simulated/floor/tiled/white,
+/area/cruise/second)
+"uJ" = (
+/obj/effect/floor_decal/corner/white/full,
+/turf/simulated/floor/tiled/dark,
 /area/cruise/second)
 "vK" = (
 /obj/effect/floor_decal/industrial/warning/dust{
@@ -354,6 +400,12 @@
 /obj/effect/floor_decal/corner/blue/mono,
 /turf/simulated/floor/tiled/white/monotile,
 /area/cruise/second)
+"yV" = (
+/obj/structure/railing/mapped{
+	dir = 2
+	},
+/turf/simulated/floor/tiled,
+/area/cruise/second)
 "yW" = (
 /obj/effect/floor_decal/corner/orange/three_quarters{
 	dir = 4
@@ -385,6 +437,12 @@
 	id_tag = "upper_level_dock_pump"
 	},
 /turf/simulated/floor,
+/area/cruise/second)
+"AD" = (
+/obj/effect/floor_decal/corner/white/three_quarters{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
 /area/cruise/second)
 "AL" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -473,6 +531,10 @@
 "Fx" = (
 /turf/simulated/floor,
 /area/cruise/second)
+"FE" = (
+/obj/structure/stairs/long/east,
+/turf/simulated/floor/plating,
+/area/cruise/second)
 "FJ" = (
 /obj/machinery/fabricator/protolathe,
 /obj/effect/floor_decal/corner/mauve/mono,
@@ -481,6 +543,10 @@
 "FN" = (
 /obj/machinery/light,
 /turf/simulated/floor/tiled/steel_grid,
+/area/cruise/second)
+"FX" = (
+/obj/structure/railing/mapped,
+/turf/simulated/floor/tiled,
 /area/cruise/second)
 "Gt" = (
 /turf/simulated/wall,
@@ -673,6 +739,12 @@
 	dir = 4
 	},
 /turf/simulated/floor,
+/area/cruise/second)
+"Ty" = (
+/obj/effect/floor_decal/corner/white{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/dark,
 /area/cruise/second)
 "TR" = (
 /turf/simulated/floor/tiled/steel_ridged,
@@ -16552,11 +16624,11 @@ no
 no
 no
 no
-no
-no
-no
-no
-no
+Zd
+lI
+lI
+lI
+Zd
 no
 no
 no
@@ -16808,13 +16880,13 @@ no
 no
 no
 no
-no
-no
-no
-no
-no
-no
-no
+Zd
+Zd
+pj
+ch
+dm
+Zd
+Zd
 no
 no
 no
@@ -17055,33 +17127,33 @@ no
 no
 no
 no
+FX
+RI
+RI
+RI
+sE
 no
 no
 no
 no
 no
+uJ
+pj
+kh
+kh
+kh
+dm
+uJ
 no
 no
 no
 no
 no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
+yV
+RI
+RI
+RI
+sE
 no
 no
 no
@@ -17312,33 +17384,33 @@ no
 no
 no
 no
+FX
+FE
+FE
+FE
+sE
 no
 no
 no
 no
 no
+uJ
+Ty
+kh
+kh
+kh
+ig
+uJ
 no
 no
 no
 no
 no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
+yV
+FE
+FE
+FE
+sE
 no
 no
 no
@@ -17580,11 +17652,11 @@ Zd
 Zd
 Zd
 Zd
-no
-no
-Zd
-no
-no
+im
+kh
+kh
+kh
+AD
 Zd
 Zd
 Zd
@@ -17835,15 +17907,15 @@ no
 no
 no
 no
-no
-no
-no
-no
-no
-no
-no
-no
-no
+kh
+kh
+ig
+im
+kh
+AD
+Ty
+kh
+kh
 no
 no
 no
@@ -18092,15 +18164,15 @@ no
 no
 no
 no
-no
-no
-no
-no
-no
-no
-no
-no
-no
+kh
+kh
+ig
+uJ
+kh
+uJ
+Ty
+kh
+kh
 no
 no
 no
@@ -18351,11 +18423,11 @@ Gt
 Gt
 kh
 kh
-no
-no
-no
-no
-no
+ig
+uJ
+kh
+uJ
+Ty
 kh
 kh
 Gt
@@ -18608,11 +18680,11 @@ RI
 Gt
 kh
 kh
-no
-no
-no
-no
-no
+ig
+uJ
+kh
+uJ
+Ty
 kh
 kh
 Gt
@@ -18865,11 +18937,11 @@ RI
 Gt
 kh
 kh
-no
-no
-no
-no
-no
+ig
+uJ
+kh
+uJ
+Ty
 kh
 kh
 Gt
@@ -19122,11 +19194,11 @@ RI
 Gt
 kh
 kh
+ig
+uJ
 kh
-no
-no
-no
-kh
+uJ
+Ty
 kh
 kh
 Gt
@@ -19379,11 +19451,11 @@ RI
 Gt
 Gt
 kh
+ig
+uJ
 kh
-no
-no
-no
-kh
+uJ
+Ty
 kh
 Gt
 Gt
@@ -19636,11 +19708,11 @@ RI
 RI
 Gt
 kh
+ig
+uJ
 kh
-no
-no
-no
-kh
+uJ
+Ty
 kh
 Gt
 RI
@@ -19893,11 +19965,11 @@ Zd
 RI
 Gt
 kh
+ig
+uJ
 kh
-no
-no
-no
-kh
+uJ
+Ty
 kh
 Gt
 RI
@@ -20150,11 +20222,11 @@ Zd
 RI
 Gt
 kh
+ig
+uJ
 kh
-no
-no
-no
-kh
+uJ
+Ty
 kh
 Gt
 RI
@@ -20407,11 +20479,11 @@ Zd
 RI
 Gt
 kh
+ig
+uJ
 kh
-no
-no
-no
-kh
+uJ
+Ty
 kh
 Gt
 RI
@@ -20664,11 +20736,11 @@ Zd
 RI
 Gt
 kh
+ig
+uJ
 kh
-no
-no
-no
-kh
+uJ
+Ty
 kh
 Gt
 RI
@@ -20921,11 +20993,11 @@ Zd
 RI
 Gt
 kh
+ig
+uJ
 kh
-no
-no
-no
-kh
+uJ
+Ty
 kh
 Gt
 RI
@@ -21178,11 +21250,11 @@ Zd
 RI
 Gt
 kh
+ig
+uJ
 kh
-no
-no
-no
-kh
+uJ
+Ty
 kh
 Gt
 RI
@@ -21435,11 +21507,11 @@ RI
 RI
 Gt
 kh
+ig
+uJ
 kh
-no
-no
-no
-kh
+uJ
+Ty
 kh
 Gt
 RI
@@ -21692,11 +21764,11 @@ RI
 Gt
 Gt
 kh
+AD
+uJ
 kh
-no
-no
-no
-kh
+uJ
+im
 kh
 Gt
 Gt
@@ -21948,13 +22020,13 @@ RI
 RI
 Gt
 kh
+AD
+uJ
+pj
 kh
-kh
-no
-no
-no
-kh
-kh
+dm
+uJ
+im
 kh
 Gt
 RI
@@ -22204,15 +22276,15 @@ RI
 RI
 RI
 Gt
+ig
+uJ
+pj
 kh
 kh
-no
-no
-no
-no
-no
 kh
-kh
+dm
+uJ
+Ty
 Gt
 RI
 RI
@@ -22461,15 +22533,15 @@ RI
 RI
 RI
 Gt
+ig
+uJ
+Ty
 kh
 kh
-no
-no
-no
-no
-no
 kh
-kh
+ig
+uJ
+Ty
 Gt
 RI
 RI
@@ -22718,15 +22790,15 @@ Gt
 Gt
 Gt
 Gt
+ig
+uJ
+im
 kh
 kh
-no
-no
-no
-no
-no
 kh
-kh
+AD
+uJ
+Ty
 Gt
 Gt
 Gt
@@ -22976,13 +23048,13 @@ Un
 Un
 Un
 kh
-kh
-no
-no
-no
-no
-no
-kh
+dm
+uJ
+im
+nB
+AD
+uJ
+pj
 kh
 Un
 Un
@@ -23232,15 +23304,15 @@ Un
 Un
 Un
 Un
-Un
-Un
-Un
-Un
-Un
-Un
-Un
-Un
-Un
+kh
+kh
+dm
+uJ
+uJ
+uJ
+pj
+kh
+kh
 Un
 Un
 Un
@@ -23489,15 +23561,15 @@ Un
 Un
 Un
 Un
-Un
-Un
-Un
-Un
-Un
-Un
-Un
-Un
-Un
+kh
+kh
+kh
+ch
+ch
+ch
+kh
+kh
+kh
 Un
 Un
 Un
