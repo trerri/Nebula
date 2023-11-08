@@ -612,11 +612,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/cruise/first)
-"rf" = (
-/obj/effect/wallframe_spawn/reinforced,
-/obj/effect/wallframe_spawn/reinforced,
-/turf/simulated/floor/plating,
-/area/cruise/first)
 "rk" = (
 /obj/item/clothing/suit/bio_suit/general,
 /turf/simulated/floor/tiled/dark,
@@ -22850,7 +22845,7 @@ hS
 hS
 MT
 iC
-rf
+qu
 qu
 qu
 qu
@@ -27491,8 +27486,8 @@ TD
 TD
 ep
 TD
-TD
-TD
+ep
+ep
 TD
 ep
 ep
@@ -27748,8 +27743,8 @@ ep
 TD
 ep
 TD
-AH
-AH
+ep
+ep
 TD
 ep
 ep
@@ -28005,10 +28000,10 @@ ep
 TD
 ep
 TD
-AH
 TD
 TD
 TD
+yQ
 ep
 ep
 TD
@@ -28261,11 +28256,11 @@ tn
 pT
 ep
 ep
-AH
-AH
+TD
 TD
 iM
 AH
+ep
 ep
 ep
 ep
@@ -28519,10 +28514,10 @@ ep
 TD
 ep
 TD
-AH
 TD
 iM
 AH
+ep
 ep
 ep
 ep
@@ -28779,7 +28774,7 @@ TD
 TD
 TD
 TD
-TD
+yQ
 Vn
 Vn
 TD
