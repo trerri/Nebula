@@ -1,32 +1,34 @@
-#define AMBIENCE_EXTERIOR list(
-		'sound/effects/wind/wind_2_1.ogg',
-		'sound/effects/wind/wind_2_2.ogg',
-		'sound/effects/wind/wind_3_1.ogg',
-		'sound/effects/wind/wind_4_1.ogg',
-		'sound/effects/wind/wind_4_2.ogg',
-		'sound/effects/wind/wind_5_1.ogg'
-	)
+#define AMBIENCE_EXTERIOR
+list(
+	'sound/effects/wind/wind_2_1.ogg',
+	'sound/effects/wind/wind_2_2.ogg',
+	'sound/effects/wind/wind_3_1.ogg',
+	'sound/effects/wind/wind_4_1.ogg',
+	'sound/effects/wind/wind_4_2.ogg',
+	'sound/effects/wind/wind_5_1.ogg'
+)
 #define AMBIENCE_INDOOR list()
 #define AMBIENCE_OUTDOOR AMBIENCE_EXTERIOR
-#define ACCESS_CREW list(list(
-		access_engine,
-		access_bridge,
-		access_heads,
-		access_medical,
-		access_psychiatrist,
-		access_security,
-		access_cargo,
-		access_kitchen,
-		access_bar,
-		access_janitor,
-		access_hydroponics,
-		access_chapel_office,
-		access_lawyer,
-		access_tcomsat,
-		access_eva,
-		access_maint_tunnels,
-		access_library
-		))
+#define ACCESS_CREW
+list(list(
+	access_engine,
+	access_bridge,
+	access_heads,
+	access_medical,
+	access_psychiatrist,
+	access_security,
+	access_cargo,
+	access_kitchen,
+	access_bar,
+	access_janitor,
+	access_hydroponics,
+	access_chapel_office,
+	access_lawyer,
+	access_tcomsat,
+	access_eva,
+	access_maint_tunnels,
+	access_library
+))
 
 /area/cruise
 	holomap_color = HOLOMAP_AREACOLOR_CREW
