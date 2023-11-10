@@ -8,6 +8,25 @@
 	)
 #define AMBIENCE_INDOOR list()
 #define AMBIENCE_OUTDOOR AMBIENCE_EXTERIOR
+#define ACCESS_CREW list(list(
+		access_engine,
+		access_bridge,
+		access_heads,
+		access_medical,
+		access_psychiatrist,
+		access_security,
+		access_cargo,
+		access_kitchen,
+		access_bar,
+		access_janitor,
+		access_hydroponics,
+		access_chapel_office,
+		access_lawyer,
+		access_tcomsat,
+		access_eva,
+		access_maint_tunnels,
+		access_library
+		))
 
 /area/cruise
 	holomap_color = HOLOMAP_AREACOLOR_CREW
@@ -45,6 +64,7 @@
 
 /area/cruise/hallway/second
 	name = "\improper Interior Promenade"
+	icon_state = "hallF2"
 
 //Engineering
 
@@ -64,7 +84,7 @@
 	icon_state = "engineering_locker"
 
 /area/cruise/engineering/storage
-	name = "\improper Engineering Storage"
+	name = "Engineering Storage"
 	icon_state = "engineering_storage"
 
 /area/cruise/engineering/break_room
@@ -79,7 +99,7 @@
 	holomap_color = HOLOMAP_AREACOLOR_MEDICAL
 
 /area/cruise/medical/reception
-	name = "\improper Medbay Reception"
+	name = "Medbay Reception"
 	icon_state = "medbay"
 	ambience = list('sound/ambience/signal.ogg')
 
@@ -99,7 +119,7 @@
 	req_access = list(access_morgue)
 
 /area/cruise/medical/storage
-	name = "\improper Medical Storage"
+	name = "Medical Storage"
 	icon_state = "medbay4"
 
 /area/cruise/medical/psych
@@ -131,7 +151,7 @@
 //Cargo
 
 /area/cruise/cargo
-	name = "\improper Provision Master's"
+	name = "Provision Master's"
 	icon_state = "quart"
 	req_access = list(access_cargo)
 	holomap_color = HOLOMAP_AREACOLOR_CARGO
@@ -156,6 +176,17 @@
 /area/cruise/hotel
 	name = "\improper NanoTravel Sea Resort"
 	icon_state = "bar"
+
+/area/cruise/hotel/hallway
+	name = "\improper Resort Hallway"
+	sound_env = MEDIUM_SOFTFLOOR
+	icon_state = "entry_2"
+
+/area/cruise/hotel/reception
+	name = "Reception"
+	icon_state = "entry_1"
+
+//Service
 
 //Casino
 
@@ -183,29 +214,20 @@
 /area/cruise/crew
 	name = "\improper Crew Areas"
 	icon_state = "crew_quarters"
-	req_access = list(list(
-		access_engine,
-		access_bridge,
-		access_heads,
-		access_medical,
-		access_psychiatrist,
-		access_security,
-		access_cargo,
-		access_kitchen,
-		access_bar,
-		access_janitor,
-		access_hydroponics,
-		access_chapel_office,
-		access_lawyer,
-		access_tcomsat,
-		access_eva,
-		access_maint_tunnels,
-		access_library
-		))
+	req_access = ACCESS_CREW
+
+/area/cruise/crew/locker
+	name = "\improper Locker Room"
+	icon_state = "locker"
+
+/area/cruise/crew/restrooms
+	name = "\improper Dormitory Restrooms"
+	icon_state = "toilet"
+	sound_env = SMALL_ENCLOSED
 
 //Officers
 
-/area/cruise/crew_quarters/heads
+/area/cruise/crew/heads
 	icon_state = "head_quarters"
 	req_access = list(access_heads)
 
@@ -246,6 +268,64 @@
 	icon_state = "emergencystorage"
 	req_access = list(access_emergency_storage)
 
+//Maintenance
+
+/area/cruise/maintenance
+	area_flags = AREA_FLAG_RAD_SHIELDED
+	sound_env = TUNNEL_ENCLOSED
+	turf_initializer = /decl/turf_initializer/maintenance
+	forced_ambience = list('sound/ambience/maintambience.ogg')
+	req_access = list(access_maint_tunnels)
+	holomap_color = HOLOMAP_AREACOLOR_MAINTENANCE
+
+/area/cruise/maintenance/arrivals
+	name = "\improper Arrivals Maintenance"
+	icon_state = "maint_arrivals"
+
+/area/cruise/maintenance/bar
+	name = "\improper Bar Maintenance"
+	icon_state = "maint_bar"
+	req_access = list(list(access_bar, access_kitchen, access_maint_tunnels))
+
+/area/cruise/maintenance/cargo
+	name = "\improper Cargo Maintenance"
+	icon_state = "maint_cargo"
+	req_access = list(list(access_cargo, access_maint_tunnels))
+
+/area/cruise/maintenance/engineering
+	name = "\improper Engineering Maintenance"
+	icon_state = "maint_engineering"
+
+/area/cruise/maintenance/dormitory
+	name = "\improper Dormitory Maintenance"
+	icon_state = "maint_dormitory"
+
+/area/cruise/maintenance/library
+	name = "\improper Library Maintenance"
+	icon_state = "maint_library"
+	req_access = list(list(access_library, access_maint_tunnels))
+
+/area/cruise/maintenance/locker
+	name = "\improper Locker Room Maintenance"
+	icon_state = "maint_locker"
+
+/area/cruise/maintenance/medbay
+	name = "\improper Medbay Maintenance"
+	icon_state = "maint_medbay"
+	req_access = list(list(access_medical, access_maint_tunnels))
+
+/area/cruise/maintenance/security_port
+	name = "\improper Security Maintenance - Port"
+	icon_state = "maint_security_port"
+
+/area/cruise/maintenance/disposal
+	name = "Waste Disposal"
+	icon_state = "disposal"
+
+/area/cruise/maintenance/incinerator
+	name = "\improper Incinerator"
+	icon_state = "disposal"
+
 //Lifts
 /area/turbolift/cruise
 	name = "\improper Cruise Ship Elevator"
@@ -259,14 +339,14 @@
 
 	base_turf = /turf/simulated/open
 
-/area/turbolift/example/first
+/area/turbolift/cruise/first
 	name = "Cruise Ship First Deck Elevator"
 	base_turf = /turf/simulated/floor
 
-/area/turbolift/example/second
+/area/turbolift/cruise/second
 	name = "Cruise Ship Second Deck Elevator"
 
-/area/turbolift/example/third
+/area/turbolift/cruise/third
 	name = "Cruise Ship Third Deck Elevator"
 
 /area/shuttle/ferry
