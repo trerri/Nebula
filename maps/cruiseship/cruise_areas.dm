@@ -183,7 +183,6 @@
 /area/cruise/crew
 	name = "\improper Crew Areas"
 	icon_state = "crew_quarters"
-	secure = FALSE
 	req_access = list(list(
 		access_engine,
 		access_bridge,
