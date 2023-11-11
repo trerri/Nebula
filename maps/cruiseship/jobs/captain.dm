@@ -9,11 +9,11 @@
 	req_admin_notify = 1
 	access = list() 			//See get_access()
 	minimal_access = list() 	//See get_access()
-	minimal_player_age = 14
+	minimal_player_age = 0 //set back to 14 eventually
 	economic_power = 20
 	ideal_character_age = 70
 	outfit_type = /decl/hierarchy/outfit/job/captain
-	guestbanned = 1
+	guestbanned = 0 //set back to 1 eventually
 	must_fill = 1
 	not_random_selectable = 1
 	min_skill = list(

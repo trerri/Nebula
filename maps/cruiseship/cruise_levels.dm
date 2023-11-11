@@ -1,6 +1,7 @@
 
 /datum/level_data/cruise
     base_turf = /turf/exterior/open
+	base_area = /area/cruise/exterior
     level_flags = ZLEVEL_PLAYER
     use_global_exterior_ambience = FALSE
     ambient_light_level = 1
@@ -12,6 +13,7 @@
 
 /datum/level_data/cruise/sea
 	base_turf = /turf/exterior/water
+	base_area = /area/cruise/exterior/sea
 
 /obj/abstract/level_data_spawner/cruise/sea
     level_data_type = /datum/level_data/cruise/sea

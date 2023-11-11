@@ -1,33 +1,31 @@
-#define AMBIENCE_EXTERIOR
-list(
-	'sound/effects/wind/wind_2_1.ogg',
-	'sound/effects/wind/wind_2_2.ogg',
-	'sound/effects/wind/wind_3_1.ogg',
-	'sound/effects/wind/wind_4_1.ogg',
-	'sound/effects/wind/wind_4_2.ogg',
-	'sound/effects/wind/wind_5_1.ogg'
+#define AMBIENCE_EXTERIOR list(        \
+	'sound/effects/wind/wind_2_1.ogg', \
+	'sound/effects/wind/wind_2_2.ogg', \
+	'sound/effects/wind/wind_3_1.ogg', \
+	'sound/effects/wind/wind_4_1.ogg', \
+	'sound/effects/wind/wind_4_2.ogg', \
+	'sound/effects/wind/wind_5_1.ogg'  \
 )
 #define AMBIENCE_INDOOR list()
 #define AMBIENCE_OUTDOOR AMBIENCE_EXTERIOR
-#define ACCESS_CREW
-list(list(
-	access_engine,
-	access_bridge,
-	access_heads,
-	access_medical,
-	access_psychiatrist,
-	access_security,
-	access_cargo,
-	access_kitchen,
-	access_bar,
-	access_janitor,
-	access_hydroponics,
-	access_chapel_office,
-	access_lawyer,
-	access_tcomsat,
-	access_eva,
-	access_maint_tunnels,
-	access_library
+#define ACCESS_CREW list(list( \
+    access_engine,             \
+    access_bridge,             \
+    access_heads,              \
+    access_medical,            \
+    access_psychiatrist,       \
+    access_security,           \
+    access_cargo,              \
+    access_kitchen,            \
+    access_bar,                \
+    access_janitor,            \
+    access_hydroponics,        \
+    access_chapel_office,      \
+    access_lawyer,             \
+    access_tcomsat,            \
+    access_eva,                \
+    access_maint_tunnels,      \
+    access_library             \
 ))
 
 /area/cruise
@@ -40,7 +38,7 @@ list(list(
 	always_unpowered = FALSE
 
 /area/cruise/exterior
-	name = "\proper Sky"
+	name = "\improper Sky"
 	icon_state = "purple"
 	area_flags = AREA_FLAG_IS_BACKGROUND | AREA_FLAG_EXTERNAL | AREA_FLAG_HIDE_FROM_HOLOMAP
 	is_outside = OUTSIDE_YES
@@ -53,7 +51,7 @@ list(list(
 	ambience = AMBIENCE_OUTDOOR
 
 /area/cruise/exterior/sea
-	name = "\proper Sea"
+	name = "\improper Sea"
 	icon_state = "blue2"
 
 //Halls
