@@ -1,4 +1,4 @@
-#define AMBIENCE_EXTERIOR list(        \
+#define AMBIENCE_OUTDOOR list(        \
 	'sound/effects/wind/wind_2_1.ogg', \
 	'sound/effects/wind/wind_2_2.ogg', \
 	'sound/effects/wind/wind_3_1.ogg', \
@@ -7,7 +7,7 @@
 	'sound/effects/wind/wind_5_1.ogg'  \
 )
 #define AMBIENCE_INDOOR list()
-#define AMBIENCE_OUTDOOR AMBIENCE_EXTERIOR
+#define AMBIENCE_EXTERIOR AMBIENCE_OUTDOOR
 #define ACCESS_CREW list(list( \
     access_engine,             \
     access_bridge,             \
@@ -34,7 +34,7 @@
 	//ambience = AMBIENCE_INDOOR
 	is_outside = OUTSIDE_NO
 	lightswitch = TRUE
-	requires_power = TRUE
+	requires_power = FALSE //set back to true!!! this is for testing
 	always_unpowered = FALSE
 
 /area/cruise/exterior
@@ -49,10 +49,34 @@
 /area/cruise/outdoor
 	is_outside = OUTSIDE_YES
 	ambience = AMBIENCE_OUTDOOR
+	icon_state = "green"
 
 /area/cruise/exterior/sea
 	name = "\improper Sea"
 	icon_state = "blue2"
+
+/area/cruise/exterior/chimney
+	name = "\improper Funnel"
+	icon_state = "engine_waste"
+
+//Outdoor
+
+/area/cruise/outdoor/top
+	name = "\improper Cruise Ship Top Deck"
+
+/area/cruise/outdoor/garden
+	name = "\improper Outdoor Garden"
+	icon_state = "garden"
+
+/area/cruise/outdoor/balcony
+	name = "\improper Balcony"
+
+/area/cruise/outdoor/promenade
+	name = "\improper Outdoor Promenade"
+
+/area/cruise/outdoor/docking
+	name = "\improper Docks"
+	icon_state = "shuttlegrn"
 
 //Halls
 
@@ -61,6 +85,12 @@
 
 /area/cruise/hallway/first
 	name = "\improper Service Deck Hallway"
+	icon_state = "hallA"
+
+/area/cruise/hallway/first/parking
+	name = "\improper Vehicle Deck"
+	icon_state = "exit"
+	sound_env = LARGE_ENCLOSED
 
 /area/cruise/hallway/second
 	name = "\improper Interior Promenade"
@@ -74,6 +104,16 @@
 	ambience = list('sound/ambience/ambisin1.ogg','sound/ambience/ambisin2.ogg','sound/ambience/ambisin3.ogg','sound/ambience/ambisin4.ogg')
 	req_access = list(access_engine)
 	holomap_color = HOLOMAP_AREACOLOR_ENGINEERING
+
+/area/cruise/engineering/engine
+	is_outside = TRUE
+	sound_env = LARGE_ENCLOSED
+
+/area/cruise/engineering/engine/left
+	name = "\improper Left Engine Area"
+
+/area/cruise/engineering/engine/right
+	name = "\improper Right Engine Area"
 
 /area/cruise/engineering/foyer
 	name = "\improper Engineering Foyer"
@@ -140,13 +180,22 @@
 	icon_state = "security"
 
 /area/cruise/security/brig
-	name = "\improper Security - Brig"
+	name = "Security - Brig"
 	req_access = list(access_brig)
 
 /area/cruise/security/armory
-	name = "\improper Security - Armory"
-	icon_state = "warden"
+	name = "Security - Armory"
+	icon_state = "security_sub"
 	req_access = list(access_armory)
+
+/area/cruise/security/checkpoint
+	name = "Security Checkpoint"
+	icon_state = "checkpoint"
+
+/area/cruise/security/vault
+	name = "\improper Vault"
+	icon_state = "nuke_storage"
+	req_access = list(list(access_security, access_heads_vault))
 
 //Cargo
 
@@ -188,26 +237,31 @@
 
 //Service
 
+/area/cruise/kitchen
+	name = "\improper Galley"
+	icon_state = "kitchen"
+
+/area/cruise/janitor
+	name = "\improper Custodial Closet"
+	icon_state = "janitor"
+
 //Casino
+
+/area/cruise/casino
+	name = "\improper Casino"
+	icon_state = "bar"
 
 //Fitness
 
+/area/cruise/gym
+	name = "\improper Gym"
+	icon_state = "fitness"
+
 //Spa
 
-//Outdoor
-
-/area/cruise/outdoor/top
-	name = "\improper Cruise Ship Top Deck"
-	icon_state = "green"
-
-/area/cruise/outdoor/garden
-	name = "\improper Outdoor Garden"
-
-/area/cruise/outdoor/balcony
-	name = "\improper Balcony"
-
-/area/cruise/outdoor/promenade
-	name = "\improper Outdoor Promenade"
+/area/cruise/spa
+	name = "\improper Spa"
+	icon_state = "sauna"
 
 //Crew
 
@@ -228,7 +282,7 @@
 //Officers
 
 /area/cruise/crew/heads
-	icon_state = "head_quarters"
+	icon_state = "captain"
 	req_access = list(access_heads)
 
 /area/cruise/helm
