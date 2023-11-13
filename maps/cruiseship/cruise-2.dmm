@@ -463,6 +463,10 @@
 /obj/effect/floor_decal/corner/white/full,
 /turf/simulated/floor/tiled/dark,
 /area/cruise/hallway/second)
+"uV" = (
+/obj/abstract/landmark/exoplanet_spawn/plant,
+/turf/exterior/grass,
+/area/cruise/outdoor/garden)
 "uW" = (
 /obj/structure/railing/mapped{
 	dir = 1
@@ -790,6 +794,10 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/cruise/exterior)
+"Iw" = (
+/obj/abstract/landmark/exoplanet_spawn/large_plant,
+/turf/exterior/grass,
+/area/cruise/outdoor/garden)
 "ID" = (
 /obj/machinery/computer/design_console{
 	dir = 1
@@ -23621,9 +23629,9 @@ Ky
 Ky
 Ky
 Ky
-Ky
-Ky
-Ky
+xQ
+xQ
+xQ
 Ky
 Ky
 Ky
@@ -23878,9 +23886,9 @@ Ky
 Ky
 Ky
 Ky
-Ky
-Ky
-Ky
+xQ
+Un
+xQ
 Ky
 Ky
 Ky
@@ -24135,9 +24143,9 @@ Gt
 Gt
 Gt
 Gt
-Gt
-Gt
-Gt
+xQ
+xQ
+xQ
 Gt
 Gt
 Gt
@@ -24391,11 +24399,11 @@ Un
 Un
 Un
 Un
-Un
-Un
-Un
-Un
-Un
+Gt
+Gt
+Gt
+Gt
+Gt
 Un
 Un
 Qy
@@ -49559,7 +49567,7 @@ Zg
 Zg
 Zg
 Zg
-Zg
+uV
 Zg
 Zg
 Zg
@@ -49803,6 +49811,7 @@ vQ
 vQ
 bf
 KR
+uV
 Zg
 Zg
 Zg
@@ -49820,18 +49829,17 @@ Zg
 Zg
 Zg
 Zg
+uV
 Zg
 Zg
 Zg
 Zg
+uV
 Zg
 Zg
 Zg
 Zg
-Zg
-Zg
-Zg
-Zg
+uV
 Zg
 Zg
 Zg
@@ -50064,6 +50072,14 @@ KR
 Zg
 Zg
 Zg
+uV
+Zg
+Zg
+Iw
+Zg
+Zg
+Zg
+uV
 Zg
 Zg
 Zg
@@ -50075,15 +50091,7 @@ Zg
 Zg
 Zg
 Zg
-Zg
-Zg
-Zg
-Zg
-Zg
-Zg
-Zg
-Zg
-Zg
+uV
 Zg
 Zg
 Zg
@@ -50590,21 +50598,21 @@ Zg
 Zg
 Zg
 Zg
+uV
+Zg
+Zg
+Zg
+Zg
+Iw
 Zg
 Zg
 Zg
 Zg
 Zg
+uV
 Zg
 Zg
-Zg
-Zg
-Zg
-Zg
-Zg
-Zg
-Zg
-Zg
+uV
 Zg
 Zg
 Zg
@@ -50843,7 +50851,7 @@ Zg
 Zg
 Zg
 Zg
-Zg
+uV
 Zg
 Zg
 Zg
@@ -51091,6 +51099,7 @@ vQ
 HS
 KR
 Zg
+uV
 Zg
 Zg
 Zg
@@ -51109,8 +51118,7 @@ Zg
 Zg
 Zg
 Zg
-Zg
-Zg
+uV
 Zg
 Zg
 Zg
@@ -51352,6 +51360,7 @@ Zg
 Zg
 Zg
 Zg
+uV
 Zg
 Zg
 Zg
@@ -51362,6 +51371,7 @@ Zg
 Zg
 Zg
 Zg
+uV
 Zg
 Zg
 Zg
@@ -51372,9 +51382,7 @@ Zg
 Zg
 Zg
 Zg
-Zg
-Zg
-Zg
+uV
 Zg
 Zg
 KR
@@ -51611,7 +51619,7 @@ Zg
 Zg
 Zg
 Zg
-Zg
+uV
 Zg
 Zg
 Zg
@@ -51883,7 +51891,7 @@ Zg
 Zg
 Zg
 Zg
-Zg
+uV
 Zg
 Zg
 Zg
@@ -52129,11 +52137,11 @@ Zg
 Zg
 Zg
 Zg
+Iw
 Zg
 Zg
 Zg
-Zg
-Zg
+uV
 Zg
 Zg
 Zg
@@ -52383,6 +52391,7 @@ KR
 Zg
 Zg
 Zg
+uV
 Zg
 Zg
 Zg
@@ -52393,8 +52402,7 @@ Zg
 Zg
 Zg
 Zg
-Zg
-Zg
+Iw
 Zg
 Zg
 Zg
@@ -52655,7 +52663,7 @@ Zg
 Zg
 Zg
 Zg
-Zg
+uV
 Zg
 KR
 KR
