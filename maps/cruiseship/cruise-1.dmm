@@ -484,13 +484,6 @@
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor,
 /area/cruise/exterior/sea)
-"hX" = (
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 26
-	},
-/turf/simulated/floor/tiled/steel_grid,
-/area/cruise/exterior/sea)
 "ic" = (
 /obj/structure/rack,
 /obj/item/clothing/head/bio_hood/general,
@@ -612,15 +605,8 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/cruise/hallway/first/parking)
 "jQ" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 8
-	},
-/obj/machinery/light_switch/on{
-	dir = 1;
-	pixel_y = -24
-	},
-/turf/simulated/floor/tiled/steel_grid,
-/area/cruise/exterior/sea)
+/turf/simulated/wall,
+/area/cruise/maintenance/ventilation)
 "jW" = (
 /turf/simulated/wall/r_wall,
 /area/cruise/hallway/first)
@@ -1007,7 +993,7 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/arrivals/leisure)
 "qu" = (
-/turf/simulated/wall,
+/turf/simulated/floor/tiled/freezer,
 /area/cruise/kitchen/freezer)
 "qI" = (
 /obj/machinery/computer/modular,
@@ -1398,10 +1384,6 @@
 "wm" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
-	},
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 26
 	},
 /turf/simulated/floor,
 /area/cruise/exterior/sea)
@@ -1926,15 +1908,8 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/exterior/sea)
 "FP" = (
-/obj/effect/floor_decal/corner/orange{
-	dir = 10
-	},
-/obj/machinery/alarm{
-	dir = 1;
-	pixel_y = -19
-	},
-/turf/simulated/floor/tiled/steel_grid,
-/area/cruise/exterior/sea)
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/ventilation)
 "Gf" = (
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
@@ -1958,9 +1933,6 @@
 /obj/structure/closet/secure_closet/cargotech,
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/cargo/locker)
-"GE" = (
-/turf/simulated/wall,
-/area/cruise/maintenance/security_starboard)
 "GF" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -2138,15 +2110,8 @@
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/library)
 "JC" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 4
-	},
-/obj/machinery/light_switch/on{
-	dir = 1;
-	pixel_y = -24
-	},
-/turf/simulated/floor/tiled/steel_grid,
-/area/cruise/exterior/sea)
+/turf/simulated/wall,
+/area/cruise/maintenance/security_starboard)
 "JF" = (
 /obj/structure/table,
 /obj/effect/floor_decal/corner/blue/mono,
@@ -2192,9 +2157,6 @@
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/exterior/sea)
-"KD" = (
-/turf/simulated/floor/plating,
-/area/cruise/maintenance/ventilation)
 "KF" = (
 /turf/simulated/floor/plating,
 /area/cruise/hotel/smoking)
@@ -2391,11 +2353,6 @@
 /obj/structure/cable/yellow{
 	icon_state = "0-2"
 	},
-/obj/machinery/power/apc{
-	dir = 4;
-	name = "west bump";
-	pixel_x = 24
-	},
 /turf/simulated/floor,
 /area/cruise/exterior/sea)
 "Nj" = (
@@ -2566,9 +2523,6 @@
 "PJ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
-	},
-/obj/machinery/alarm{
-	pixel_y = 24
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/exterior/sea)
@@ -2926,9 +2880,6 @@
 /obj/item/card/id/captains_spare,
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/exterior/sea)
-"VT" = (
-/turf/simulated/floor/tiled/freezer,
-/area/cruise/kitchen/freezer)
 "Wb" = (
 /turf/simulated/floor/reinforced,
 /area/cruise/engineering/engine/right)
@@ -3011,7 +2962,7 @@
 /area/cruise/hotel/spa/sauna)
 "Xn" = (
 /turf/simulated/wall,
-/area/cruise/maintenance/ventilation)
+/area/cruise/kitchen/freezer)
 "Xp" = (
 /obj/structure/railing/mapped{
 	dir = 4
@@ -8526,7 +8477,7 @@ lt
 ZX
 lt
 lt
-FP
+XQ
 ym
 KH
 wP
@@ -10595,7 +10546,7 @@ EO
 wP
 NI
 Tt
-jQ
+Tt
 ym
 wP
 ym
@@ -11096,7 +11047,7 @@ lt
 lt
 lt
 lt
-FP
+XQ
 ym
 rt
 lt
@@ -12651,7 +12602,7 @@ NH
 wP
 DO
 zH
-JC
+zH
 ym
 wP
 ym
@@ -13150,7 +13101,7 @@ WX
 lt
 fH
 EI
-hX
+lt
 lt
 JF
 ym
@@ -28970,12 +28921,12 @@ Jw
 Jw
 Jw
 Jw
+Xn
+Xn
 qu
-qu
-VT
-qu
-qu
-qu
+Xn
+Xn
+Xn
 aT
 na
 AW
@@ -29227,12 +29178,12 @@ Mf
 Jw
 Jw
 Jw
-qu
+Xn
 Qy
 Ta
 Qy
 Qy
-qu
+Xn
 aT
 na
 na
@@ -29484,12 +29435,12 @@ TD
 fW
 fW
 TD
-qu
+Xn
 Qy
-VT
-VT
-VT
 qu
+qu
+qu
+Xn
 aT
 aT
 aT
@@ -29741,12 +29692,12 @@ uw
 jA
 jA
 uw
-qu
-Qy
-VT
-Qy
+Xn
 Qy
 qu
+Qy
+Qy
+Xn
 ap
 jC
 aT
@@ -29998,13 +29949,13 @@ uw
 jA
 jA
 uw
-qu
+Xn
 It
-VT
+qu
 Qy
 Qy
-qu
-qu
+Xn
+Xn
 wZ
 hz
 jx
@@ -30255,13 +30206,13 @@ uw
 uw
 uw
 uw
-qu
+Xn
 Qy
-VT
-VT
-VT
-vO
 qu
+qu
+qu
+vO
+Xn
 gL
 hz
 jx
@@ -30512,13 +30463,13 @@ cX
 cX
 cX
 cX
-qu
-qu
-qu
-qu
-qu
-qu
-qu
+Xn
+Xn
+Xn
+Xn
+Xn
+Xn
+Xn
 UU
 UU
 re
@@ -33368,12 +33319,12 @@ TD
 TD
 jq
 WH
-Xn
-Xn
-Xn
-Xn
-Xn
-Xn
+jQ
+jQ
+jQ
+jQ
+jQ
+jQ
 tz
 qg
 eo
@@ -33625,12 +33576,12 @@ kq
 cB
 gO
 cB
-Xn
+jQ
 Ao
-KD
-KD
-KD
-Xn
+FP
+FP
+FP
+jQ
 tz
 qg
 eo
@@ -33882,12 +33833,12 @@ dl
 Ct
 dl
 cB
-Xn
+jQ
 Ao
-KD
-KD
-KD
-Xn
+FP
+FP
+FP
+jQ
 tz
 qg
 eo
@@ -34139,12 +34090,12 @@ Xf
 Ct
 Xf
 cB
-Xn
+jQ
 CC
-KD
-KD
-KD
-Xn
+FP
+FP
+FP
+jQ
 tz
 qg
 oY
@@ -34396,12 +34347,12 @@ aa
 Ct
 yl
 cB
-Xn
-KD
-KD
+jQ
+FP
+FP
 GU
-KD
-KD
+FP
+FP
 tz
 qg
 eo
@@ -34653,12 +34604,12 @@ dl
 Ct
 dl
 cB
-Xn
-KD
-KD
-KD
-KD
-Xn
+jQ
+FP
+FP
+FP
+FP
+jQ
 tz
 qg
 eo
@@ -34910,12 +34861,12 @@ Xf
 Ct
 Xf
 cB
-Xn
-KD
-KD
-KD
-KD
-Xn
+jQ
+FP
+FP
+FP
+FP
+jQ
 tz
 qg
 eo
@@ -35167,12 +35118,12 @@ cB
 cB
 cB
 cB
-Xn
-KD
-KD
-KD
-KD
-Xn
+jQ
+FP
+FP
+FP
+FP
+jQ
 tz
 qg
 eo
@@ -35429,7 +35380,7 @@ AQ
 AQ
 AQ
 AQ
-GE
+JC
 oB
 Ma
 og

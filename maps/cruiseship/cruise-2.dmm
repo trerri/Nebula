@@ -274,12 +274,6 @@
 /obj/machinery/sleeper/standard,
 /turf/simulated/floor/tiled/white/monotile,
 /area/cruise/exterior)
-"nN" = (
-/obj/machinery/alarm{
-	pixel_y = 24
-	},
-/turf/simulated/floor/tiled/steel_grid,
-/area/cruise/exterior)
 "oj" = (
 /obj/effect/wallframe_spawn/no_grille,
 /turf/simulated/floor/plating,
@@ -405,13 +399,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/cruise/exterior)
-"sT" = (
-/obj/machinery/light_switch/on{
-	dir = 1;
-	pixel_y = -20
-	},
-/turf/simulated/floor/tiled/white,
-/area/cruise/exterior)
 "sY" = (
 /obj/structure/table/glass,
 /obj/item/storage/box/gloves,
@@ -449,10 +436,6 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
-	},
-/obj/machinery/power/apc{
-	dir = 1;
-	pixel_y = 21
 	},
 /obj/structure/cable/yellow{
 	icon_state = "0-2"
@@ -983,16 +966,6 @@
 /obj/item/chems/ivbag/blood/ominus,
 /obj/effect/floor_decal/corner/blue/mono,
 /turf/simulated/floor/tiled/white/monotile,
-/area/cruise/exterior)
-"Sn" = (
-/obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 4
-	},
-/obj/machinery/alarm{
-	dir = 1;
-	pixel_y = -19
-	},
-/turf/simulated/floor/tiled/white,
 /area/cruise/exterior)
 "SD" = (
 /turf/simulated/floor/carpet/blue2,
@@ -5202,7 +5175,7 @@ Zd
 Zd
 Zd
 Zd
-nN
+KL
 Qc
 Zd
 KL
@@ -6244,10 +6217,10 @@ TR
 Ah
 nJ
 Ca
-Sn
+xv
 Zd
 Ca
-sT
+Ca
 Zd
 ut
 Gy

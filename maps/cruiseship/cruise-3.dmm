@@ -132,16 +132,8 @@
 /turf/simulated/open,
 /area/cruise/exterior)
 "oT" = (
-/obj/machinery/power/apc{
-	dir = 1;
-	pixel_y = 21
-	},
 /obj/structure/cable/yellow{
 	icon_state = "0-8"
-	},
-/obj/machinery/light_switch/on{
-	pixel_x = 11;
-	pixel_y = 31
 	},
 /turf/simulated/floor,
 /area/cruise/exterior)
@@ -260,13 +252,6 @@
 "OC" = (
 /obj/structure/railing/mapped{
 	dir = 4
-	},
-/turf/simulated/floor,
-/area/cruise/exterior)
-"Ro" = (
-/obj/machinery/alarm{
-	dir = 1;
-	pixel_y = -21
 	},
 /turf/simulated/floor,
 /area/cruise/exterior)
@@ -5199,7 +5184,7 @@ Vi
 Vi
 Vi
 Vi
-Ro
+Vi
 Uo
 zL
 fd
