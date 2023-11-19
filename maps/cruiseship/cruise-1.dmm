@@ -731,6 +731,10 @@
 /obj/effect/wallframe_spawn/reinforced/hull,
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/arrivals)
+"lH" = (
+/obj/structure/bookcase,
+/turf/simulated/floor/wood/usedup,
+/area/cruise/hallway/library)
 "lL" = (
 /obj/structure/morgue{
 	dir = 2
@@ -2335,6 +2339,9 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/cruise/casino/smoking)
+"LH" = (
+/turf/simulated/floor/wood/usedup,
+/area/cruise/hallway/library)
 "LU" = (
 /obj/effect/floor_decal/corner/red/full,
 /turf/simulated/floor/tiled,
@@ -39655,8 +39662,8 @@ vy
 vy
 vy
 dC
-Mc
-Mc
+lH
+lH
 dC
 dC
 dC
@@ -39911,12 +39918,12 @@ YA
 vy
 vy
 vy
-dC
 Mc
-Mc
-Mc
-Mc
-Mc
+LH
+LH
+lH
+LH
+lH
 dC
 ed
 ed
@@ -40169,11 +40176,11 @@ vy
 vy
 vy
 dC
-Mc
-Mc
-Mc
-Mc
-Mc
+lH
+LH
+lH
+LH
+lH
 dC
 ed
 ed
@@ -40426,11 +40433,11 @@ YA
 sx
 sx
 dC
-Mc
-Mc
-Mc
-Mc
-Mc
+lH
+LH
+lH
+LH
+lH
 dC
 ls
 ls
@@ -40683,12 +40690,12 @@ su
 su
 zR
 dC
-Mc
-Mc
-Mc
-Mc
-Mc
-AH
+lH
+LH
+LH
+LH
+LH
+av
 Jq
 Jq
 Jq
@@ -40940,12 +40947,12 @@ su
 su
 su
 dC
-Mc
-Mc
-Mc
-Mc
-Mc
-AH
+lH
+LH
+LH
+LH
+LH
+av
 Jq
 lr
 lr
