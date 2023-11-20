@@ -31,10 +31,6 @@
 /obj/machinery/door/airlock/external/glass,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/cruise/exterior)
-"bj" = (
-/obj/structure/fire_source,
-/turf/simulated/floor/glass,
-/area/cruise/outdoor/top)
 "cj" = (
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 1
@@ -48,10 +44,9 @@
 /obj/effect/floor_decal/industrial/warning/dust,
 /turf/simulated/floor,
 /area/cruise/exterior)
-"dv" = (
-/obj/structure/lattice,
+"ds" = (
 /turf/simulated/open,
-/area/cruise/outdoor/top)
+/area/cruise/maintenance/ventilation)
 "dK" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 6
@@ -105,6 +100,9 @@
 /obj/machinery/light/navigation,
 /turf/simulated/open,
 /area/cruise/exterior)
+"gu" = (
+/turf/simulated/wall/r_wall,
+/area/cruise/outdoor/top)
 "hc" = (
 /obj/machinery/light{
 	dir = 1
@@ -129,9 +127,6 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/exterior)
-"ib" = (
-/turf/simulated/open,
-/area/cruise/maintenance/ventilation)
 "iE" = (
 /obj/effect/wallframe_spawn/reinforced,
 /turf/simulated/floor/plating,
@@ -167,10 +162,10 @@
 /obj/structure/ladder,
 /turf/simulated/open,
 /area/cruise/exterior)
-"nG" = (
-/obj/structure/fire_source/hearth,
-/turf/simulated/floor/glass,
-/area/cruise/outdoor/top)
+"mD" = (
+/obj/machinery/atmospherics/unary/freezer,
+/turf/simulated/floor,
+/area/cruise/maintenance/ventilation)
 "oa" = (
 /obj/effect/floor_decal/industrial/defective{
 	dir = 1
@@ -189,12 +184,6 @@
 	},
 /turf/simulated/floor,
 /area/cruise/exterior)
-"pz" = (
-/turf/simulated/floor,
-/area/cruise/outdoor/top)
-"qa" = (
-/turf/simulated/wall/r_wall,
-/area/cruise/outdoor/top)
 "qI" = (
 /obj/structure/railing/mapped{
 	dir = 8
@@ -234,10 +223,6 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/exterior)
-"sw" = (
-/obj/machinery/atmospherics/unary/heater,
-/turf/simulated/floor,
-/area/cruise/maintenance/ventilation)
 "sI" = (
 /obj/structure/railing/mapped{
 	dir = 4
@@ -280,9 +265,6 @@
 /obj/effect/floor_decal/industrial/warning/dust,
 /turf/simulated/floor,
 /area/cruise/exterior)
-"wv" = (
-/turf/simulated/floor,
-/area/cruise/maintenance/ventilation)
 "wx" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /turf/simulated/floor,
@@ -312,13 +294,28 @@
 /obj/machinery/light,
 /turf/simulated/open,
 /area/cruise/exterior)
+"zB" = (
+/obj/structure/lattice,
+/obj/structure/ladder,
+/turf/simulated/open,
+/area/cruise/outdoor/top)
 "zL" = (
 /obj/effect/floor_decal/industrial/warning/dust,
 /turf/simulated/floor,
 /area/cruise/exterior)
+"Af" = (
+/turf/simulated/floor,
+/area/cruise/maintenance/ventilation)
 "AT" = (
 /turf/simulated/floor/shuttle_ceiling/air,
 /area/cruise/exterior)
+"By" = (
+/obj/machinery/atmospherics/unary/heater,
+/turf/simulated/floor,
+/area/cruise/maintenance/ventilation)
+"BH" = (
+/turf/simulated/floor,
+/area/cruise/outdoor/top)
 "CS" = (
 /obj/machinery/atmospherics/portables_connector,
 /obj/machinery/portable_atmospherics/canister/air,
@@ -401,9 +398,6 @@
 	},
 /turf/simulated/floor/shuttle_ceiling/air,
 /area/cruise/outdoor/top)
-"JH" = (
-/turf/simulated/wall/wood,
-/area/cruise/outdoor/top)
 "JR" = (
 /obj/structure/railing/mapped{
 	dir = 2
@@ -413,6 +407,10 @@
 "JX" = (
 /obj/structure/reagent_dispensers/water_cooler,
 /turf/simulated/floor/tiled,
+/area/cruise/outdoor/top)
+"JY" = (
+/obj/structure/fire_source/hearth,
+/turf/simulated/floor/glass,
 /area/cruise/outdoor/top)
 "LK" = (
 /obj/effect/floor_decal/industrial/warning/dust,
@@ -424,6 +422,10 @@
 	},
 /turf/simulated/floor,
 /area/cruise/exterior)
+"Na" = (
+/obj/structure/ladder,
+/turf/simulated/open,
+/area/cruise/maintenance/ventilation)
 "Nz" = (
 /obj/structure/railing/mapped{
 	dir = 2
@@ -434,10 +436,6 @@
 /obj/structure/catwalk,
 /turf/simulated/open,
 /area/cruise/exterior)
-"NM" = (
-/obj/structure/ladder,
-/turf/simulated/open,
-/area/cruise/maintenance/ventilation)
 "NZ" = (
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/exterior)
@@ -447,21 +445,12 @@
 	},
 /turf/simulated/floor/shuttle_ceiling/air,
 /area/cruise/outdoor/top)
-"OB" = (
-/obj/structure/lattice,
-/obj/structure/ladder,
-/turf/simulated/open,
-/area/cruise/outdoor/top)
 "OC" = (
 /obj/structure/railing/mapped{
 	dir = 4
 	},
 /turf/simulated/floor,
 /area/cruise/exterior)
-"RR" = (
-/obj/effect/floor_decal/corner/lightgrey/full,
-/turf/simulated/floor/tiled,
-/area/cruise/outdoor/top)
 "SM" = (
 /obj/machinery/light{
 	dir = 1
@@ -492,10 +481,10 @@
 	},
 /turf/simulated/open,
 /area/cruise/outdoor/top)
-"Uk" = (
-/obj/machinery/atmospherics/unary/freezer,
-/turf/simulated/floor,
-/area/cruise/maintenance/ventilation)
+"TJ" = (
+/obj/effect/floor_decal/corner/lightgrey/full,
+/turf/simulated/floor/tiled,
+/area/cruise/outdoor/top)
 "Uo" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/cruise/exterior)
@@ -512,6 +501,10 @@
 	},
 /turf/simulated/floor,
 /area/cruise/exterior)
+"Vf" = (
+/obj/structure/lattice,
+/turf/simulated/open,
+/area/cruise/outdoor/top)
 "Vi" = (
 /turf/simulated/floor,
 /area/cruise/exterior)
@@ -524,7 +517,7 @@
 	},
 /turf/simulated/floor/shuttle_ceiling/air,
 /area/cruise/outdoor/top)
-"XZ" = (
+"Xr" = (
 /obj/structure/table/marble,
 /turf/simulated/floor/glass,
 /area/cruise/outdoor/top)
@@ -534,6 +527,9 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/exterior)
+"Yg" = (
+/turf/simulated/wall/wood,
+/area/cruise/outdoor/top)
 "YA" = (
 /turf/simulated/open,
 /area/cruise/outdoor/top)
@@ -18172,10 +18168,10 @@ Hl
 Hl
 Hl
 Hl
-qa
-qa
-pz
-qa
+gu
+gu
+BH
+gu
 HA
 YA
 YA
@@ -18429,10 +18425,10 @@ Hl
 Hl
 Hl
 Hl
-qa
-pz
-pz
-qa
+gu
+BH
+BH
+gu
 HA
 YA
 YA
@@ -18686,10 +18682,10 @@ Ia
 Ia
 Ia
 Ia
-qa
-pz
-pz
-qa
+gu
+BH
+BH
+gu
 HA
 YA
 YA
@@ -18913,10 +18909,10 @@ HA
 HA
 Ia
 Ia
-dv
-dv
-dv
-dv
+Vf
+Vf
+Vf
+Vf
 Ia
 Ia
 Hl
@@ -18938,15 +18934,15 @@ Hl
 Hl
 Ia
 Ia
-dv
-dv
-dv
-dv
+Vf
+Vf
+Vf
+Vf
 Ia
 Ia
-YA
-pz
-qa
+dO
+BH
+gu
 HA
 HA
 HA
@@ -19169,12 +19165,12 @@ HA
 HA
 Ia
 Ia
-dv
-dv
+Vf
+Vf
 YA
 YA
-dv
-dv
+Vf
+Vf
 Ia
 Ia
 Hl
@@ -19194,16 +19190,16 @@ Hl
 Hl
 Ia
 Ia
-dv
-dv
+Vf
+Vf
 YA
 YA
-dv
-dv
+Vf
+Vf
 Ia
 Ia
-pz
-qa
+BH
+gu
 HA
 YA
 YA
@@ -19425,14 +19421,14 @@ HA
 HA
 Ia
 Ia
-dv
-dv
+Vf
+Vf
 YA
 YA
 YA
 YA
-dv
-dv
+Vf
+Vf
 Ia
 Ia
 Hl
@@ -19450,17 +19446,17 @@ Hl
 Hl
 Ia
 Ia
-dv
-dv
+Vf
+Vf
 YA
 YA
 YA
 YA
-dv
-dv
+Vf
+Vf
 Ia
 Ia
-qa
+gu
 HA
 YA
 YA
@@ -19681,16 +19677,16 @@ YA
 HA
 Ia
 Ia
-dv
-dv
+Vf
+Vf
 YA
 YA
 YA
 YA
 YA
 YA
-dv
-dv
+Vf
+Vf
 Ia
 Ia
 Hl
@@ -19706,16 +19702,16 @@ YA
 Hl
 Ia
 Ia
-dv
-dv
+Vf
+Vf
 YA
 YA
 YA
 YA
 YA
 YA
-dv
-dv
+Vf
+Vf
 Ia
 Ia
 HA
@@ -19936,9 +19932,9 @@ HA
 HA
 HA
 HA
-pz
-dv
-dv
+BH
+Vf
+Vf
 YA
 YA
 YA
@@ -19947,7 +19943,7 @@ YA
 YA
 YA
 YA
-dv
+Vf
 rd
 Ia
 Hl
@@ -19963,7 +19959,7 @@ YA
 Hl
 Ia
 rd
-dv
+Vf
 YA
 YA
 YA
@@ -19972,9 +19968,9 @@ YA
 YA
 YA
 YA
-dv
-dv
-pz
+Vf
+Vf
+BH
 HA
 HA
 HA
@@ -20194,7 +20190,7 @@ YA
 YA
 HA
 Ia
-dv
+Vf
 YA
 YA
 YA
@@ -20205,7 +20201,7 @@ YA
 YA
 YA
 YA
-dv
+Vf
 Ia
 Hl
 Hl
@@ -20219,7 +20215,7 @@ Hl
 Hl
 Hl
 Ia
-dv
+Vf
 YA
 YA
 YA
@@ -20230,7 +20226,7 @@ YA
 YA
 YA
 YA
-dv
+Vf
 Ia
 HA
 YA
@@ -20451,7 +20447,7 @@ YA
 YA
 HA
 Ia
-dv
+Vf
 YA
 YA
 YA
@@ -20462,7 +20458,7 @@ YA
 YA
 YA
 YA
-dv
+Vf
 Ia
 Hl
 Hl
@@ -20476,7 +20472,7 @@ Hl
 Hl
 Hl
 Ia
-dv
+Vf
 YA
 YA
 YA
@@ -20487,7 +20483,7 @@ YA
 YA
 YA
 YA
-dv
+Vf
 Ia
 HA
 YA
@@ -20708,8 +20704,8 @@ YA
 YA
 HA
 Ia
-OB
-dv
+zB
+Vf
 YA
 YA
 YA
@@ -20718,8 +20714,8 @@ YA
 YA
 YA
 YA
-dv
-dv
+Vf
+Vf
 Ia
 Hl
 Hl
@@ -20733,8 +20729,8 @@ Hl
 Hl
 Hl
 Ia
-dv
-dv
+Vf
+Vf
 YA
 YA
 YA
@@ -20743,8 +20739,8 @@ YA
 YA
 YA
 YA
-dv
-OB
+Vf
+zB
 Ia
 HA
 YA
@@ -20966,16 +20962,16 @@ HA
 HA
 Ia
 Ia
-dv
-dv
+Vf
+Vf
 YA
 YA
 YA
 YA
 YA
 YA
-dv
-dv
+Vf
+Vf
 Ia
 Ia
 Hl
@@ -20991,16 +20987,16 @@ Hl
 Hl
 Ia
 Ia
-dv
-dv
+Vf
+Vf
 YA
 YA
 YA
 YA
 YA
 YA
-dv
-dv
+Vf
+Vf
 Ia
 Ia
 HA
@@ -21224,14 +21220,14 @@ HA
 WA
 Ia
 Ia
-dv
-dv
+Vf
+Vf
 YA
 YA
 YA
 YA
-dv
-dv
+Vf
+Vf
 Ia
 Ia
 Hl
@@ -21249,14 +21245,14 @@ Hl
 Hl
 Ia
 Ia
-dv
-dv
+Vf
+Vf
 YA
 YA
 YA
 YA
-dv
-dv
+Vf
+Vf
 Ia
 Ia
 Hl
@@ -21482,12 +21478,12 @@ WA
 WA
 Ia
 Ia
-dv
-dv
+Vf
+Vf
 YA
 YA
-dv
-dv
+Vf
+Vf
 Ia
 Ia
 Hl
@@ -21507,12 +21503,12 @@ Hl
 Hl
 Ia
 Ia
-dv
-dv
+Vf
+Vf
 YA
 YA
-dv
-dv
+Vf
+Vf
 Ia
 Ia
 Hl
@@ -21736,14 +21732,14 @@ YA
 YA
 YA
 WA
-wv
-wv
+Af
+Af
 Ia
 Ia
-dv
-dv
-dv
-dv
+Vf
+Vf
+Vf
+Vf
 Ia
 Ia
 Hl
@@ -21765,10 +21761,10 @@ Hl
 Hl
 Ia
 Ia
-dv
-dv
-dv
-dv
+Vf
+Vf
+Vf
+Vf
 Ia
 Ia
 Hl
@@ -21993,9 +21989,9 @@ HA
 HA
 HA
 WA
-wv
-wv
-Uk
+Af
+Af
+mD
 Ia
 Ia
 Ia
@@ -22250,9 +22246,9 @@ YA
 YA
 HA
 WA
-ib
-wv
-wv
+ds
+Af
+Af
 WA
 Hl
 Hl
@@ -22507,9 +22503,9 @@ YA
 YA
 HA
 WA
-NM
-wv
-wv
+Na
+Af
+Af
 WA
 Hl
 Hl
@@ -22764,10 +22760,10 @@ YA
 YA
 HA
 WA
-ib
-wv
-wv
-pz
+ds
+Af
+Af
+BH
 Hl
 Hl
 Hl
@@ -23021,9 +23017,9 @@ Ox
 HA
 HA
 WA
-sw
-sw
-Uk
+By
+By
+mD
 WA
 Hl
 Hl
@@ -30476,19 +30472,19 @@ HA
 Hl
 Hl
 Hl
-JH
-RR
-RR
-RR
-RR
-RR
-RR
-RR
-RR
-RR
-RR
-RR
-JH
+Yg
+TJ
+TJ
+TJ
+TJ
+TJ
+TJ
+TJ
+TJ
+TJ
+TJ
+TJ
+Yg
 Hl
 Hl
 Hl
@@ -30733,19 +30729,19 @@ YA
 Hl
 Hl
 Hl
-RR
+TJ
 aS
 aS
 aS
 aS
 aS
 aS
-RR
+TJ
 YA
-RR
+TJ
 aS
 aS
-RR
+TJ
 Hl
 Hl
 Hl
@@ -30990,19 +30986,19 @@ YA
 Hl
 Hl
 Hl
-RR
+TJ
 aS
 aS
-XZ
-aS
-aS
-aS
+Xr
 aS
 aS
 aS
 aS
 aS
-RR
+aS
+aS
+aS
+TJ
 Hl
 Hl
 Hl
@@ -31247,19 +31243,19 @@ YA
 Hl
 Hl
 Hl
-RR
+TJ
 aS
 aS
 aS
 aS
 aS
-XZ
+Xr
 aS
 aS
 aS
-XZ
+Xr
 aS
-RR
+TJ
 Hl
 Hl
 Hl
@@ -31504,7 +31500,7 @@ HA
 Hl
 Hl
 Hl
-RR
+TJ
 aS
 aS
 aS
@@ -31516,7 +31512,7 @@ aS
 aS
 aS
 aS
-RR
+TJ
 Hl
 Hl
 Hl
@@ -31761,11 +31757,9 @@ YA
 Hl
 Hl
 Hl
-RR
+TJ
 aS
-XZ
-aS
-bj
+Xr
 aS
 aS
 aS
@@ -31773,7 +31767,9 @@ aS
 aS
 aS
 aS
-RR
+aS
+aS
+TJ
 Hl
 Hl
 Hl
@@ -32018,19 +32014,19 @@ YA
 Hl
 Hl
 Hl
-RR
+TJ
 aS
-XZ
+Xr
 aS
-nG
-aS
-aS
-aS
-XZ
+JY
 aS
 aS
 aS
-RR
+Xr
+aS
+aS
+aS
+TJ
 Hl
 Hl
 Hl
@@ -32275,7 +32271,7 @@ YA
 Hl
 Hl
 Hl
-RR
+TJ
 aS
 aS
 aS
@@ -32287,7 +32283,7 @@ aS
 aS
 aS
 aS
-RR
+TJ
 Hl
 Hl
 Hl
@@ -32532,19 +32528,19 @@ HA
 Hl
 Hl
 Hl
-RR
+TJ
 aS
 aS
 aS
-XZ
+Xr
 aS
 aS
-XZ
+Xr
 aS
 aS
 aS
 aS
-RR
+TJ
 Hl
 Hl
 Hl
@@ -32789,7 +32785,7 @@ YA
 Hl
 Hl
 Hl
-RR
+TJ
 aS
 aS
 aS
@@ -32801,7 +32797,7 @@ aS
 aS
 aS
 aS
-RR
+TJ
 Hl
 Hl
 Hl
@@ -32820,7 +32816,7 @@ Hl
 Hl
 WA
 Hl
-dO
+Hl
 Hl
 YA
 WA
@@ -33046,11 +33042,11 @@ YA
 Hl
 Hl
 Hl
-RR
+TJ
 aS
 aS
 aS
-XZ
+Xr
 aS
 aS
 aS
@@ -33058,7 +33054,7 @@ aS
 aS
 aS
 aS
-RR
+TJ
 Hl
 Hl
 Hl
@@ -33078,7 +33074,7 @@ Hl
 WA
 Hl
 Hl
-Hl
+dO
 Hl
 WA
 Hl
@@ -33303,19 +33299,19 @@ YA
 Hl
 Hl
 Hl
-RR
+TJ
 aS
 aS
 aS
 aS
 aS
 aS
-RR
+TJ
 YA
-RR
+TJ
 aS
 aS
-RR
+TJ
 Hl
 Hl
 Hl
@@ -33560,19 +33556,19 @@ HA
 Hl
 Hl
 Hl
-JH
-RR
-RR
-RR
-RR
-RR
-RR
-RR
-RR
-RR
-RR
-RR
-JH
+Yg
+TJ
+TJ
+TJ
+TJ
+TJ
+TJ
+TJ
+TJ
+TJ
+TJ
+TJ
+Yg
 Hl
 Hl
 Hl
