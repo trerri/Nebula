@@ -16,6 +16,15 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/exterior)
+"af" = (
+/obj/effect/floor_decal/corner/pink/diagonal{
+	dir = 4
+	},
+/obj/abstract/landmark/start{
+	name = "Bartender"
+	},
+/turf/simulated/floor/tiled,
+/area/cruise/hallway/second)
 "ai" = (
 /turf/simulated/floor/greengrid,
 /area/cruise/hallway/second)
@@ -59,6 +68,15 @@
 	},
 /turf/simulated/floor,
 /area/cruise/hallway/second)
+"bA" = (
+/turf/simulated/open,
+/area/turbolift/cruise/industrial/luggage/second)
+"bM" = (
+/obj/structure/bed/chair/wood/maple{
+	dir = 1
+	},
+/turf/simulated/floor/wood/yew,
+/area/cruise/hallway/second)
 "bS" = (
 /obj/effect/floor_decal/industrial/traffic{
 	dir = 1
@@ -99,6 +117,10 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/cruise/exterior)
+"cJ" = (
+/obj/structure/bed/chair/armchair/red,
+/turf/simulated/floor/wood/yew,
+/area/cruise/hallway/second)
 "cL" = (
 /obj/effect/floor_decal/corner/red/border{
 	dir = 9
@@ -110,6 +132,9 @@
 /area/cruise/hallway/second)
 "cO" = (
 /obj/item/clothing/under/atmospheric_technician,
+/obj/abstract/landmark/start{
+	name = "Atmospheric Technician"
+	},
 /turf/simulated/floor,
 /area/cruise/maintenance/ventilation)
 "dl" = (
@@ -224,6 +249,10 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/cruise/exterior)
+"fU" = (
+/obj/structure/table/woodentable/maple,
+/turf/simulated/floor/wood/yew,
+/area/cruise/hallway/second)
 "fW" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -325,6 +354,12 @@
 	},
 /turf/simulated/open,
 /area/cruise/exterior)
+"iT" = (
+/obj/effect/floor_decal/corner/pink/border{
+	dir = 9
+	},
+/turf/simulated/floor,
+/area/cruise/hallway/second)
 "iV" = (
 /obj/effect/floor_decal/corner/paleblue/border{
 	dir = 10
@@ -362,6 +397,12 @@
 	},
 /turf/simulated/floor/tiled,
 /area/cruise/hallway/second)
+"jk" = (
+/obj/abstract/landmark/start{
+	name = "Chaplain"
+	},
+/turf/simulated/floor/tiled,
+/area/cruise/hotel)
 "ju" = (
 /obj/structure/filing_cabinet/chestdrawer,
 /turf/simulated/floor/carpet,
@@ -555,6 +596,12 @@
 /obj/structure/closet/secure_closet/personal/cabinet,
 /turf/simulated/floor/carpet,
 /area/cruise/hotel)
+"oX" = (
+/obj/abstract/landmark/start{
+	name = "Bartender"
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/cruise/hallway/second)
 "oZ" = (
 /obj/structure/table/bench/padded,
 /turf/simulated/floor/lino,
@@ -696,6 +743,12 @@
 /obj/structure/grille,
 /turf/space,
 /area/cruise/exterior)
+"rT" = (
+/obj/effect/floor_decal/corner/pink/bordercorner{
+	dir = 1
+	},
+/turf/simulated/floor,
+/area/cruise/hallway/second)
 "rY" = (
 /obj/structure/hygiene/sink{
 	dir = 2
@@ -950,12 +1003,21 @@
 "yb" = (
 /turf/simulated/floor,
 /area/cruise/maintenance/ventilation)
+"ye" = (
+/obj/abstract/landmark/start{
+	name = "Chaplain"
+	},
+/turf/simulated/floor/carpet/purple,
+/area/cruise/hotel)
 "yg" = (
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 4
 	},
 /turf/simulated/floor,
 /area/cruise/exterior)
+"yu" = (
+/turf/simulated/open,
+/area/turbolift/cruise/fore/second)
 "yC" = (
 /obj/effect/floor_decal/corner/paleblue/three_quarters{
 	dir = 4
@@ -1000,6 +1062,9 @@
 	},
 /turf/simulated/floor/wood/bamboo,
 /area/cruise/outdoor/promenade)
+"zc" = (
+/turf/simulated/open,
+/area/turbolift/cruise/aft/second)
 "zm" = (
 /obj/structure/ladder,
 /turf/simulated/open,
@@ -1188,6 +1253,7 @@
 /area/cruise/exterior)
 "DP" = (
 /obj/machinery/cryopod/lifepod,
+/obj/abstract/landmark/latejoin/cryo,
 /turf/simulated/floor/carpet,
 /area/cruise/hotel)
 "DR" = (
@@ -1253,6 +1319,7 @@
 /area/cruise/outdoor/promenade)
 "FY" = (
 /obj/machinery/cryopod/lifepod,
+/obj/abstract/landmark/latejoin/cryo,
 /turf/simulated/floor/carpet,
 /area/cruise/hallway/second)
 "Gl" = (
@@ -1293,6 +1360,15 @@
 	},
 /turf/simulated/floor/asteroid,
 /area/cruise/hallway/second)
+"Hu" = (
+/obj/effect/floor_decal/corner/pink/diagonal{
+	dir = 4
+	},
+/obj/abstract/landmark/start{
+	name = "Bartender"
+	},
+/turf/simulated/floor/tiled,
+/area/cruise/hotel)
 "Hz" = (
 /obj/structure/closet/secure_closet,
 /turf/simulated/floor/tiled,
@@ -1347,6 +1423,13 @@
 /obj/machinery/atmospherics/unary/heater,
 /turf/simulated/floor,
 /area/cruise/hallway/second)
+"Il" = (
+/obj/effect/floor_decal/corner/lightgrey/diagonal,
+/obj/abstract/landmark/start{
+	name = "Chef"
+	},
+/turf/simulated/floor/tiled,
+/area/cruise/hotel)
 "Iv" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 5
@@ -1388,6 +1471,12 @@
 	},
 /turf/simulated/floor/tiled,
 /area/cruise/hotel)
+"JE" = (
+/obj/effect/floor_decal/corner/pink/border{
+	dir = 1
+	},
+/turf/simulated/floor,
+/area/cruise/hallway/second)
 "JF" = (
 /obj/effect/floor_decal/corner/grey/full,
 /turf/simulated/floor/tiled,
@@ -1512,6 +1601,12 @@
 /obj/structure/stairs/long,
 /turf/simulated/floor/plating,
 /area/cruise/hotel)
+"MK" = (
+/obj/effect/floor_decal/corner/pink/border{
+	dir = 8
+	},
+/turf/simulated/floor,
+/area/cruise/hallway/second)
 "MN" = (
 /obj/structure/coatrack,
 /turf/simulated/floor/tiled,
@@ -1821,6 +1916,13 @@
 "TR" = (
 /turf/simulated/floor/tiled/steel_ridged,
 /area/cruise/exterior)
+"TV" = (
+/obj/effect/floor_decal/corner/grey/full,
+/obj/abstract/landmark/start{
+	name = "Chaplain"
+	},
+/turf/simulated/floor/tiled,
+/area/cruise/hotel)
 "Ud" = (
 /obj/abstract/fluid_mapped,
 /mob/living/simple_animal/aquatic/fish/grump,
@@ -2051,6 +2153,13 @@
 	},
 /turf/simulated/floor/asteroid,
 /area/cruise/hallway/second)
+"ZB" = (
+/obj/effect/floor_decal/corner/lightgrey/diagonal,
+/obj/abstract/landmark/start{
+	name = "Chef"
+	},
+/turf/simulated/floor/tiled,
+/area/cruise/hallway/second)
 "ZI" = (
 /obj/structure/lattice,
 /obj/structure/railing/mapped/no_density{
@@ -2058,6 +2167,9 @@
 	},
 /turf/simulated/open,
 /area/cruise/exterior)
+"ZK" = (
+/turf/simulated/open,
+/area/turbolift/cruise/industrial/cargo/second)
 "ZP" = (
 /turf/simulated/wall,
 /area/cruise/hotel)
@@ -25303,7 +25415,7 @@ HX
 vV
 Qy
 rO
-rO
+ZB
 rO
 rO
 rO
@@ -25564,7 +25676,7 @@ rO
 rO
 rO
 rO
-rO
+ZB
 rO
 rO
 rO
@@ -26075,7 +26187,7 @@ vV
 Qy
 rO
 rO
-rO
+ZB
 rO
 rO
 rO
@@ -26336,7 +26448,7 @@ rO
 rO
 rO
 rO
-rO
+ZB
 rO
 cy
 rO
@@ -26845,7 +26957,7 @@ HX
 vV
 BN
 bl
-bl
+Il
 bl
 bl
 bl
@@ -27894,8 +28006,8 @@ OM
 OM
 OM
 ZP
-bn
-bn
+bA
+bA
 mo
 jU
 jU
@@ -27905,10 +28017,10 @@ bS
 SD
 SD
 ZP
-bn
-bn
-bn
-bn
+zc
+zc
+zc
+zc
 BN
 vV
 HX
@@ -28151,8 +28263,8 @@ OM
 OM
 OM
 ZP
-bn
-bn
+bA
+bA
 ZP
 ZP
 ZP
@@ -28162,10 +28274,10 @@ ZP
 SD
 SD
 SD
-bn
-bn
-bn
-bn
+zc
+zc
+zc
+zc
 BN
 vV
 HX
@@ -28408,8 +28520,8 @@ OM
 OM
 OM
 ZP
-bn
-bn
+bA
+bA
 ZP
 OM
 OM
@@ -28419,10 +28531,10 @@ oj
 SD
 SD
 SD
-bn
-bn
-bn
-bn
+zc
+zc
+zc
+zc
 BN
 vV
 HX
@@ -28643,9 +28755,9 @@ HX
 HX
 vV
 BN
-bn
-bn
-bn
+ZK
+ZK
+ZK
 kY
 kY
 kY
@@ -28665,8 +28777,8 @@ OM
 OM
 OM
 ZP
-bn
-bn
+bA
+bA
 ZP
 OM
 OM
@@ -28676,10 +28788,10 @@ oj
 SD
 SD
 ZP
-bn
-bn
-bn
-bn
+zc
+zc
+zc
+zc
 BN
 vV
 HX
@@ -28900,9 +29012,9 @@ aZ
 HX
 vV
 BN
-bn
-bn
-bn
+ZK
+ZK
+ZK
 kY
 kY
 kY
@@ -29157,9 +29269,9 @@ HX
 HX
 vV
 BN
-bn
-bn
-bn
+ZK
+ZK
+ZK
 kY
 kY
 kY
@@ -29671,12 +29783,12 @@ HX
 HX
 vV
 BN
-Ox
+jk
 Ox
 Ox
 Ox
 ZP
-Ox
+jk
 Ox
 ZP
 Ox
@@ -30957,7 +31069,7 @@ HX
 vV
 BN
 zA
-zA
+ye
 MR
 JF
 JF
@@ -30968,7 +31080,7 @@ JF
 JF
 JF
 JF
-JF
+TV
 JF
 OM
 OM
@@ -32500,7 +32612,7 @@ vV
 BN
 JB
 JB
-JB
+Hu
 JB
 JB
 JB
@@ -32760,7 +32872,7 @@ JB
 JB
 JB
 JB
-JB
+Hu
 JB
 JB
 eJ
@@ -34045,7 +34157,7 @@ fd
 fd
 Gt
 ee
-ee
+af
 ee
 ee
 LP
@@ -38163,10 +38275,10 @@ oZ
 XC
 oZ
 Gt
-Un
-Un
-Un
-Un
+yu
+yu
+yu
+yu
 Gt
 it
 it
@@ -38420,10 +38532,10 @@ oZ
 XC
 oZ
 Gt
-Un
-Un
-Un
-Un
+yu
+yu
+yu
+yu
 Gt
 it
 it
@@ -38677,10 +38789,10 @@ Gt
 fd
 Gt
 Gt
-Un
-Un
-Un
-Un
+yu
+yu
+yu
+yu
 Gt
 it
 it
@@ -38934,10 +39046,10 @@ fd
 fd
 fd
 Gt
-Un
-Un
-Un
-Un
+yu
+yu
+yu
+yu
 Gt
 it
 it
@@ -40983,10 +41095,10 @@ vV
 Qy
 fd
 fd
-fd
-fd
-fd
-fd
+iT
+MK
+MK
+rT
 fd
 Uj
 Uj
@@ -41240,7 +41352,7 @@ vV
 Qy
 fd
 xQ
-fd
+JE
 xQ
 xQ
 xQ
@@ -41755,7 +41867,7 @@ Qy
 fd
 xQ
 dQ
-dQ
+oX
 kh
 ai
 ai
@@ -42041,7 +42153,7 @@ Un
 Un
 Un
 Gt
-aN
+cJ
 aN
 vV
 HX
@@ -43040,7 +43152,7 @@ Qy
 fd
 xQ
 dQ
-dQ
+oX
 kh
 Uj
 Uj
@@ -43069,8 +43181,8 @@ Un
 Un
 Un
 Gt
-aN
-aN
+fU
+bM
 vV
 HX
 HX
@@ -47170,7 +47282,7 @@ it
 it
 Gt
 fd
-fd
+Gt
 Gt
 Ln
 Ln
@@ -47669,13 +47781,13 @@ lV
 CC
 tt
 Gt
+Gr
+Gr
+Gr
+Gr
+Gr
+Gr
 dQ
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
 Gt
 it
 it
@@ -47926,13 +48038,13 @@ Gt
 DC
 IE
 Gt
-zG
-zG
-zG
-zG
-zG
-zG
 dQ
+zG
+zG
+zG
+zG
+zG
+zG
 Gt
 it
 it
@@ -48190,7 +48302,7 @@ dQ
 dQ
 dQ
 dQ
-it
+dQ
 it
 it
 it
@@ -48447,7 +48559,7 @@ dQ
 dQ
 dQ
 dQ
-it
+dQ
 it
 it
 it
@@ -48704,7 +48816,7 @@ dQ
 dQ
 dQ
 dQ
-it
+dQ
 it
 it
 it
@@ -48961,7 +49073,7 @@ pj
 pj
 dQ
 dQ
-it
+dQ
 it
 it
 it

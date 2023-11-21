@@ -31,6 +31,12 @@
 /obj/machinery/door/airlock/external/glass,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/cruise/exterior)
+"by" = (
+/obj/abstract/landmark/start{
+	name = "Psychiatrist"
+	},
+/turf/simulated/floor/wood/walnut,
+/area/cruise/outdoor/top)
 "cj" = (
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 1
@@ -137,6 +143,14 @@
 	},
 /turf/simulated/floor,
 /area/cruise/exterior)
+"kf" = (
+/obj/machinery/internet_uplink,
+/turf/simulated/floor/plating,
+/area/cruise/outdoor/top)
+"kG" = (
+/obj/machinery/network/modem,
+/turf/simulated/floor/plating,
+/area/cruise/outdoor/top)
 "lv" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 5
@@ -158,14 +172,38 @@
 	},
 /turf/simulated/floor/tiled,
 /area/cruise/exterior)
+"lH" = (
+/obj/abstract/landmark/start{
+	name = "Head of Personnel"
+	},
+/turf/simulated/floor/bluegrid,
+/area/cruise/outdoor/top)
 "lR" = (
 /obj/structure/ladder,
 /turf/simulated/open,
 /area/cruise/exterior)
+"my" = (
+/obj/machinery/network/acl,
+/turf/simulated/floor/plating,
+/area/cruise/outdoor/top)
 "mD" = (
 /obj/machinery/atmospherics/unary/freezer,
 /turf/simulated/floor,
 /area/cruise/maintenance/ventilation)
+"mX" = (
+/obj/machinery/internet_repeater,
+/turf/simulated/floor/plating,
+/area/cruise/outdoor/top)
+"mY" = (
+/turf/simulated/floor/tiled/dark,
+/area/cruise/outdoor/top)
+"na" = (
+/turf/simulated/open,
+/area/turbolift/cruise/fore/third)
+"nI" = (
+/obj/machinery/network/mainframe/logs,
+/turf/simulated/floor/plating,
+/area/cruise/outdoor/top)
 "oa" = (
 /obj/effect/floor_decal/industrial/defective{
 	dir = 1
@@ -184,6 +222,10 @@
 	},
 /turf/simulated/floor,
 /area/cruise/exterior)
+"pA" = (
+/obj/machinery/computer/ship/sensors,
+/turf/simulated/floor/tiled/dark,
+/area/cruise/outdoor/top)
 "qI" = (
 /obj/structure/railing/mapped{
 	dir = 8
@@ -199,6 +241,10 @@
 	dir = 1
 	},
 /turf/simulated/open,
+/area/cruise/outdoor/top)
+"qZ" = (
+/obj/machinery/network/mainframe/files,
+/turf/simulated/floor/plating,
 /area/cruise/outdoor/top)
 "rd" = (
 /obj/structure/ladder,
@@ -223,6 +269,10 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/exterior)
+"sn" = (
+/obj/machinery/network/mainframe/account,
+/turf/simulated/floor/plating,
+/area/cruise/outdoor/top)
 "sI" = (
 /obj/structure/railing/mapped{
 	dir = 4
@@ -235,12 +285,26 @@
 	},
 /turf/simulated/floor/shuttle_ceiling/air,
 /area/cruise/outdoor/top)
+"tr" = (
+/obj/structure/bookcase,
+/turf/simulated/floor/wood/walnut,
+/area/cruise/outdoor/top)
+"ts" = (
+/turf/simulated/floor/wood/walnut,
+/area/cruise/outdoor/top)
 "tW" = (
 /obj/structure/railing/mapped{
 	dir = 1
 	},
 /turf/simulated/open,
 /area/cruise/exterior)
+"tY" = (
+/obj/structure/bed/chair/armchair/red,
+/obj/abstract/landmark/start{
+	name = "Psychiatrist"
+	},
+/turf/simulated/floor/carpet,
+/area/cruise/outdoor/top)
 "ui" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
@@ -260,6 +324,15 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/simulated/floor,
 /area/cruise/exterior)
+"wg" = (
+/obj/structure/bed/chair/wood/walnut{
+	dir = 8
+	},
+/obj/abstract/landmark/start{
+	name = "Psychiatrist"
+	},
+/turf/simulated/floor/wood/walnut,
+/area/cruise/outdoor/top)
 "wj" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden,
 /obj/effect/floor_decal/industrial/warning/dust,
@@ -277,6 +350,10 @@
 /obj/machinery/light,
 /turf/simulated/floor,
 /area/cruise/exterior)
+"ya" = (
+/obj/machinery/network/mainframe/empty,
+/turf/simulated/floor/plating,
+/area/cruise/outdoor/top)
 "yJ" = (
 /obj/effect/floor_decal/floordetail,
 /turf/simulated/floor/glass,
@@ -287,6 +364,9 @@
 	},
 /turf/simulated/floor/shuttle_ceiling/air,
 /area/cruise/exterior)
+"zt" = (
+/turf/simulated/floor/carpet,
+/area/cruise/outdoor/top)
 "zv" = (
 /turf/simulated/floor/bluegrid,
 /area/cruise/outdoor/top)
@@ -316,6 +396,12 @@
 "BH" = (
 /turf/simulated/floor,
 /area/cruise/outdoor/top)
+"Ce" = (
+/obj/abstract/landmark/start{
+	name = "Captain"
+	},
+/turf/simulated/floor/glass,
+/area/cruise/outdoor/top)
 "CS" = (
 /obj/machinery/atmospherics/portables_connector,
 /obj/machinery/portable_atmospherics/canister/air,
@@ -328,12 +414,28 @@
 	},
 /turf/simulated/floor,
 /area/cruise/exterior)
+"Di" = (
+/obj/machinery/network/router,
+/turf/simulated/floor/plating,
+/area/cruise/outdoor/top)
+"DJ" = (
+/obj/machinery/network/mainframe/software,
+/turf/simulated/floor/plating,
+/area/cruise/outdoor/top)
+"Ej" = (
+/obj/effect/wallframe_spawn/reinforced,
+/obj/structure/curtain/open/bar,
+/turf/simulated/floor/plating,
+/area/cruise/outdoor/top)
 "Ew" = (
 /obj/machinery/atmospherics/portables_connector,
 /obj/machinery/portable_atmospherics/canister/empty,
 /obj/effect/floor_decal/industrial/outline/red,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/cruise/exterior)
+"EH" = (
+/turf/simulated/floor/plating,
+/area/cruise/outdoor/top)
 "EZ" = (
 /obj/effect/floor_decal/industrial/warning/dust/corner{
 	dir = 1
@@ -367,6 +469,10 @@
 "HA" = (
 /turf/simulated/floor/shuttle_ceiling/air,
 /area/cruise/outdoor/top)
+"HO" = (
+/obj/structure/table/woodentable/walnut,
+/turf/simulated/floor/wood/walnut,
+/area/cruise/outdoor/top)
 "Ia" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/cruise/outdoor/top)
@@ -398,6 +504,10 @@
 	},
 /turf/simulated/floor/shuttle_ceiling/air,
 /area/cruise/outdoor/top)
+"JD" = (
+/obj/machinery/network/message_server,
+/turf/simulated/floor/plating,
+/area/cruise/outdoor/top)
 "JR" = (
 /obj/structure/railing/mapped{
 	dir = 2
@@ -411,6 +521,20 @@
 "JY" = (
 /obj/structure/fire_source/hearth,
 /turf/simulated/floor/glass,
+/area/cruise/outdoor/top)
+"KV" = (
+/obj/abstract/landmark/start{
+	name = "Atmospheric Technician"
+	},
+/turf/simulated/floor,
+/area/cruise/maintenance/ventilation)
+"Ld" = (
+/obj/structure/bed/psych/leather,
+/turf/simulated/floor/carpet,
+/area/cruise/outdoor/top)
+"LB" = (
+/obj/machinery/shipsensors,
+/turf/simulated/floor/plating,
 /area/cruise/outdoor/top)
 "LK" = (
 /obj/effect/floor_decal/industrial/warning/dust,
@@ -451,6 +575,14 @@
 	},
 /turf/simulated/floor,
 /area/cruise/exterior)
+"Ql" = (
+/obj/structure/bookcase/skill_books/random,
+/turf/simulated/floor/wood/walnut,
+/area/cruise/outdoor/top)
+"Qt" = (
+/obj/machinery/network/telecomms_hub/entertainment,
+/turf/simulated/floor/plating,
+/area/cruise/outdoor/top)
 "SM" = (
 /obj/machinery/light{
 	dir = 1
@@ -521,6 +653,12 @@
 /obj/structure/table/marble,
 /turf/simulated/floor/glass,
 /area/cruise/outdoor/top)
+"XD" = (
+/obj/abstract/landmark/start{
+	name = "Captain"
+	},
+/turf/simulated/floor/tiled,
+/area/cruise/outdoor/top)
 "Yf" = (
 /obj/machinery/light{
 	dir = 4
@@ -532,6 +670,10 @@
 /area/cruise/outdoor/top)
 "YA" = (
 /turf/simulated/open,
+/area/cruise/outdoor/top)
+"YK" = (
+/obj/machinery/network/mainframe/records,
+/turf/simulated/floor/plating,
 /area/cruise/outdoor/top)
 "YN" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
@@ -21732,7 +21874,7 @@ YA
 YA
 YA
 WA
-Af
+KV
 Af
 Ia
 Ia
@@ -36392,10 +36534,10 @@ Hl
 Hl
 Hl
 WA
-YA
-YA
-YA
-YA
+na
+na
+na
+na
 WA
 Hl
 Hl
@@ -36649,10 +36791,10 @@ Hl
 Hl
 Hl
 WA
-YA
-YA
-YA
-YA
+na
+na
+na
+na
 WA
 Hl
 Hl
@@ -36906,10 +37048,10 @@ Hl
 Hl
 Hl
 WA
-YA
-YA
-YA
-YA
+na
+na
+na
+na
 WA
 Hl
 Hl
@@ -37163,10 +37305,10 @@ Hl
 Hl
 Hl
 WA
-YA
-YA
-YA
-YA
+na
+na
+na
+na
 WA
 Hl
 Hl
@@ -37925,13 +38067,13 @@ HA
 HA
 Hl
 Hl
-WA
-WA
-WA
-WA
-WA
-WA
-WA
+Hl
+Hl
+Hl
+Hl
+Hl
+Hl
+Hl
 Hl
 Hl
 Hl
@@ -38182,13 +38324,13 @@ YA
 YA
 Hl
 Hl
-WA
 Hl
 Hl
 Hl
-WA
 Hl
-WA
+Hl
+Hl
+Hl
 Hl
 Hl
 Hl
@@ -38439,13 +38581,13 @@ YA
 YA
 Hl
 Hl
-WA
 Hl
 Hl
 Hl
-WA
 Hl
-WA
+Hl
+Hl
+Hl
 Hl
 Hl
 Hl
@@ -38697,11 +38839,11 @@ YA
 Hl
 Hl
 WA
-Hl
-Hl
-Hl
 WA
-Hl
+WA
+WA
+WA
+WA
 WA
 Hl
 Hl
@@ -38953,12 +39095,12 @@ Ox
 HA
 Hl
 Hl
-WA
-Hl
-Hl
-Hl
-WA
-Hl
+Ej
+by
+ts
+ts
+ts
+ts
 WA
 Hl
 Hl
@@ -39210,12 +39352,12 @@ IM
 HA
 HA
 Hl
-WA
-Hl
-Hl
-Hl
-WA
-Hl
+Ej
+ts
+Ld
+zt
+zt
+ts
 WA
 Hl
 Hl
@@ -39467,18 +39609,18 @@ YA
 YA
 YA
 Hl
+Ej
+ts
+zt
+zt
+zt
+ts
 WA
-Hl
-Hl
-Hl
 WA
-Hl
+ts
+ts
 WA
-Hl
-Hl
-Hl
-Hl
-Hl
+WA
 Hl
 Hl
 Hl
@@ -39725,19 +39867,19 @@ YA
 YA
 Hl
 WA
-WA
-WA
-WA
-WA
-WA
+ts
+tY
+zt
+zt
+ts
+ts
+ts
+ts
+ts
+ts
 WA
 Hl
 Hl
-Hl
-WA
-Hl
-Hl
-WA
 Hl
 Hl
 Hl
@@ -39981,18 +40123,18 @@ YA
 YA
 YA
 Hl
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
+WA
+ts
+zt
+zt
+zt
+ts
+WA
+ts
+ts
+ts
+ts
+WA
 Hl
 Hl
 Hl
@@ -40238,18 +40380,18 @@ HA
 HA
 HA
 Hl
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
+WA
+Ql
+tr
+tr
+tr
+tr
+WA
+HO
+HO
+HO
+ts
+WA
 Hl
 Hl
 Hl
@@ -40495,18 +40637,18 @@ YA
 YA
 YA
 Hl
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+ts
+wg
+ts
+ts
+WA
 Hl
 Hl
 Hl
@@ -40758,14 +40900,14 @@ Hl
 Hl
 Hl
 Hl
-Hl
-Hl
-Hl
-Hl
+WA
+ts
+ts
+ts
+ts
 WA
 Hl
 Hl
-WA
 Hl
 Hl
 Hl
@@ -41015,12 +41157,12 @@ Hl
 Hl
 Hl
 Hl
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
+WA
+WA
+WA
+WA
+WA
+WA
 Hl
 Hl
 Hl
@@ -42040,11 +42182,11 @@ Hl
 Hl
 Hl
 Hl
-WA
-WA
-WA
-WA
-WA
+Hl
+Hl
+Hl
+Hl
+Hl
 Hl
 Hl
 Hl
@@ -42296,13 +42438,13 @@ HA
 Hl
 Hl
 Hl
-WA
-WA
 Hl
+gu
+gu
+gu
+gu
+gu
 Hl
-Hl
-WA
-WA
 Hl
 Hl
 Hl
@@ -42553,13 +42695,13 @@ YA
 Hl
 Hl
 Hl
-WA
-Hl
-zv
-Hl
-zv
-Hl
-WA
+gu
+gu
+mX
+kf
+kG
+gu
+gu
 Hl
 Hl
 Hl
@@ -42810,13 +42952,13 @@ YA
 Hl
 Hl
 Hl
-WA
-Hl
-zv
-Hl
-Hl
-Hl
-WA
+gu
+sn
+EH
+mY
+EH
+ya
+gu
 Hl
 Hl
 Hl
@@ -43067,13 +43209,13 @@ YA
 Hl
 Hl
 Hl
-WA
-Hl
-zv
-zv
-zv
-Hl
-WA
+gu
+qZ
+mY
+mY
+mY
+DJ
+gu
 Hl
 Hl
 Hl
@@ -43321,16 +43463,16 @@ fd
 HA
 HA
 HA
-Hl
-Hl
-Hl
-WA
-WA
-Hl
-Hl
-Hl
-WA
-WA
+gu
+gu
+gu
+gu
+nI
+EH
+EH
+EH
+YK
+gu
 Hl
 Hl
 Hl
@@ -43578,16 +43720,16 @@ fd
 YA
 YA
 YA
-Hl
-Hl
-Hl
-Hl
-WA
-WA
-WA
-WA
-WA
-Hl
+gu
+pA
+mY
+gu
+gu
+gu
+EH
+gu
+gu
+gu
 Hl
 Hl
 Hl
@@ -43835,15 +43977,15 @@ fd
 YA
 YA
 YA
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
+gu
+mY
+mY
+mY
+gu
+my
+EH
+JD
+gu
 Hl
 Hl
 Hl
@@ -44092,15 +44234,15 @@ fd
 YA
 YA
 YA
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
+gu
+gu
+mY
+mY
+gu
+Di
+EH
+Qt
+gu
 Hl
 Hl
 Hl
@@ -44349,15 +44491,15 @@ fd
 HA
 HA
 HA
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
+LB
+EH
+EH
+EH
+EH
+EH
+EH
+mY
+gu
 Hl
 Hl
 Hl
@@ -44606,15 +44748,15 @@ fd
 YA
 YA
 YA
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
+gu
+gu
+mY
+gu
+gu
+gu
+gu
+gu
+gu
 Hl
 Hl
 Hl
@@ -46418,15 +46560,15 @@ Hl
 Hl
 WA
 WA
+Hl
 WA
 WA
+Hl
+WA
+Hl
 WA
 WA
-WA
-WA
-WA
-WA
-WA
+Hl
 WA
 WA
 Hl
@@ -46936,7 +47078,7 @@ Hl
 Hl
 zv
 Hl
-zv
+lH
 Hl
 zv
 Hl
@@ -47450,7 +47592,7 @@ Hl
 Hl
 zv
 zv
-Hl
+XD
 zv
 zv
 Hl
@@ -52076,7 +52218,7 @@ aS
 aS
 aS
 aS
-aS
+Ce
 aS
 aS
 aS

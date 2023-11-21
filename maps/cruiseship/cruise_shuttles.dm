@@ -29,25 +29,33 @@
 		"PORT" = "example_shuttle_port"
 	)
 	ceiling_type = /turf/simulated/floor/shuttle_ceiling
-
-/obj/abstract/turbolift_spawner/example
-	name = "Testing Site elevator placeholder"
+*/
+/obj/abstract/turbolift_spawner/guests/
+	name = "Cruise Ship elevator placeholder"
 	icon = 'icons/obj/turbolift_preview_nowalls_3x3.dmi'
 	depth = 3
-	lift_size_x = 2
-	lift_size_y = 2
+	lift_size_x = 4
+	lift_size_y = 4
 	door_type =     null
-	wall_type =     null
+	wall_type =     /turf/simulated/wall/walnut
 	firedoor_type = null
 	light_type =    null
-	floor_type =  /turf/simulated/floor/tiled/techfloor
+	floor_type =  /turf/simulated/floor/wood/usedup
 	button_type = /obj/structure/lift/button/standalone
 	panel_type =  /obj/structure/lift/panel/standalone
 	areas_to_use = list(
-		/area/turbolift/example/first,
-		/area/turbolift/example/second,
-		/area/turbolift/example/third
+		/area/turbolift/cruise/fore/first,
+		/area/turbolift/cruise/fore/second,
+		/area/turbolift/cruise/fore/third
 	)
 	floor_departure_sound = 'sound/effects/lift_heavy_start.ogg'
 	floor_arrival_sound = 'sound/effects/lift_heavy_stop.ogg'
-*/
+
+/obj/abstract/turbolift_spawner/guests/north
+	areas_to_use = list(
+		/area/turbolift/cruise/aft/first,
+		/area/turbolift/cruise/aft/second,
+		/area/turbolift/cruise/aft/third
+	)
+/obj/abstract/turbolift_spawner/guests/east
+	depth = 2

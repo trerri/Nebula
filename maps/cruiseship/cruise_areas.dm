@@ -485,15 +485,70 @@
 
 	base_turf = /turf/simulated/open
 
-/area/turbolift/cruise/first
-	name = "Cruise Ship First Deck Elevator"
-	base_turf = /turf/simulated/floor
+/area/turbolift/cruise/fore
+	name = "\improper Fore Elevator"
+	icon_state = "shuttle"
 
-/area/turbolift/cruise/second
-	name = "Cruise Ship Second Deck Elevator"
+/area/turbolift/cruise/fore/first
+	name = "First Deck Fore Elevator"
+	base_turf = /turf/simulated/floor/plating
+	lift_announce_str = "Bottom deck. Caution: doors opening."
 
-/area/turbolift/cruise/third
-	name = "Cruise Ship Third Deck Elevator"
+/area/turbolift/cruise/fore/second
+	name = "Second Deck Fore Elevator"
+	lift_announce_str = "Middle deck. Caution: doors opening."
+
+/area/turbolift/cruise/fore/third
+	name = "Third Deck Fore Elevator"
+	lift_announce_str = "Top deck. Caution: doors opening."
+
+area/turbolift/cruise/aft
+	name = "\improper Aft Elevator"
+	icon_state = "shuttle"
+
+/area/turbolift/cruise/aft/first
+	name = "First Deck Aft Elevator"
+	base_turf = /turf/simulated/floor/plating
+	lift_announce_str = "Bottom deck. Caution: doors opening."
+
+/area/turbolift/cruise/aft/second
+	name = "Second Deck Aft Elevator"
+	lift_announce_str = "Middle deck. Caution: doors opening."
+
+/area/turbolift/cruise/aft/third
+	name = "Third Deck Aft Elevator"
+	lift_announce_str = "Top deck. Caution: doors opening."
+
+/area/turbolift/cruise/industrial
+	name = "\improper Lift"
+	icon_state = "shuttle"
+	sound_env = SMALL_ENCLOSED
+
+/area/turbolift/cruise/industrial/cargo
+	name = "\improper Cargo Lift"
+
+/area/turbolift/cruise/industrial/cargo/first
+	name = "First Deck Cargo Lift"
+	base_turf = /turf/simulated/floor/plating
+
+/area/turbolift/cruise/industrial/cargo/second
+	name = "Second Deck Cargo Lift"
+
+/area/turbolift/cruise/industrial/cargo/third
+	name = "Third Deck Cargo Lift"
+
+/area/turbolift/cruise/industrial/luggage
+	name = "\improper Primary Storage Lift"
+
+/area/turbolift/cruise/industrial/luggage/first
+	name = "First Deck Primary Storage Lift"
+	base_turf = /turf/simulated/floor/plating
+
+/area/turbolift/cruise/industrial/luggage/second
+	name = "Second Deck Primary Storage Lift"
+
+/area/turbolift/cruise/industrial/luggage/third
+	name = "Third Deck Primary Storage Lift"
 
 /area/shuttle/ferry
 	name = "\improper Ferry Boat"
