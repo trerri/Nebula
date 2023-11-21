@@ -34,8 +34,8 @@
 	name = "Cruise Ship elevator placeholder"
 	icon = 'icons/obj/turbolift_preview_nowalls_3x3.dmi'
 	depth = 3
-	lift_size_x = 4
-	lift_size_y = 4
+	lift_size_x = 3
+	lift_size_y = 3
 	door_type =     null
 	wall_type =     /turf/simulated/wall/walnut
 	firedoor_type = null
@@ -52,10 +52,10 @@
 	floor_arrival_sound = 'sound/effects/lift_heavy_stop.ogg'
 
 /obj/abstract/turbolift_spawner/guests/north
+	depth = 2
 	areas_to_use = list(
 		/area/turbolift/cruise/aft/first,
 		/area/turbolift/cruise/aft/second,
 		/area/turbolift/cruise/aft/third
 	)
 /obj/abstract/turbolift_spawner/guests/east
-	depth = 2

@@ -68,9 +68,6 @@
 	},
 /turf/simulated/floor,
 /area/cruise/hallway/second)
-"bA" = (
-/turf/simulated/open,
-/area/turbolift/cruise/industrial/luggage/second)
 "bM" = (
 /obj/structure/bed/chair/wood/maple{
 	dir = 1
@@ -90,6 +87,9 @@
 "ch" = (
 /turf/simulated/floor/glass,
 /area/cruise/hallway/second)
+"cw" = (
+/turf/simulated/open,
+/area/turbolift/cruise/aft/second)
 "cy" = (
 /obj/structure/reagent_dispensers/beerkeg,
 /obj/effect/floor_decal/corner/lightgrey/diagonal,
@@ -249,6 +249,12 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/cruise/exterior)
+"fT" = (
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/turf/simulated/floor/wood/walnut,
+/area/cruise/hallway/second)
 "fU" = (
 /obj/structure/table/woodentable/maple,
 /turf/simulated/floor/wood/yew,
@@ -322,6 +328,9 @@
 /obj/effect/floor_decal/corner/orange/three_quarters,
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/exterior)
+"hY" = (
+/turf/simulated/open,
+/area/turbolift/cruise/industrial/luggage/second)
 "ig" = (
 /obj/effect/floor_decal/corner/yellow/diagonal{
 	dir = 4
@@ -670,6 +679,9 @@
 	},
 /turf/simulated/floor/wood/bamboo,
 /area/cruise/outdoor/promenade)
+"qe" = (
+/turf/simulated/open,
+/area/turbolift/cruise/industrial/cargo/second)
 "qg" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden,
 /obj/structure/railing/mapped,
@@ -1015,9 +1027,6 @@
 	},
 /turf/simulated/floor,
 /area/cruise/exterior)
-"yu" = (
-/turf/simulated/open,
-/area/turbolift/cruise/fore/second)
 "yC" = (
 /obj/effect/floor_decal/corner/paleblue/three_quarters{
 	dir = 4
@@ -1062,9 +1071,6 @@
 	},
 /turf/simulated/floor/wood/bamboo,
 /area/cruise/outdoor/promenade)
-"zc" = (
-/turf/simulated/open,
-/area/turbolift/cruise/aft/second)
 "zm" = (
 /obj/structure/ladder,
 /turf/simulated/open,
@@ -1407,6 +1413,9 @@
 	},
 /turf/simulated/open,
 /area/cruise/exterior)
+"HR" = (
+/turf/simulated/open,
+/area/turbolift/cruise/fore/second)
 "HS" = (
 /obj/structure/railing/mapped{
 	dir = 2
@@ -1452,6 +1461,12 @@
 	dir = 6
 	},
 /turf/simulated/floor/tiled,
+/area/cruise/hallway/second)
+"IP" = (
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/simulated/floor/wood/walnut,
 /area/cruise/hallway/second)
 "Ja" = (
 /obj/structure/bed/sofa/middle/brown{
@@ -2167,9 +2182,6 @@
 	},
 /turf/simulated/open,
 /area/cruise/exterior)
-"ZK" = (
-/turf/simulated/open,
-/area/turbolift/cruise/industrial/cargo/second)
 "ZP" = (
 /turf/simulated/wall,
 /area/cruise/hotel)
@@ -23356,7 +23368,7 @@ bf
 HX
 HX
 HX
-wI
+vV
 Qy
 Gt
 Gt
@@ -25155,7 +25167,7 @@ bf
 ZI
 Nq
 HX
-vV
+fT
 Qy
 rO
 rO
@@ -25412,7 +25424,7 @@ vQ
 MO
 HX
 HX
-vV
+wI
 Qy
 rO
 ZB
@@ -25669,7 +25681,7 @@ vQ
 bf
 HX
 HX
-vV
+IP
 Qy
 rO
 rO
@@ -28006,8 +28018,8 @@ OM
 OM
 OM
 ZP
-bA
-bA
+hY
+hY
 mo
 jU
 jU
@@ -28017,10 +28029,10 @@ bS
 SD
 SD
 ZP
-zc
-zc
-zc
-zc
+cw
+cw
+cw
+cw
 BN
 vV
 HX
@@ -28263,8 +28275,8 @@ OM
 OM
 OM
 ZP
-bA
-bA
+hY
+hY
 ZP
 ZP
 ZP
@@ -28274,10 +28286,10 @@ ZP
 SD
 SD
 SD
-zc
-zc
-zc
-zc
+cw
+cw
+cw
+cw
 BN
 vV
 HX
@@ -28520,8 +28532,8 @@ OM
 OM
 OM
 ZP
-bA
-bA
+hY
+hY
 ZP
 OM
 OM
@@ -28531,10 +28543,10 @@ oj
 SD
 SD
 SD
-zc
-zc
-zc
-zc
+cw
+cw
+cw
+cw
 BN
 vV
 HX
@@ -28755,9 +28767,9 @@ HX
 HX
 vV
 BN
-ZK
-ZK
-ZK
+qe
+qe
+qe
 kY
 kY
 kY
@@ -28777,8 +28789,8 @@ OM
 OM
 OM
 ZP
-bA
-bA
+hY
+hY
 ZP
 OM
 OM
@@ -28788,10 +28800,10 @@ oj
 SD
 SD
 ZP
-zc
-zc
-zc
-zc
+cw
+cw
+cw
+cw
 BN
 vV
 HX
@@ -29012,9 +29024,9 @@ aZ
 HX
 vV
 BN
-ZK
-ZK
-ZK
+qe
+qe
+qe
 kY
 kY
 kY
@@ -29269,9 +29281,9 @@ HX
 HX
 vV
 BN
-ZK
-ZK
-ZK
+qe
+qe
+qe
 kY
 kY
 kY
@@ -38275,10 +38287,10 @@ oZ
 XC
 oZ
 Gt
-yu
-yu
-yu
-yu
+HR
+HR
+HR
+HR
 Gt
 it
 it
@@ -38532,10 +38544,10 @@ oZ
 XC
 oZ
 Gt
-yu
-yu
-yu
-yu
+HR
+HR
+HR
+HR
 Gt
 it
 it
@@ -38789,10 +38801,10 @@ Gt
 fd
 Gt
 Gt
-yu
-yu
-yu
-yu
+HR
+HR
+HR
+HR
 Gt
 it
 it
@@ -39046,10 +39058,10 @@ fd
 fd
 fd
 Gt
-yu
-yu
-yu
-yu
+HR
+HR
+HR
+HR
 Gt
 it
 it

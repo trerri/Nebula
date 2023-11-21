@@ -502,7 +502,7 @@
 	name = "Third Deck Fore Elevator"
 	lift_announce_str = "Top deck. Caution: doors opening."
 
-area/turbolift/cruise/aft
+/area/turbolift/cruise/aft
 	name = "\improper Aft Elevator"
 	icon_state = "shuttle"
 

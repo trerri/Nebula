@@ -197,9 +197,6 @@
 "mY" = (
 /turf/simulated/floor/tiled/dark,
 /area/cruise/outdoor/top)
-"na" = (
-/turf/simulated/open,
-/area/turbolift/cruise/fore/third)
 "nI" = (
 /obj/machinery/network/mainframe/logs,
 /turf/simulated/floor/plating,
@@ -668,6 +665,9 @@
 "Yg" = (
 /turf/simulated/wall/wood,
 /area/cruise/outdoor/top)
+"Yh" = (
+/turf/simulated/open,
+/area/turbolift/cruise/fore/third)
 "YA" = (
 /turf/simulated/open,
 /area/cruise/outdoor/top)
@@ -21872,7 +21872,7 @@ fd
 YA
 YA
 YA
-YA
+HA
 WA
 KV
 Af
@@ -22133,7 +22133,7 @@ HA
 WA
 Af
 Af
-mD
+Af
 Ia
 Ia
 Ia
@@ -22904,8 +22904,8 @@ HA
 WA
 ds
 Af
-Af
-BH
+mD
+WA
 Hl
 Hl
 Hl
@@ -23671,7 +23671,7 @@ fd
 uw
 YA
 YA
-YA
+Tl
 Hl
 Hl
 Hl
@@ -24185,7 +24185,7 @@ fd
 fd
 YA
 YA
-YA
+Tl
 Hl
 Hl
 Hl
@@ -36534,10 +36534,10 @@ Hl
 Hl
 Hl
 WA
-na
-na
-na
-na
+Yh
+Yh
+Yh
+Yh
 WA
 Hl
 Hl
@@ -36791,10 +36791,10 @@ Hl
 Hl
 Hl
 WA
-na
-na
-na
-na
+Yh
+Yh
+Yh
+Yh
 WA
 Hl
 Hl
@@ -37048,10 +37048,10 @@ Hl
 Hl
 Hl
 WA
-na
-na
-na
-na
+Yh
+Yh
+Yh
+Yh
 WA
 Hl
 Hl
@@ -37305,10 +37305,10 @@ Hl
 Hl
 Hl
 WA
-na
-na
-na
-na
+Yh
+Yh
+Yh
+Yh
 WA
 Hl
 Hl
