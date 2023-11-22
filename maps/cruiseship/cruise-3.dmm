@@ -166,12 +166,6 @@
 	},
 /turf/simulated/floor,
 /area/cruise/exterior)
-"lF" = (
-/obj/structure/railing/mapped{
-	dir = 1
-	},
-/turf/simulated/floor/tiled,
-/area/cruise/exterior)
 "lH" = (
 /obj/abstract/landmark/start{
 	name = "Head of Personnel"
@@ -201,12 +195,6 @@
 /obj/machinery/network/mainframe/logs,
 /turf/simulated/floor/plating,
 /area/cruise/outdoor/top)
-"oa" = (
-/obj/effect/floor_decal/industrial/defective{
-	dir = 1
-	},
-/turf/simulated/floor/shuttle_ceiling/air,
-/area/cruise/exterior)
 "og" = (
 /obj/abstract/map_data{
 	height = 3
@@ -314,9 +302,6 @@
 	},
 /turf/simulated/open,
 /area/cruise/exterior)
-"uD" = (
-/turf/simulated/floor/tiled,
-/area/cruise/exterior)
 "vt" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/simulated/floor,
@@ -356,11 +341,11 @@
 /turf/simulated/floor/glass,
 /area/cruise/outdoor/top)
 "zg" = (
-/obj/effect/floor_decal/industrial/defective{
-	dir = 2
-	},
-/turf/simulated/floor/shuttle_ceiling/air,
-/area/cruise/exterior)
+/obj/structure/lattice,
+/obj/structure/ladder,
+/obj/machinery/light/navigation,
+/turf/simulated/open,
+/area/cruise/outdoor/top)
 "zt" = (
 /turf/simulated/floor/carpet,
 /area/cruise/outdoor/top)
@@ -383,9 +368,6 @@
 "Af" = (
 /turf/simulated/floor,
 /area/cruise/maintenance/ventilation)
-"AT" = (
-/turf/simulated/floor/shuttle_ceiling/air,
-/area/cruise/exterior)
 "By" = (
 /obj/machinery/atmospherics/unary/heater,
 /turf/simulated/floor,
@@ -447,7 +429,7 @@
 /area/cruise/exterior)
 "Hk" = (
 /turf/simulated/floor/wood/bamboo,
-/area/cruise/exterior)
+/area/cruise/outdoor/top)
 "Hl" = (
 /turf/simulated/floor/tiled,
 /area/cruise/outdoor/top)
@@ -505,12 +487,6 @@
 /obj/machinery/network/message_server,
 /turf/simulated/floor/plating,
 /area/cruise/outdoor/top)
-"JR" = (
-/obj/structure/railing/mapped{
-	dir = 2
-	},
-/turf/simulated/floor/tiled,
-/area/cruise/exterior)
 "JX" = (
 /obj/structure/reagent_dispensers/water_cooler,
 /turf/simulated/floor/tiled,
@@ -597,7 +573,7 @@
 /area/cruise/exterior)
 "SS" = (
 /turf/simulated/floor/tiled/monotile,
-/area/cruise/exterior)
+/area/cruise/outdoor/top)
 "Tk" = (
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 8
@@ -17253,33 +17229,33 @@ fd
 fd
 fd
 fd
-fd
-fd
-fd
-fd
-fd
+Hl
+Hl
+Hl
+Hl
+Hl
 fd
 fd
 fd
 fd
 fd
 wS
-uD
-uD
-uD
-uD
-uD
+Hl
+Hl
+Hl
+Hl
+Hl
 tW
 fd
 fd
 fd
 fd
 fd
-fd
-fd
-fd
-fd
-fd
+Hl
+Hl
+Hl
+Hl
+Hl
 fd
 fd
 fd
@@ -17500,52 +17476,52 @@ fd
 fd
 fd
 Nz
-fD
-oa
-AT
-AT
-AT
-AT
-AT
-AT
-lF
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-JR
-AT
-AT
-AT
-AT
-AT
-AT
 zg
+IM
+HA
+HA
+HA
+HA
+HA
+HA
+Ik
+Hl
+Hl
+Hl
+Hl
+Hl
+Hl
+Hl
+Hl
+Hl
+Hl
+Hl
+Hl
+Hl
+Hl
+Hl
+Hl
+Hl
+Hl
+Hl
+Hl
+Hl
+Hl
+Hl
+Hl
+Hl
+Hl
+Hl
+Hl
+Hl
+hB
+HA
+HA
+HA
+HA
+HA
+HA
+Hs
 fD
 tW
 fd
@@ -19082,7 +19058,7 @@ Vf
 Vf
 Ia
 Ia
-dO
+BH
 BH
 gu
 HA
@@ -19340,7 +19316,7 @@ Vf
 Vf
 Ia
 Ia
-BH
+dO
 gu
 HA
 YA
@@ -22133,7 +22109,7 @@ HA
 WA
 Af
 Af
-Af
+mD
 Ia
 Ia
 Ia
@@ -23161,7 +23137,7 @@ HA
 WA
 By
 By
-mD
+WA
 WA
 Hl
 Hl
@@ -23419,7 +23395,7 @@ WA
 WA
 WA
 WA
-WA
+Hl
 Hl
 Hl
 Hl
@@ -32960,7 +32936,7 @@ WA
 Hl
 Hl
 Hl
-YA
+Hl
 WA
 Hl
 YA
@@ -33217,7 +33193,7 @@ WA
 Hl
 Hl
 dO
-Hl
+YA
 WA
 Hl
 YA
@@ -36277,10 +36253,10 @@ WA
 WA
 WA
 WA
-WA
-WA
-WA
-WA
+Hl
+Hl
+Hl
+Hl
 WA
 WA
 Hl
@@ -36534,10 +36510,10 @@ Hl
 Hl
 Hl
 WA
-Yh
-Yh
-Yh
-Yh
+WA
+WA
+WA
+WA
 WA
 Hl
 Hl
@@ -37562,10 +37538,10 @@ Hl
 Hl
 Hl
 WA
-WA
-Hl
-Hl
-WA
+Yh
+Yh
+Yh
+Yh
 WA
 Hl
 Hl
@@ -37818,12 +37794,12 @@ Hl
 Hl
 Hl
 Hl
+WA
+WA
 Hl
 Hl
-Hl
-Hl
-Hl
-Hl
+WA
+WA
 Hl
 Hl
 Hl
