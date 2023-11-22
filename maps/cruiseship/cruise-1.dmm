@@ -2664,6 +2664,7 @@
 /turf/simulated/floor/tiled/white,
 /area/cruise/hotel/spa/laundry)
 "Hf" = (
+/obj/machinery/door/airlock/glass,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/cruise/maintenance/engineering)
 "Hj" = (
