@@ -68,16 +68,26 @@
 	name = "\improper Outdoor Garden"
 	icon_state = "garden"
 
+/area/cruise/outdoor/pool
+	name = "\improper Pool"
+
 /area/cruise/outdoor/balcony
-	name = "\improper Balcony"
+	name = "\improper Suite Balconies"
 
 /area/cruise/outdoor/promenade
 	name = "\improper Outdoor Promenade"
+
+/area/cruise/outdoor/promenade/right
+	name = "\improper Outdoor Promenade - Starboard Side"
+
+/area/cruise/outdoor/promenade/left
+	name = "\improper Outdoor Promenade - Port Side"
 
 //Halls & Public
 
 /area/cruise/hallway
 	name = "\improper General Hallway"
+	sound_env = HALLWAY
 
 /area/cruise/hallway/first
 	name = "\improper Service Deck Hallway"
@@ -85,8 +95,9 @@
 
 /area/cruise/hallway/first/parking
 	name = "\improper Vehicle Deck"
-	icon_state = "exit"
-	sound_env = LARGE_ENCLOSED
+	icon_state = "hangar"
+	sound_env = HANGAR
+	//sound_env = PARKING_LOT
 
 /area/cruise/hallway/second
 	name = "\improper Interior Promenade"
@@ -117,6 +128,30 @@
 /area/cruise/arrivals/leisuredock
 	name = "\improper Customers' Docks"
 	icon_state = "shuttlegrn2"
+
+/area/cruise/chapel
+	area_flags = AREA_FLAG_HOLY
+
+/area/cruise/chapel/main
+	name = "\improper Chapel"
+	icon_state = "chapel"
+	sound_env = LARGE_ENCLOSED
+	ambience = list(
+		'sound/ambience/ambicha1.ogg',
+		'sound/ambience/ambicha2.ogg',
+		'sound/ambience/ambicha3.ogg',
+		'sound/ambience/ambicha4.ogg',
+		'sound/music/traitor.ogg'
+	)
+
+/area/cruise/chapel/office
+	name = "\improper Chapel Office"
+	icon_state = "chapeloffice"
+	req_access = list(access_chapel_office)
+
+/area/cruise/chapel/confessional
+	name = "Chapel - Confessional"
+	sound_env = SMALL_SOFTFLOOR
 
 //Engineering
 
@@ -205,6 +240,7 @@
 	name = "Security - Brig"
 	icon_state = "sec_prison"
 	req_access = list(access_brig)
+	sound_env = PADDED_CELL
 
 /area/cruise/security/restroom
 	name = "Security - Restroom"
@@ -261,15 +297,33 @@
 
 /area/cruise/hotel/hallway
 	name = "Resort - Hallway"
-	sound_env = MEDIUM_SOFTFLOOR
+	sound_env = CARPETED_HALLWAY
 	icon_state = "entry_2"
+
+/area/cruise/hotel/hallway/premium
+	name = "Resort - Premium Rooms Hallway"
+	sound_env = CARPETED_HALLWAY
+	icon_state = "entry_2"
+	//req_access = list(access_premium)?
+	secure = FALSE
+
+/area/cruise/hotel/rooms
+	name = "Guest Rooms"
+	sound_env = MEDIUM_SOFTFLOOR
+	icon_state = "Sleep"
+
+/area/cruise/hotel/rooms/premium
+	name = "Premium Guest Suites"
+	sound_env = LARGE_SOFTFLOOR
 
 /area/cruise/hotel/reception
 	name = "Resort - Reception"
 	icon_state = "entry_1"
 
-/area/cruise/hotel/bottom
-	name = "Resort - Spa Hallway"
+
+/area/cruise/hotel/restrooms
+	name = "Resort - Bathrooms"
+	icon_state = "toilet"
 
 /area/cruise/hotel/smoking
 	name = "Resort - Smokers' Lounge"
@@ -285,14 +339,28 @@
 
 /area/cruise/hotel/spa/laundry
 
+/area/cruise/hotel/spa/massageroom
+	name = "Spa - Massage Rooms"
+	sound_env = SMALL_SOFTFLOOR
+
 /area/cruise/hotel/spa/restroom
 	name = "Spa - Showers"
+	sound_env = SMALL_ENCLOSED
 
 	//Restaurant
 
 /area/cruise/hotel/restaurant
 	name = "\improper Sea Resort Restaurant"
 	icon_state = "bar"
+
+/area/cruise/hotel/restaurant/restrooms
+	name = "\improper Restaurant Restrooms"
+	icon_state = "toilet"
+	sound_env = SMALL_ENCLOSED
+
+/area/cruise/aquarium
+	name = "\improper Aquarium"
+	icon_state = "observatory"
 
 //Service
 
@@ -308,7 +376,34 @@
 	name = "\improper Custodial Closet"
 	icon_state = "janitor"
 
-//Casino
+/area/cruise/bar
+	name = "\improper Main Bar"
+	icon_state = "bar"
+
+/area/cruise/bar/top
+	name = "Bar - Top Deck"
+	is_outside = OUTSIDE_YES
+
+//Entertainment
+
+/area/cruise/club
+	name = "\improper Nightclub"
+	sound_env = PSYCHOTIC
+
+/area/cruise/security/club_checkpoint
+	name = "\improper Security Checkpoint - Club"
+	icon_state = "checkpoint"
+	sound_env = SMALL_ENCLOSED
+
+/area/cruise/theater
+	name = "\improper Theater"
+	icon_state = "conference"
+	sound_env = CONCERT_HALL
+
+/area/cruise/theater/stage
+	name = "\improper Theater Stage"
+
+	//Casino
 
 /area/cruise/casino
 	name = "\improper Casino"
@@ -316,21 +411,20 @@
 
 /area/cruise/casino/smoking
 	name = "Casino - Smoking Area"
+	sound_env = MEDIUM_SOFTFLOOR
 
 /area/cruise/casino/bar
-	name = "Casino - Bar"
+	name = "Bar - Staff Rooms"
 	//req_access = access_casino?
 
-/area/cruise/casino/bar_storage
-	name = "Casino - Bar Storage"
-
-//Fitness
+	//Fitness
 
 /area/cruise/gym
 	name = "\improper Gym"
 	icon_state = "fitness"
 	//if(a config)
 		//req_access = gym_club?
+	sound_env = ARENA
 
 //Crew
 
@@ -351,6 +445,7 @@
 /area/cruise/crew/hallway
 	name = "\improper Technical Staff Hallway"
 	icon_state = "engineering_break"
+	sound_env = HALLWAY
 
 //Officers
 
@@ -366,6 +461,7 @@
 /area/cruise/helm/hallway
 	name = "\improper Deck Staff Hallway"
 	icon_state = "hallF"
+	sound_env = HALLWAY
 
 //Storage
 /area/cruise/storage/tech
@@ -374,11 +470,15 @@
 	req_access = list(access_tech_storage)
 
 /area/cruise/storage/primary
-	name = "Primary Tool Storage"
+	name = "Guest Property Storage - Bottom Deck"
+	icon_state = "primarystorage"
+
+/area/cruise/storage/primary/hotel
+	name = "Guest Property Storage - Middle Deck"
 	icon_state = "primarystorage"
 
 /area/cruise/storage/tools
-	name = "Auxiliary Tool Storage"
+	name = "Docking Area Storage"
 	icon_state = "auxstorage"
 
 /area/cruise/storage/art
@@ -421,6 +521,10 @@
 	name = "Maintenance - Cargo"
 	icon_state = "maint_cargo"
 
+/area/cruise/maintenance/club
+	name = "Maintenance - Club"
+	icon_state = "maint_bar"
+
 /area/cruise/maintenance/engineering
 	name = "Maintenance - Engineering - Engines"
 	icon_state = "maint_engineering"
@@ -436,8 +540,16 @@
 	icon_state = "maint_dormitory"
 
 /area/cruise/maintenance/gym
-	name = "Maintenance - Gym"
+	name = "Maintenance - Theater - Lower"
 	icon_state = "maint_dormitory"
+
+/area/cruise/maintenance/hotel
+	name = "Maintenance - Resort"
+	icon_state = "maint_library"
+
+/area/cruise/maintenance/hotel/premium
+	name = "Maintenance - Resort - Premium Hallway"
+	icon_state = "maint_library"
 
 /area/cruise/maintenance/library
 	name = "Maintenance - Library"
@@ -448,16 +560,35 @@
 	icon_state = "maint_locker"
 
 /area/cruise/maintenance/primary_storage
-	name = "Maintenance - Starboard Aft - Miscellaneous"
+	name = "Maintenance - Bottom Deck - Resort"
 	icon_state = "southwest"
+
+/area/cruise/maintenance/pool
+	name = "Maintenance - Pool"
+
 
 /area/cruise/maintenance/medbay
 	name = "Maintenance - Medbay/Security"
 	icon_state = "maint_medbay"
 
+/area/cruise/maintenance/restaurant
+	name = "Maintenance - Restaurant"
+	icon_state = "maint_bar"
+
+/area/cruise/maintenance/kitchen
+	name = "Maintenance - Kitchen"
+	icon_state = "smaint"
+
 /area/cruise/maintenance/security_starboard
 	name = "Maintenance - Starboard - Security"
 	icon_state = "maint_security_starboard"
+
+/area/cruise/maintenance/chimney_right
+	name = "Stack Maintenance Shaft"
+	icon_state = "southwest"
+/area/cruise/maintenance/theater
+	name = "Maintenance - Theater"
+	icon_state = "maint_cargo"
 
 /area/cruise/maintenance/disposal
 	name = "Waste Disposal"
