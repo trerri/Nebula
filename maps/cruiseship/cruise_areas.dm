@@ -90,7 +90,7 @@
 	sound_env = HALLWAY
 
 /area/cruise/hallway/first
-	name = "\improper Service Deck Hallway"
+	name = "\improper Bottom Deck Hallway"
 	icon_state = "hallA"
 
 /area/cruise/hallway/first/parking

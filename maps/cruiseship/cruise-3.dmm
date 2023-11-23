@@ -147,6 +147,15 @@
 /obj/machinery/internet_uplink,
 /turf/simulated/floor/plating,
 /area/cruise/outdoor/top)
+"kA" = (
+/obj/structure/railing/mapped{
+	dir = 2
+	},
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/simulated/floor/tiled,
+/area/cruise/outdoor/top)
 "kG" = (
 /obj/machinery/network/modem,
 /turf/simulated/floor/plating,
@@ -201,6 +210,15 @@
 	},
 /turf/simulated/open,
 /area/cruise/exterior)
+"oG" = (
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/obj/structure/railing/mapped{
+	dir = 2
+	},
+/turf/simulated/floor/tiled,
+/area/cruise/outdoor/top)
 "oT" = (
 /obj/structure/cable/yellow{
 	icon_state = "0-8"
@@ -325,8 +343,7 @@
 /turf/simulated/floor,
 /area/cruise/exterior)
 "wS" = (
-/obj/structure/railing/mapped,
-/turf/simulated/open,
+/turf/simulated/floor/shuttle_ceiling/air,
 /area/cruise/exterior)
 "xD" = (
 /obj/machinery/light,
@@ -335,6 +352,12 @@
 "ya" = (
 /obj/machinery/network/mainframe/empty,
 /turf/simulated/floor/plating,
+/area/cruise/outdoor/top)
+"yI" = (
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/simulated/floor/tiled,
 /area/cruise/outdoor/top)
 "yJ" = (
 /obj/effect/floor_decal/floordetail,
@@ -495,6 +518,15 @@
 /obj/structure/fire_source/hearth,
 /turf/simulated/floor/glass,
 /area/cruise/outdoor/top)
+"Kn" = (
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/simulated/floor/tiled,
+/area/cruise/outdoor/top)
 "KV" = (
 /obj/abstract/landmark/start{
 	name = "Atmospheric Technician"
@@ -548,6 +580,15 @@
 	},
 /turf/simulated/floor,
 /area/cruise/exterior)
+"PO" = (
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/cruise/outdoor/top)
 "Ql" = (
 /obj/structure/bookcase/skill_books/random,
 /turf/simulated/floor/wood/walnut,
@@ -16997,14 +17038,14 @@ fd
 fd
 fd
 fd
-fd
-fd
-fd
-fd
-fd
-fd
-fd
-fd
+Nz
+wS
+wS
+wS
+wS
+wS
+wS
+wS
 fd
 fd
 fd
@@ -17229,39 +17270,39 @@ fd
 fd
 fd
 fd
+Kn
 Hl
 Hl
 Hl
-Hl
-Hl
+oG
 fd
 fd
 fd
 fd
 fd
+fd
+PO
+Hl
+yI
+Hl
+oG
+fd
+fd
+fd
+fd
+fd
+fd
+Kn
+Hl
+Hl
+Hl
+kA
 wS
-Hl
-Hl
-Hl
-Hl
-Hl
-tW
-fd
-fd
-fd
-fd
-fd
-Hl
-Hl
-Hl
-Hl
-Hl
-fd
-fd
-fd
-fd
-fd
-fd
+wS
+wS
+wS
+wS
+wS
 fd
 fd
 fd
@@ -17484,37 +17525,37 @@ HA
 HA
 HA
 HA
-Ik
+Kn
+yI
 Hl
 Hl
 Hl
 Hl
 Hl
+yI
+yI
+yI
+yI
+yI
+yI
 Hl
 Hl
 Hl
 Hl
 Hl
+yI
+yI
+yI
+yI
+yI
+yI
 Hl
 Hl
 Hl
 Hl
 Hl
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
-hB
+yI
+kA
 HA
 HA
 HA
@@ -31111,9 +31152,9 @@ Xr
 aS
 aS
 aS
-aS
-aS
-aS
+TJ
+TJ
+TJ
 aS
 aS
 TJ
@@ -33167,9 +33208,9 @@ aS
 Xr
 aS
 aS
-aS
-aS
-aS
+TJ
+TJ
+TJ
 aS
 aS
 TJ
@@ -34710,7 +34751,7 @@ Hl
 Hl
 Hl
 Hl
-Hl
+WA
 WA
 WA
 WA
@@ -34966,9 +35007,9 @@ Hl
 Hl
 Hl
 Hl
+WA
+WA
 Hl
-WA
-WA
 Hl
 Hl
 Hl
@@ -35224,7 +35265,7 @@ WA
 WA
 WA
 WA
-WA
+Hl
 Hl
 Hl
 Hl
@@ -35480,7 +35521,7 @@ Hl
 Hl
 Hl
 Hl
-Hl
+WA
 Hl
 Hl
 Hl
@@ -35994,7 +36035,7 @@ Hl
 Hl
 Hl
 Hl
-Hl
+WA
 Hl
 Hl
 Hl
