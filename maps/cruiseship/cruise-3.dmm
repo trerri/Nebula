@@ -50,15 +50,6 @@
 /obj/effect/floor_decal/industrial/warning/dust,
 /turf/simulated/floor,
 /area/cruise/exterior)
-"dp" = (
-/obj/machinery/power/apc{
-	dir = 4;
-	name = "_East APC";
-	pixel_x = 27;
-	pixel_y = 2
-	},
-/turf/simulated/floor/plating,
-/area/cruise/outdoor/top)
 "ds" = (
 /turf/simulated/open,
 /area/cruise/maintenance/ventilation)
@@ -209,17 +200,17 @@
 "mY" = (
 /turf/simulated/floor/tiled/dark,
 /area/cruise/outdoor/top)
-"nI" = (
-/obj/machinery/network/mainframe/logs,
-/turf/simulated/floor/plating,
-/area/cruise/outdoor/top)
-"nW" = (
+"nk" = (
 /obj/machinery/power/apc{
 	dir = 8;
 	name = "_West APC";
 	pixel_x = -25
 	},
 /turf/simulated/floor,
+/area/cruise/outdoor/top)
+"nI" = (
+/obj/machinery/network/mainframe/logs,
+/turf/simulated/floor/plating,
 /area/cruise/outdoor/top)
 "og" = (
 /obj/abstract/map_data{
@@ -242,14 +233,6 @@
 	},
 /turf/simulated/floor,
 /area/cruise/exterior)
-"oW" = (
-/obj/machinery/power/apc{
-	dir = 8;
-	name = "_West APC";
-	pixel_x = -25
-	},
-/turf/simulated/floor/plating,
-/area/cruise/outdoor/top)
 "pA" = (
 /obj/machinery/computer/ship/sensors,
 /turf/simulated/floor/tiled/dark,
@@ -297,9 +280,6 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/exterior)
-"rT" = (
-/turf/simulated/floor/tiled/white,
-/area/cruise/outdoor/top)
 "sn" = (
 /obj/machinery/network/mainframe/account,
 /turf/simulated/floor/plating,
@@ -496,6 +476,10 @@
 	},
 /turf/simulated/floor/shuttle_ceiling/air,
 /area/cruise/outdoor/top)
+"Hz" = (
+/obj/machinery/door/airlock/double/glass,
+/turf/simulated/floor/tiled/white,
+/area/cruise/outdoor/top)
 "HA" = (
 /turf/simulated/floor/shuttle_ceiling/air,
 /area/cruise/outdoor/top)
@@ -608,6 +592,9 @@
 	},
 /turf/simulated/floor,
 /area/cruise/exterior)
+"PC" = (
+/turf/simulated/floor/tiled/white,
+/area/cruise/outdoor/top)
 "PO" = (
 /obj/structure/railing/mapped{
 	dir = 8
@@ -700,10 +687,6 @@
 	name = "Captain"
 	},
 /turf/simulated/floor/tiled,
-/area/cruise/outdoor/top)
-"XR" = (
-/obj/machinery/door/airlock/double/glass,
-/turf/simulated/floor/tiled/white,
 /area/cruise/outdoor/top)
 "Yf" = (
 /obj/machinery/light{
@@ -28628,8 +28611,8 @@ Hl
 Hl
 Hl
 Hl
-XR
-rT
+Hz
+PC
 YA
 YA
 WA
@@ -28885,8 +28868,8 @@ Hl
 Hl
 Hl
 Hl
-rT
-rT
+PC
+PC
 YA
 YA
 WA
@@ -34520,7 +34503,7 @@ WA
 BH
 BH
 BH
-nW
+nk
 WA
 Hl
 Hl
@@ -40948,7 +40931,7 @@ Hl
 Hl
 Hl
 WA
-oW
+EH
 WA
 ts
 ts
@@ -42233,7 +42216,7 @@ Hl
 Hl
 Hl
 WA
-dp
+EH
 WA
 Hl
 Hl
