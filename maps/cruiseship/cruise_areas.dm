@@ -34,7 +34,7 @@
 	//ambience = AMBIENCE_INDOOR
 	is_outside = OUTSIDE_NO
 	lightswitch = TRUE
-	requires_power = FALSE //set back to true!!! this is for testing
+	requires_power = TRUE
 	always_unpowered = FALSE
 
 /area/cruise/exterior
@@ -112,6 +112,12 @@
 	name = "\improper Public Docking Area"
 	icon_state = "shuttle3"
 	is_outside = OUTSIDE_UNCERTAIN
+
+/area/cruise/arrivals/left
+	name = "Ferry Docking Area/Guest Arrivals"
+
+/area/cruise/arrivals/right
+	name = "External Docking Area/Emergency Escape"
 
 /area/cruise/arrivals/emergencydock
 	name = "\improper External Vessel Dock"
@@ -196,31 +202,40 @@
 	holomap_color = HOLOMAP_AREACOLOR_MEDICAL
 
 /area/cruise/medical/reception
-	name = "Medbay Reception"
+	name = "Medbay - Reception"
 	icon_state = "medbay"
 	ambience = list('sound/ambience/signal.ogg')
 
+/area/cruise/medical/restrooms
+	name = "Medbay Restrooms"
+	icon_state = "toilet"
+	sound_env = SMALL_ENCLOSED
+	req_access = list()
+
 /area/cruise/medical/medbay
-	name = "\improper Chemical storage"
+	name = "Medbay - Chemical storage"
 	icon_state = "medbay"
 	ambience = list('sound/ambience/signal.ogg')
 
 /area/cruise/medical/surgery
-	name = "\improper Operating Theatre"
+	name = "Medbay - Operating Theatre"
 	icon_state = "surgery"
+	sound_env = PADDED_CELL
 
 /area/cruise/medical/morgue
-	name = "\improper Morgue"
+	name = "Medbay - Morgue"
 	icon_state = "morgue"
 	ambience = list('sound/ambience/ambimo1.ogg','sound/ambience/ambimo2.ogg','sound/music/main.ogg')
 	req_access = list(access_morgue)
+	sound_env = SEWER_PIPE
 
 /area/cruise/medical/storage
-	name = "Medical Storage"
+	name = "Medbay - Medical Storage"
 	icon_state = "medbay4"
+	sound_env = PADDED_CELL
 
 /area/cruise/medical/psych
-	name = "\improper Psych Room"
+	name = "\improper Psychologist's Office"
 	icon_state = "medbay3"
 	ambience = list('sound/ambience/signal.ogg')
 	req_access = list(access_psychiatrist)
@@ -383,6 +398,11 @@
 /area/cruise/bar/top
 	name = "Bar - Top Deck"
 	is_outside = OUTSIDE_YES
+
+/area/cruise/botany
+	name = "\improper Botanical Closet"
+	icon_state = "hydroponics"
+	req_access = list(access_hydroponics)
 
 //Entertainment
 

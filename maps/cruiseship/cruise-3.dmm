@@ -50,6 +50,15 @@
 /obj/effect/floor_decal/industrial/warning/dust,
 /turf/simulated/floor,
 /area/cruise/exterior)
+"dp" = (
+/obj/machinery/power/apc{
+	dir = 4;
+	name = "_East APC";
+	pixel_x = 27;
+	pixel_y = 2
+	},
+/turf/simulated/floor/plating,
+/area/cruise/outdoor/top)
 "ds" = (
 /turf/simulated/open,
 /area/cruise/maintenance/ventilation)
@@ -204,6 +213,14 @@
 /obj/machinery/network/mainframe/logs,
 /turf/simulated/floor/plating,
 /area/cruise/outdoor/top)
+"nW" = (
+/obj/machinery/power/apc{
+	dir = 8;
+	name = "_West APC";
+	pixel_x = -25
+	},
+/turf/simulated/floor,
+/area/cruise/outdoor/top)
 "og" = (
 /obj/abstract/map_data{
 	height = 3
@@ -225,6 +242,14 @@
 	},
 /turf/simulated/floor,
 /area/cruise/exterior)
+"oW" = (
+/obj/machinery/power/apc{
+	dir = 8;
+	name = "_West APC";
+	pixel_x = -25
+	},
+/turf/simulated/floor/plating,
+/area/cruise/outdoor/top)
 "pA" = (
 /obj/machinery/computer/ship/sensors,
 /turf/simulated/floor/tiled/dark,
@@ -272,6 +297,9 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/exterior)
+"rT" = (
+/turf/simulated/floor/tiled/white,
+/area/cruise/outdoor/top)
 "sn" = (
 /obj/machinery/network/mainframe/account,
 /turf/simulated/floor/plating,
@@ -672,6 +700,10 @@
 	name = "Captain"
 	},
 /turf/simulated/floor/tiled,
+/area/cruise/outdoor/top)
+"XR" = (
+/obj/machinery/door/airlock/double/glass,
+/turf/simulated/floor/tiled/white,
 /area/cruise/outdoor/top)
 "Yf" = (
 /obj/machinery/light{
@@ -26285,10 +26317,10 @@ Hl
 Hl
 Hl
 Hl
-Hl
-Hl
 WA
-Hl
+WA
+WA
+WA
 Hl
 Hl
 Hl
@@ -26542,10 +26574,10 @@ Hl
 Hl
 Hl
 Hl
-Hl
-Hl
 WA
-Hl
+YA
+rd
+WA
 Hl
 Hl
 Hl
@@ -26799,10 +26831,10 @@ Hl
 Hl
 Hl
 Hl
-Hl
-Hl
 WA
-Hl
+EH
+EH
+WA
 Hl
 Hl
 Hl
@@ -27056,10 +27088,10 @@ Hl
 Hl
 Hl
 Hl
-Hl
-Hl
 WA
-Hl
+EH
+EH
+WA
 Hl
 Hl
 Hl
@@ -27313,10 +27345,10 @@ Hl
 Hl
 Hl
 Hl
-Hl
-Hl
 WA
-Hl
+EH
+EH
+WA
 Hl
 Hl
 Hl
@@ -27570,12 +27602,12 @@ Hl
 Hl
 Hl
 Hl
-Hl
-Hl
 WA
-Hl
-Hl
-Hl
+EH
+EH
+WA
+WA
+WA
 Hl
 Hl
 WA
@@ -27827,11 +27859,11 @@ Hl
 Hl
 Hl
 Hl
-Hl
-Hl
 WA
-WA
-WA
+EH
+EH
+EH
+EH
 WA
 WA
 WA
@@ -28084,12 +28116,12 @@ Hl
 Hl
 Hl
 Hl
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
+WA
+EH
+EH
+EH
+EH
+WA
 Hl
 Hl
 Hl
@@ -28339,14 +28371,14 @@ Hl
 Hl
 Hl
 Hl
-Hl
-Hl
-Hl
 Ii
 Ii
-Ii
-Ii
-Hl
+WA
+WA
+WA
+EH
+EH
+WA
 Hl
 Hl
 Hl
@@ -28596,14 +28628,14 @@ Hl
 Hl
 Hl
 Hl
-Hl
-Hl
-Hl
-Ii
+XR
+rT
 YA
 YA
-Hl
-Hl
+WA
+EH
+EH
+WA
 Hl
 Hl
 Hl
@@ -28853,14 +28885,14 @@ Hl
 Hl
 Hl
 Hl
-Hl
-Hl
-Hl
-Ii
+rT
+rT
 YA
 YA
-Hl
-Hl
+WA
+EH
+EH
+WA
 Hl
 Hl
 Hl
@@ -29110,14 +29142,14 @@ Hl
 Hl
 Hl
 Hl
-Hl
-Hl
-Hl
 Ii
 Ii
-Ii
-Ii
-Hl
+WA
+WA
+WA
+EH
+EH
+WA
 Hl
 Hl
 Hl
@@ -29369,12 +29401,12 @@ Hl
 Hl
 Hl
 Hl
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
+WA
+rd
+YA
+EH
+EH
+WA
 Hl
 Hl
 Hl
@@ -29626,12 +29658,12 @@ Hl
 Hl
 Hl
 Hl
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
+EH
+EH
+EH
+EH
+EH
+EH
 Hl
 Hl
 Hl
@@ -29883,11 +29915,11 @@ Hl
 Hl
 Hl
 Hl
-Hl
-Hl
-Hl
-Hl
-Hl
+WA
+EH
+EH
+EH
+EH
 WA
 WA
 WA
@@ -30140,10 +30172,10 @@ Hl
 Hl
 Hl
 Hl
-Hl
-Hl
-Hl
-Hl
+WA
+EH
+EH
+EH
 WA
 WA
 Hl
@@ -30397,9 +30429,9 @@ Hl
 Hl
 WA
 Hl
-Hl
-Hl
-Hl
+WA
+EH
+EH
 WA
 WA
 Hl
@@ -30654,15 +30686,15 @@ Hl
 Hl
 Hl
 Hl
-Hl
-Hl
+WA
+WA
 WA
 WA
 Hl
-zv
 Hl
 Hl
-zv
+Hl
+Hl
 Hl
 WA
 Hl
@@ -30916,10 +30948,10 @@ Hl
 Hl
 Hl
 Hl
-zv
-zv
-zv
-zv
+Hl
+Hl
+Hl
+Hl
 Hl
 WA
 Hl
@@ -31173,7 +31205,7 @@ Hl
 Hl
 Hl
 Hl
-zv
+Hl
 Hl
 Hl
 Hl
@@ -31425,8 +31457,8 @@ Hl
 Hl
 Hl
 Hl
-Hl
-Hl
+WA
+WA
 WA
 WA
 Hl
@@ -31682,7 +31714,7 @@ Hl
 Hl
 WA
 Hl
-Hl
+WA
 Hl
 Hl
 WA
@@ -32171,9 +32203,9 @@ YA
 YA
 YA
 Hl
-Hl
-Hl
-TJ
+WA
+WA
+WA
 aS
 Xr
 aS
@@ -32428,9 +32460,9 @@ YA
 YA
 YA
 Hl
-Hl
-Hl
-TJ
+WA
+YA
+WA
 aS
 aS
 aS
@@ -32685,9 +32717,9 @@ HA
 HA
 HA
 Hl
-Hl
-Hl
-TJ
+WA
+rd
+BH
 aS
 aS
 aS
@@ -32942,9 +32974,9 @@ YA
 YA
 YA
 Hl
-Hl
-Hl
-TJ
+WA
+BH
+WA
 aS
 aS
 aS
@@ -33199,9 +33231,9 @@ YA
 YA
 YA
 Hl
-Hl
-Hl
-TJ
+WA
+BH
+WA
 aS
 aS
 aS
@@ -33456,9 +33488,9 @@ YA
 YA
 YA
 Hl
-Hl
-Hl
-TJ
+WA
+BH
+WA
 aS
 aS
 aS
@@ -33713,9 +33745,9 @@ te
 Ox
 HA
 Hl
-Hl
-Hl
-Yg
+WA
+BH
+WA
 TJ
 TJ
 TJ
@@ -33970,9 +34002,9 @@ fD
 IM
 HA
 HA
-Hl
-Hl
-Hl
+WA
+BH
+WA
 Hl
 Hl
 Hl
@@ -34227,12 +34259,12 @@ uw
 YA
 YA
 YA
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
+WA
+BH
+WA
+WA
+WA
+WA
 Hl
 Hl
 Hl
@@ -34484,12 +34516,12 @@ fd
 YA
 YA
 YA
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
+WA
+BH
+BH
+BH
+nW
+WA
 Hl
 Hl
 Hl
@@ -34741,12 +34773,12 @@ fd
 YA
 YA
 YA
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
+WA
+rd
+YA
+BH
+BH
+WA
 Hl
 Hl
 Hl
@@ -34998,12 +35030,12 @@ fd
 HA
 HA
 HA
-Hl
-Hl
-Hl
-Hl
-Hl
-Hl
+WA
+WA
+WA
+WA
+BH
+WA
 Hl
 Hl
 Hl
@@ -40915,8 +40947,8 @@ Hl
 Hl
 Hl
 Hl
-Hl
-Hl
+WA
+oW
 WA
 ts
 ts
@@ -41172,8 +41204,8 @@ Hl
 Hl
 Hl
 Hl
-Hl
-Hl
+WA
+EH
 WA
 WA
 WA
@@ -41429,9 +41461,9 @@ Hl
 Hl
 Hl
 Hl
-Hl
-Hl
-Hl
+WA
+EH
+WA
 Hl
 Hl
 Hl
@@ -41686,9 +41718,9 @@ Hl
 Hl
 Hl
 Hl
-Hl
-Hl
-Hl
+EH
+EH
+EH
 Hl
 Hl
 Hl
@@ -41943,9 +41975,9 @@ Hl
 Hl
 Hl
 Hl
-Hl
-Hl
-Hl
+WA
+EH
+WA
 Hl
 Hl
 Hl
@@ -42200,9 +42232,9 @@ Hl
 Hl
 Hl
 Hl
-Hl
-Hl
-Hl
+WA
+dp
+WA
 Hl
 Hl
 Hl
