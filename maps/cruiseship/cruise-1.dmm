@@ -5429,8 +5429,9 @@
 /area/cruise/maintenance/gym)
 "PT" = (
 /obj/structure/cable{
-	icon_state = "1-8"
+	icon_state = "4-8"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/cruise/engineering/foyer)
 "PU" = (
@@ -6341,7 +6342,7 @@
 	icon_state = "16-0"
 	},
 /obj/structure/cable{
-	icon_state = "0-2"
+	icon_state = "0-8"
 	},
 /turf/simulated/floor/plating,
 /area/cruise/engineering/foyer)
@@ -24914,7 +24915,7 @@ eA
 eA
 vt
 xD
-Wz
+xD
 PT
 xD
 xT
@@ -25171,8 +25172,8 @@ Wb
 Wb
 cl
 vt
-ri
 xD
+Wz
 xD
 Ci
 cM
@@ -25429,7 +25430,7 @@ Wb
 Wb
 cl
 vt
-xD
+ri
 xD
 xT
 dz
