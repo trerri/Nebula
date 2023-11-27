@@ -529,13 +529,14 @@
 /area/cruise/exterior)
 "gh" = (
 /obj/structure/cable{
-	icon_state = "2-4"
+	icon_state = "1-2"
 	},
+/obj/structure/catwalk,
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
 /obj/structure/cable{
-	icon_state = "1-2"
+	icon_state = "2-4"
 	},
 /turf/simulated/floor,
 /area/cruise/storage/art)
@@ -811,6 +812,13 @@
 	},
 /turf/simulated/floor/tiled,
 /area/cruise/casino/bar)
+"jE" = (
+/obj/structure/table/bench/padded,
+/obj/machinery/light/small{
+	dir = 2
+	},
+/turf/simulated/floor/lino,
+/area/cruise/theater)
 "jK" = (
 /obj/machinery/power/apc{
 	dir = 8;
@@ -2187,9 +2195,12 @@
 /area/cruise/hallway/second)
 "By" = (
 /obj/structure/cable{
-	icon_state = "32-8"
+	icon_state = "16-0"
 	},
-/turf/simulated/open,
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/turf/simulated/floor,
 /area/cruise/storage/art)
 "BB" = (
 /obj/machinery/light/small{
@@ -2673,17 +2684,13 @@
 /turf/simulated/floor,
 /area/cruise/maintenance/hotel/premium)
 "Id" = (
+/obj/structure/cable{
+	icon_state = "32-2"
+	},
 /obj/machinery/light/small{
 	dir = 8
 	},
-/obj/structure/cable{
-	icon_state = "0-2";
-	pixel_y = 1
-	},
-/obj/structure/cable{
-	icon_state = "16-0"
-	},
-/turf/simulated/floor,
+/turf/simulated/open,
 /area/cruise/storage/art)
 "Ig" = (
 /obj/machinery/light/small{
@@ -36693,7 +36700,7 @@ bf
 Hz
 Hz
 Hz
-vi
+Hz
 io
 nO
 nu
@@ -38749,7 +38756,7 @@ vQ
 bf
 Hz
 Hz
-Hz
+fT
 uq
 nx
 if
@@ -39006,7 +39013,7 @@ vQ
 bf
 Hz
 Hz
-Hz
+vi
 uq
 bg
 bg
@@ -39016,7 +39023,7 @@ zB
 Zp
 oZ
 XC
-oZ
+jE
 vn
 XC
 XC
@@ -39263,7 +39270,7 @@ vQ
 bf
 Hz
 Hz
-Hz
+IP
 uq
 bg
 bg
@@ -40301,7 +40308,7 @@ zB
 Zp
 oZ
 XC
-oZ
+jE
 vn
 HR
 HR

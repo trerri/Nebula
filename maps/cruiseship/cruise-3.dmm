@@ -38,16 +38,15 @@
 /turf/simulated/floor/wood/walnut,
 /area/cruise/outdoor/top)
 "bJ" = (
-/obj/structure/cable{
-	icon_state = "4-8"
+/obj/machinery/power/apc{
+	dir = 4;
+	name = "_East APC";
+	pixel_x = 27;
+	pixel_y = 2
 	},
 /obj/structure/cable{
-	icon_state = "2-4"
+	icon_state = "0-8"
 	},
-/obj/structure/cable{
-	icon_state = "2-8"
-	},
-/obj/structure/catwalk,
 /turf/simulated/floor,
 /area/cruise/outdoor/top)
 "cj" = (
@@ -223,6 +222,19 @@
 /obj/machinery/atmospherics/unary/freezer,
 /turf/simulated/floor,
 /area/cruise/maintenance/ventilation)
+"mQ" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/catwalk,
+/turf/simulated/floor,
+/area/cruise/outdoor/top)
 "mX" = (
 /obj/machinery/internet_repeater,
 /turf/simulated/floor/plating,
@@ -231,13 +243,9 @@
 /turf/simulated/floor/tiled/dark,
 /area/cruise/outdoor/top)
 "nk" = (
-/obj/machinery/power/apc{
-	dir = 8;
-	name = "_West APC";
-	pixel_x = -25
-	},
-/obj/structure/cable,
-/turf/simulated/floor,
+/obj/effect/floor_decal/corner/lightgrey/full,
+/obj/structure/table/marble,
+/turf/simulated/floor/tiled,
 /area/cruise/outdoor/top)
 "nI" = (
 /obj/machinery/network/mainframe/logs,
@@ -32333,7 +32341,7 @@ Hl
 Hl
 Hl
 TJ
-aS
+TJ
 Xr
 aS
 JY
@@ -32590,7 +32598,7 @@ WA
 WA
 WA
 WA
-aS
+TJ
 aS
 aS
 aS
@@ -32847,7 +32855,7 @@ WA
 JG
 rd
 WA
-aS
+TJ
 aS
 aS
 Xr
@@ -33104,7 +33112,7 @@ WA
 sz
 DX
 DX
-aS
+TJ
 aS
 aS
 aS
@@ -33361,11 +33369,11 @@ WA
 sz
 DX
 WA
-aS
-aS
-aS
-Xr
-aS
+TJ
+TJ
+TJ
+nk
+TJ
 aS
 TJ
 TJ
@@ -33618,11 +33626,11 @@ WA
 wR
 EB
 WA
-aS
-aS
-aS
-aS
-aS
+TJ
+TJ
+TJ
+TJ
+TJ
 aS
 TJ
 YA
@@ -34132,7 +34140,7 @@ HA
 DX
 Zt
 WA
-WA
+Hl
 Hl
 Hl
 Hl
@@ -34387,8 +34395,8 @@ YA
 YA
 YA
 WA
-bJ
-EB
+Zt
+WA
 WA
 WA
 WA
@@ -34644,10 +34652,10 @@ YA
 YA
 YA
 WA
-rN
 dJ
-fm
-nk
+mQ
+EB
+DX
 WA
 Hl
 Hl
@@ -34902,8 +34910,8 @@ YA
 YA
 WA
 rd
-DX
-DX
+rN
+bJ
 DX
 WA
 Hl
@@ -35158,8 +35166,8 @@ HA
 HA
 HA
 WA
-WA
 DX
+WA
 WA
 DX
 WA
@@ -35413,7 +35421,7 @@ fd
 fd
 YA
 YA
-YA
+Tl
 Hl
 Hl
 Hl
@@ -35927,7 +35935,7 @@ fd
 fd
 YA
 YA
-YA
+Tl
 Hl
 Hl
 Hl
