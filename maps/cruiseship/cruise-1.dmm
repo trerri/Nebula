@@ -4700,6 +4700,9 @@
 	pixel_y = 2
 	},
 /obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/engineering/left)
 "KJ" = (
@@ -6451,6 +6454,18 @@
 	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/ventilation)
+"Xg" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/engineering/left)
 "Xh" = (
 /obj/structure/catwalk,
 /obj/machinery/door/airlock/autoname,
@@ -24099,7 +24114,7 @@ UC
 nn
 Ji
 yw
-yw
+Xg
 yw
 yw
 yw
