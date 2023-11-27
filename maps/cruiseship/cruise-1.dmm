@@ -3538,11 +3538,13 @@
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/disposal)
 "Ay" = (
-/obj/structure/catwalk,
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
 /obj/structure/cable,
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/engineering)
 "AB" = (
@@ -3894,7 +3896,6 @@
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/casino)
 "DG" = (
-/obj/structure/catwalk,
 /obj/machinery/power/apc{
 	dir = 4;
 	name = "_East APC";
@@ -3904,6 +3905,9 @@
 /obj/structure/cable,
 /obj/structure/cable{
 	icon_state = "0-8"
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
 	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/engineering)
@@ -4633,12 +4637,6 @@
 "JZ" = (
 /turf/simulated/floor/wood/mahogany,
 /area/cruise/hotel/spa/massageroom)
-"Ka" = (
-/obj/structure/cable{
-	icon_state = "16-0"
-	},
-/turf/simulated/floor/tiled/steel_grid,
-/area/cruise/engineering/foyer)
 "Kj" = (
 /turf/simulated/wall/r_wall,
 /area/cruise/maintenance/security_starboard)
@@ -6453,12 +6451,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/ventilation)
-"Xg" = (
-/obj/structure/cable{
-	icon_state = "32-4"
-	},
-/turf/simulated/floor/tiled/steel_grid,
-/area/cruise/engineering/foyer)
 "Xh" = (
 /obj/structure/catwalk,
 /obj/machinery/door/airlock/autoname,
@@ -27725,7 +27717,7 @@ EG
 wW
 Lk
 sy
-Xg
+xD
 xD
 rl
 Eh
@@ -27982,7 +27974,7 @@ ep
 ep
 EG
 xD
-Ka
+xD
 xD
 rl
 Eh
