@@ -222,19 +222,6 @@
 /obj/machinery/atmospherics/unary/freezer,
 /turf/simulated/floor,
 /area/cruise/maintenance/ventilation)
-"mQ" = (
-/obj/structure/cable{
-	icon_state = "2-4"
-	},
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/structure/cable{
-	icon_state = "1-4"
-	},
-/obj/structure/catwalk,
-/turf/simulated/floor,
-/area/cruise/outdoor/top)
 "mX" = (
 /obj/machinery/internet_repeater,
 /turf/simulated/floor/plating,
@@ -395,6 +382,19 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/simulated/floor,
 /area/cruise/exterior)
+"vv" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/catwalk,
+/turf/simulated/floor,
+/area/cruise/outdoor/top)
 "wg" = (
 /obj/structure/bed/chair/wood/walnut{
 	dir = 8
@@ -34653,7 +34653,7 @@ YA
 YA
 WA
 dJ
-mQ
+vv
 EB
 DX
 WA
@@ -38270,8 +38270,8 @@ Hl
 Hl
 Hl
 Hl
-Hl
-Hl
+WA
+WA
 WA
 WA
 Hl
@@ -38527,10 +38527,10 @@ Hl
 Hl
 Hl
 Hl
-Hl
-Hl
-Hl
-Hl
+WA
+JG
+rd
+WA
 Hl
 Hl
 Hl
@@ -38784,10 +38784,10 @@ Hl
 Hl
 Hl
 Hl
-Hl
-Hl
-Hl
-Hl
+WA
+rq
+EH
+EH
 Hl
 Hl
 Hl
@@ -39041,10 +39041,10 @@ Hl
 Hl
 Hl
 Hl
-Hl
-Hl
-Hl
-Hl
+WA
+rq
+EH
+WA
 Hl
 Hl
 Hl
@@ -39299,8 +39299,8 @@ Hl
 Hl
 Hl
 WA
-WA
-WA
+rq
+EH
 WA
 Hl
 WA
@@ -39556,9 +39556,9 @@ Hl
 Hl
 Hl
 WA
-Hl
-Hl
-Hl
+rq
+EH
+EH
 Hl
 Hl
 Hl
@@ -39813,9 +39813,9 @@ Hl
 Hl
 Hl
 WA
-Hl
-Hl
-Hl
+rN
+rd
+WA
 Hl
 Hl
 Hl
@@ -40070,9 +40070,9 @@ Hl
 Hl
 Hl
 WA
-Hl
-Hl
-Hl
+WA
+WA
+WA
 Hl
 Hl
 Hl
