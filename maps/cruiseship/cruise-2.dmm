@@ -240,10 +240,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/cruise/security/club_checkpoint)
-"cM" = (
-/obj/machinery/door/airlock/glass,
-/turf/simulated/floor/tiled/white,
-/area/cruise/outdoor/promenade/right)
 "cO" = (
 /obj/item/clothing/under/atmospheric_technician,
 /obj/abstract/landmark/start{
@@ -317,7 +313,7 @@
 /area/cruise/cargo/storage)
 "dD" = (
 /obj/machinery/light/flamp/noshade,
-/turf/simulated/floor/tiled/techfloor,
+/turf/simulated/floor/bluegrid,
 /area/cruise/club)
 "dH" = (
 /obj/machinery/door/airlock,
@@ -412,12 +408,6 @@
 	},
 /turf/simulated/floor,
 /area/cruise/maintenance/kitchen)
-"eX" = (
-/obj/structure/sign/directions/evac{
-	dir = 2
-	},
-/turf/simulated/wall,
-/area/cruise/outdoor/promenade/right)
 "fb" = (
 /obj/effect/floor_decal/corner/paleblue/full,
 /obj/machinery/atmospherics/unary/vent_scrubber/on/sauna,
@@ -508,6 +498,12 @@
 /obj/structure/table/woodentable/maple,
 /turf/simulated/floor/wood/yew,
 /area/cruise/outdoor/balcony)
+"fV" = (
+/obj/structure/sign/directions/evac{
+	dir = 2
+	},
+/turf/simulated/wall,
+/area/cruise/outdoor/promenade/right)
 "fW" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -685,6 +681,19 @@
 /obj/effect/floor_decal/corner/beige/diagonal,
 /turf/simulated/floor/tiled,
 /area/cruise/hotel/restaurant)
+"ih" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/catwalk,
+/turf/simulated/floor,
+/area/cruise/maintenance/theater)
 "im" = (
 /turf/simulated/floor/tiled/monotile,
 /area/cruise/storage/tech)
@@ -1835,6 +1844,10 @@
 	},
 /turf/simulated/floor/asteroid,
 /area/cruise/hotel/restaurant)
+"wp" = (
+/obj/machinery/light/flamp/noshade,
+/turf/simulated/floor/greengrid,
+/area/cruise/club)
 "wu" = (
 /obj/machinery/light{
 	dir = 8
@@ -2684,10 +2697,6 @@
 /obj/machinery/atmospherics/unary/heater,
 /turf/simulated/floor,
 /area/cruise/outdoor/pool)
-"Ia" = (
-/obj/machinery/light/flamp/noshade,
-/turf/simulated/floor/bluegrid,
-/area/cruise/club)
 "Ic" = (
 /turf/simulated/floor,
 /area/cruise/maintenance/hotel/premium)
@@ -2989,12 +2998,9 @@
 /area/cruise/kitchen/freezer)
 "LH" = (
 /obj/structure/cable{
-	icon_state = "1-2"
+	icon_state = "2-4"
 	},
 /obj/structure/catwalk,
-/obj/structure/cable{
-	icon_state = "1-4"
-	},
 /turf/simulated/floor,
 /area/cruise/maintenance/theater)
 "LI" = (
@@ -3018,7 +3024,7 @@
 /area/cruise/bar)
 "LQ" = (
 /obj/machinery/light/flamp/noshade,
-/turf/simulated/floor/greengrid,
+/turf/simulated/floor/tiled/techfloor,
 /area/cruise/club)
 "LT" = (
 /obj/structure/stairs{
@@ -3447,6 +3453,10 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/cruise/outdoor/promenade)
+"QQ" = (
+/obj/machinery/door/airlock/glass,
+/turf/simulated/floor/tiled/white,
+/area/cruise/outdoor/promenade/right)
 "QR" = (
 /obj/structure/cable{
 	icon_state = "1-8"
@@ -41334,7 +41344,7 @@ Hz
 Hz
 Hz
 ZH
-WQ
+Ff
 LH
 Tn
 Lq
@@ -41591,8 +41601,8 @@ Wz
 Hz
 Hz
 ZH
-Ff
-IK
+WQ
+ih
 ZF
 ZF
 ZF
@@ -42391,7 +42401,7 @@ eP
 eP
 eP
 eP
-eX
+fV
 dH
 nU
 nU
@@ -42648,7 +42658,7 @@ eP
 eP
 eP
 eP
-cM
+QQ
 ge
 tE
 ge
@@ -43651,13 +43661,13 @@ cA
 Yl
 GR
 db
-dD
+LQ
 kh
 kJ
 kJ
 kJ
 kJ
-LQ
+wp
 kJ
 Uj
 GR
@@ -45199,7 +45209,7 @@ Uj
 Uj
 kJ
 Uj
-LQ
+wp
 kJ
 Uj
 GR
@@ -46478,7 +46488,7 @@ cA
 Yl
 GR
 kJ
-LQ
+wp
 ai
 kJ
 Uj
@@ -46992,13 +47002,13 @@ cA
 Yl
 GR
 kJ
-Ia
+dD
 Uj
 kJ
 Uj
 kJ
 ai
-Ia
+dD
 kJ
 Uj
 GR
@@ -48797,7 +48807,7 @@ Uj
 ai
 ai
 Uj
-LQ
+wp
 Uj
 Uj
 GR
