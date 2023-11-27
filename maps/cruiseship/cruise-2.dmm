@@ -75,6 +75,11 @@
 	},
 /turf/simulated/floor/tiled,
 /area/cruise/hotel/restaurant)
+"aQ" = (
+/obj/structure/ladder,
+/obj/structure/lattice,
+/turf/simulated/open,
+/area/cruise/hotel/hallway/premium)
 "aV" = (
 /obj/machinery/atm{
 	pixel_y = 32
@@ -312,11 +317,9 @@
 /turf/simulated/floor,
 /area/cruise/cargo/storage)
 "dD" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/turf/simulated/floor,
-/area/cruise/maintenance/hotel)
+/obj/machinery/light/flamp/noshade,
+/turf/simulated/floor/greengrid,
+/area/cruise/club)
 "dH" = (
 /obj/machinery/door/airlock,
 /turf/simulated/floor,
@@ -601,6 +604,11 @@
 /obj/structure/cable,
 /turf/simulated/floor/plating,
 /area/cruise/hotel/restrooms)
+"hh" = (
+/obj/machinery/door/airlock,
+/obj/structure/catwalk,
+/turf/simulated/floor,
+/area/cruise/hotel/reception)
 "hn" = (
 /turf/simulated/wall,
 /area/cruise/security/club_checkpoint)
@@ -812,13 +820,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/cruise/casino/bar)
-"jE" = (
-/obj/structure/table/bench/padded,
-/obj/machinery/light/small{
-	dir = 2
-	},
-/turf/simulated/floor/lino,
-/area/cruise/theater)
 "jK" = (
 /obj/machinery/power/apc{
 	dir = 8;
@@ -1904,12 +1905,9 @@
 /turf/simulated/wall/r_wall,
 /area/cruise/maintenance/hotel/premium)
 "xm" = (
-/obj/machinery/power/apc{
-	dir = 8;
-	name = "_West APC";
-	pixel_x = -25
+/obj/structure/cable{
+	icon_state = "2-4"
 	},
-/obj/structure/cable,
 /obj/structure/catwalk,
 /turf/simulated/floor,
 /area/cruise/hotel/reception)
@@ -2464,12 +2462,9 @@
 /turf/simulated/floor/tiled,
 /area/cruise/security/club_checkpoint)
 "Fw" = (
-/obj/structure/cable{
-	icon_state = "2-4"
-	},
-/obj/structure/catwalk,
-/turf/simulated/floor,
-/area/cruise/maintenance/hotel/premium)
+/obj/machinery/light/flamp/noshade,
+/turf/simulated/floor/bluegrid,
+/area/cruise/club)
 "Fx" = (
 /turf/simulated/floor,
 /area/cruise/exterior)
@@ -3009,11 +3004,9 @@
 /turf/simulated/floor/tiled,
 /area/cruise/bar)
 "LQ" = (
-/obj/structure/sign/directions/evac{
-	dir = 2
-	},
-/turf/simulated/wall,
-/area/cruise/hotel/hallway/premium)
+/obj/machinery/light/flamp/noshade,
+/turf/simulated/floor/tiled/techfloor,
+/area/cruise/club)
 "LT" = (
 /obj/structure/stairs{
 	dir = 8
@@ -3333,6 +3326,16 @@
 /obj/effect/floor_decal/corner/blue/mono,
 /turf/simulated/floor/tiled/white/monotile,
 /area/cruise/exterior)
+"PV" = (
+/obj/machinery/power/apc{
+	dir = 8;
+	name = "_West APC";
+	pixel_x = -25
+	},
+/obj/structure/cable,
+/obj/structure/catwalk,
+/turf/simulated/floor,
+/area/cruise/hotel/hallway/premium)
 "Qa" = (
 /obj/structure/cable{
 	icon_state = "32-8"
@@ -3740,6 +3743,13 @@
 /obj/effect/wallframe_spawn/reinforced,
 /turf/simulated/floor,
 /area/cruise/hotel/reception)
+"UK" = (
+/obj/structure/table/bench/padded,
+/obj/machinery/light/small{
+	dir = 2
+	},
+/turf/simulated/floor/lino,
+/area/cruise/theater)
 "UM" = (
 /obj/structure/bed/sofa/right/brown{
 	dir = 8
@@ -3798,6 +3808,12 @@
 /obj/structure/table/bench/wooden,
 /turf/simulated/floor/tiled,
 /area/cruise/chapel/main)
+"Vc" = (
+/obj/structure/sign/directions/evac{
+	dir = 2
+	},
+/turf/simulated/wall,
+/area/cruise/outdoor/promenade/right)
 "Vn" = (
 /obj/effect/floor_decal/corner/paleblue/full,
 /turf/simulated/floor/tiled/white,
@@ -36724,12 +36740,12 @@ it
 it
 it
 BV
-BV
 fO
 BV
 fO
 BV
 fO
+BV
 BV
 RG
 RG
@@ -36983,8 +36999,8 @@ it
 UJ
 RG
 RG
-wu
 RG
+wu
 RG
 RG
 wu
@@ -39023,7 +39039,7 @@ zB
 Zp
 oZ
 XC
-jE
+UK
 vn
 XC
 XC
@@ -40308,7 +40324,7 @@ zB
 Zp
 oZ
 XC
-jE
+UK
 vn
 HR
 HR
@@ -40589,7 +40605,7 @@ RG
 RG
 RG
 RG
-DS
+vx
 fd
 MF
 jx
@@ -41095,12 +41111,12 @@ it
 UJ
 RG
 RG
-iR
-RG
-RG
 RG
 iR
 RG
+RG
+RG
+iR
 RG
 RG
 DS
@@ -41351,16 +41367,16 @@ bV
 YN
 YN
 YN
-BP
-BV
+YN
+hh
+QI
 QI
 eP
 Yt
-QI
+BV
 RG
 RG
-RG
-vx
+DS
 fd
 MF
 jx
@@ -41608,12 +41624,12 @@ it
 BP
 CP
 CP
-Fw
+CP
 xm
+PV
 QI
 eP
 eP
-QI
 DS
 DS
 DS
@@ -41865,16 +41881,16 @@ it
 YN
 Ic
 CP
+Ic
 Qa
-la
+aQ
 QI
 eP
 eP
-QI
+DS
 RY
 LI
 Rv
-dD
 hC
 jx
 jx
@@ -42125,10 +42141,10 @@ CP
 QI
 QI
 QI
+QI
 hq
 eP
-QI
-fd
+DS
 fd
 fd
 fd
@@ -42384,9 +42400,9 @@ eP
 eP
 eP
 eP
-LQ
+eP
+Vc
 dH
-nU
 nU
 nU
 nU
@@ -43645,13 +43661,13 @@ cA
 Yl
 GR
 db
-db
+LQ
 kh
 kJ
 kJ
 kJ
 kJ
-ai
+dD
 kJ
 Uj
 GR
@@ -45193,7 +45209,7 @@ Uj
 Uj
 kJ
 Uj
-ai
+dD
 kJ
 Uj
 GR
@@ -46472,7 +46488,7 @@ cA
 Yl
 GR
 kJ
-ai
+dD
 ai
 kJ
 Uj
@@ -46986,13 +47002,13 @@ cA
 Yl
 GR
 kJ
-Uj
+Fw
 Uj
 kJ
 Uj
 kJ
 ai
-Uj
+Fw
 kJ
 Uj
 GR
@@ -48791,7 +48807,7 @@ Uj
 ai
 ai
 Uj
-ai
+dD
 Uj
 Uj
 GR
