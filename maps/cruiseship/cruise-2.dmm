@@ -75,11 +75,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/cruise/hotel/restaurant)
-"aQ" = (
-/obj/structure/ladder,
-/obj/structure/lattice,
-/turf/simulated/open,
-/area/cruise/hotel/hallway/premium)
 "aV" = (
 /obj/machinery/atm{
 	pixel_y = 32
@@ -245,6 +240,10 @@
 	},
 /turf/simulated/floor/tiled,
 /area/cruise/security/club_checkpoint)
+"cM" = (
+/obj/machinery/door/airlock/glass,
+/turf/simulated/floor/tiled/white,
+/area/cruise/outdoor/promenade/right)
 "cO" = (
 /obj/item/clothing/under/atmospheric_technician,
 /obj/abstract/landmark/start{
@@ -318,7 +317,7 @@
 /area/cruise/cargo/storage)
 "dD" = (
 /obj/machinery/light/flamp/noshade,
-/turf/simulated/floor/greengrid,
+/turf/simulated/floor/tiled/techfloor,
 /area/cruise/club)
 "dH" = (
 /obj/machinery/door/airlock,
@@ -413,6 +412,12 @@
 	},
 /turf/simulated/floor,
 /area/cruise/maintenance/kitchen)
+"eX" = (
+/obj/structure/sign/directions/evac{
+	dir = 2
+	},
+/turf/simulated/wall,
+/area/cruise/outdoor/promenade/right)
 "fb" = (
 /obj/effect/floor_decal/corner/paleblue/full,
 /obj/machinery/atmospherics/unary/vent_scrubber/on/sauna,
@@ -604,11 +609,6 @@
 /obj/structure/cable,
 /turf/simulated/floor/plating,
 /area/cruise/hotel/restrooms)
-"hh" = (
-/obj/machinery/door/airlock,
-/obj/structure/catwalk,
-/turf/simulated/floor,
-/area/cruise/hotel/reception)
 "hn" = (
 /turf/simulated/wall,
 /area/cruise/security/club_checkpoint)
@@ -1561,9 +1561,12 @@
 /turf/simulated/floor/tiled/white,
 /area/cruise/outdoor/pool)
 "sJ" = (
-/obj/machinery/door/airlock/glass,
-/turf/simulated/floor/tiled/white,
-/area/cruise/hotel/hallway/premium)
+/obj/structure/table/bench/padded,
+/obj/machinery/light/small{
+	dir = 2
+	},
+/turf/simulated/floor/lino,
+/area/cruise/theater)
 "sM" = (
 /obj/structure/bed/sofa/right/red{
 	dir = 4
@@ -1905,9 +1908,12 @@
 /turf/simulated/wall/r_wall,
 /area/cruise/maintenance/hotel/premium)
 "xm" = (
-/obj/structure/cable{
-	icon_state = "2-4"
+/obj/machinery/power/apc{
+	dir = 8;
+	name = "_West APC";
+	pixel_x = -25
 	},
+/obj/structure/cable,
 /obj/structure/catwalk,
 /turf/simulated/floor,
 /area/cruise/hotel/reception)
@@ -2462,9 +2468,12 @@
 /turf/simulated/floor/tiled,
 /area/cruise/security/club_checkpoint)
 "Fw" = (
-/obj/machinery/light/flamp/noshade,
-/turf/simulated/floor/bluegrid,
-/area/cruise/club)
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/structure/catwalk,
+/turf/simulated/floor,
+/area/cruise/maintenance/hotel/premium)
 "Fx" = (
 /turf/simulated/floor,
 /area/cruise/exterior)
@@ -2675,6 +2684,10 @@
 /obj/machinery/atmospherics/unary/heater,
 /turf/simulated/floor,
 /area/cruise/outdoor/pool)
+"Ia" = (
+/obj/machinery/light/flamp/noshade,
+/turf/simulated/floor/bluegrid,
+/area/cruise/club)
 "Ic" = (
 /turf/simulated/floor,
 /area/cruise/maintenance/hotel/premium)
@@ -3005,7 +3018,7 @@
 /area/cruise/bar)
 "LQ" = (
 /obj/machinery/light/flamp/noshade,
-/turf/simulated/floor/tiled/techfloor,
+/turf/simulated/floor/greengrid,
 /area/cruise/club)
 "LT" = (
 /obj/structure/stairs{
@@ -3326,16 +3339,6 @@
 /obj/effect/floor_decal/corner/blue/mono,
 /turf/simulated/floor/tiled/white/monotile,
 /area/cruise/exterior)
-"PV" = (
-/obj/machinery/power/apc{
-	dir = 8;
-	name = "_West APC";
-	pixel_x = -25
-	},
-/obj/structure/cable,
-/obj/structure/catwalk,
-/turf/simulated/floor,
-/area/cruise/hotel/hallway/premium)
 "Qa" = (
 /obj/structure/cable{
 	icon_state = "32-8"
@@ -3743,13 +3746,6 @@
 /obj/effect/wallframe_spawn/reinforced,
 /turf/simulated/floor,
 /area/cruise/hotel/reception)
-"UK" = (
-/obj/structure/table/bench/padded,
-/obj/machinery/light/small{
-	dir = 2
-	},
-/turf/simulated/floor/lino,
-/area/cruise/theater)
 "UM" = (
 /obj/structure/bed/sofa/right/brown{
 	dir = 8
@@ -3808,12 +3804,6 @@
 /obj/structure/table/bench/wooden,
 /turf/simulated/floor/tiled,
 /area/cruise/chapel/main)
-"Vc" = (
-/obj/structure/sign/directions/evac{
-	dir = 2
-	},
-/turf/simulated/wall,
-/area/cruise/outdoor/promenade/right)
 "Vn" = (
 /obj/effect/floor_decal/corner/paleblue/full,
 /turf/simulated/floor/tiled/white,
@@ -39039,7 +39029,7 @@ zB
 Zp
 oZ
 XC
-UK
+sJ
 vn
 XC
 XC
@@ -40324,7 +40314,7 @@ zB
 Zp
 oZ
 XC
-UK
+sJ
 vn
 HR
 HR
@@ -41368,8 +41358,8 @@ YN
 YN
 YN
 YN
-hh
-QI
+BP
+BV
 QI
 eP
 Yt
@@ -41625,8 +41615,8 @@ BP
 CP
 CP
 CP
+Fw
 xm
-PV
 QI
 eP
 eP
@@ -41883,7 +41873,7 @@ Ic
 CP
 Ic
 Qa
-aQ
+la
 QI
 eP
 eP
@@ -42401,7 +42391,7 @@ eP
 eP
 eP
 eP
-Vc
+eX
 dH
 nU
 nU
@@ -42657,8 +42647,8 @@ eP
 eP
 eP
 eP
-sJ
-ge
+eP
+cM
 ge
 tE
 ge
@@ -43661,13 +43651,13 @@ cA
 Yl
 GR
 db
-LQ
+dD
 kh
 kJ
 kJ
 kJ
 kJ
-dD
+LQ
 kJ
 Uj
 GR
@@ -45209,7 +45199,7 @@ Uj
 Uj
 kJ
 Uj
-dD
+LQ
 kJ
 Uj
 GR
@@ -46488,7 +46478,7 @@ cA
 Yl
 GR
 kJ
-dD
+LQ
 ai
 kJ
 Uj
@@ -47002,13 +46992,13 @@ cA
 Yl
 GR
 kJ
-Fw
+Ia
 Uj
 kJ
 Uj
 kJ
 ai
-Fw
+Ia
 kJ
 Uj
 GR
@@ -48807,7 +48797,7 @@ Uj
 ai
 ai
 Uj
-dD
+LQ
 Uj
 Uj
 GR
