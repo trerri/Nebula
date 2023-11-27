@@ -3,6 +3,19 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on/sauna,
 /turf/simulated/floor/wood/bamboo,
 /area/cruise/hotel/spa/sauna)
+"ag" = (
+/obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/primary_storage)
 "ah" = (
 /obj/vehicle/train/cargo/trolley,
 /turf/simulated/floor/tiled/techmaint,
@@ -33,6 +46,12 @@
 "av" = (
 /turf/simulated/floor/wood/usedup,
 /area/cruise/hallway/first)
+"aw" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/dormitory)
 "az" = (
 /obj/structure/sign/warning/moving_parts,
 /turf/simulated/floor/plating,
@@ -44,6 +63,7 @@
 	name = "_West APC";
 	pixel_x = -25
 	},
+/obj/structure/cable,
 /turf/simulated/floor/plating,
 /area/cruise/kitchen/freezer)
 "aK" = (
@@ -59,6 +79,9 @@
 /area/cruise/maintenance/engineering/left)
 "aT" = (
 /obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/locker)
 "aU" = (
@@ -100,6 +123,9 @@
 	},
 /obj/machinery/light/small{
 	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/casino)
@@ -178,9 +204,6 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/cruise/maintenance/disposal)
-"bE" = (
-/turf/simulated/floor/plating,
-/area/cruise/engineering/foyer)
 "bG" = (
 /obj/abstract/turbolift_spawner/guests/north{
 	dir = 1
@@ -194,8 +217,18 @@
 /area/cruise/security/lobby)
 "bK" = (
 /obj/machinery/door/airlock/double,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/engineering/right)
+"bL" = (
+/obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/medbay)
 "bM" = (
 /obj/machinery/teleport/hub,
 /turf/simulated/floor/tiled/dark/monotile,
@@ -263,6 +296,12 @@
 	name = "_South APC";
 	pixel_y = -24
 	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/casino)
 "ch" = (
@@ -274,6 +313,9 @@
 "cj" = (
 /obj/structure/catwalk,
 /obj/structure/ladder,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/ventilation)
 "ck" = (
@@ -303,6 +345,15 @@
 "cw" = (
 /turf/simulated/floor/tiled/freezer,
 /area/cruise/medical/storage)
+"cA" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/engineering/right)
 "cB" = (
 /turf/simulated/wall/wood,
 /area/cruise/hotel/spa/sauna)
@@ -324,6 +375,9 @@
 /obj/effect/floor_decal/corner/orange/border{
 	dir = 6
 	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/casino)
 "cG" = (
@@ -341,12 +395,27 @@
 	},
 /turf/simulated/floor/tiled/freezer,
 /area/cruise/medical/storage)
-"cM" = (
-/obj/structure/railing/mapped{
-	dir = 4
+"cJ" = (
+/obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "2-8"
 	},
-/turf/simulated/floor/tiled/steel_grid,
-/area/cruise/arrivals/right)
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/engineering/left)
+"cK" = (
+/obj/structure/catwalk,
+/obj/effect/floor_decal/corner/pink/border{
+	dir = 2
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/casino)
+"cM" = (
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/engineering/right)
 "cQ" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -378,6 +447,26 @@
 /obj/structure/catwalk,
 /turf/exterior/water,
 /area/cruise/exterior/sea)
+"dg" = (
+/obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/cargo/main)
+"dj" = (
+/obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/engineering/foyer)
 "dl" = (
 /obj/structure/table/bench/wooden,
 /turf/simulated/floor/wood/bamboo,
@@ -397,6 +486,15 @@
 /turf/simulated/floor/wood/bamboo,
 /area/cruise/gym)
 "dp" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/medbay)
 "dq" = (
@@ -419,6 +517,9 @@
 	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/engineering/right)
+"dB" = (
+/turf/simulated/wall,
+/area/cruise/medical/restrooms)
 "dC" = (
 /turf/simulated/wall,
 /area/cruise/hallway/library)
@@ -432,6 +533,14 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/cruise/medical/reception)
+"dI" = (
+/obj/structure/catwalk,
+/obj/machinery/door/airlock/autoname,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/engineering/foyer)
 "dL" = (
 /turf/simulated/wall,
 /area/cruise/medical/surgery)
@@ -502,6 +611,10 @@
 	name = "_West APC";
 	pixel_x = -25
 	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/gym)
 "ev" = (
@@ -519,6 +632,13 @@
 "eB" = (
 /turf/simulated/wall,
 /area/cruise/maintenance/casino)
+"eD" = (
+/obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/engineering/foyer)
 "eF" = (
 /obj/structure/bed/sofa/middle/beige{
 	dir = 1
@@ -547,6 +667,10 @@
 /obj/machinery/light,
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/exterior/sea)
+"eL" = (
+/obj/effect/wallframe_spawn,
+/turf/simulated/floor/plating,
+/area/cruise/arrivals/left)
 "eP" = (
 /obj/structure/catwalk,
 /obj/machinery/light/small{
@@ -618,6 +742,9 @@
 /obj/effect/floor_decal/corner/orange/border{
 	dir = 4
 	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/casino)
 "fE" = (
@@ -669,11 +796,24 @@
 "fZ" = (
 /obj/structure/catwalk,
 /obj/effect/floor_decal/corner/green/border,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/medbay)
+"ga" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/security_starboard)
 "gc" = (
 /turf/simulated/floor/tiled/dark,
 /area/cruise/security/armory)
+"gg" = (
+/obj/structure/table/bench/padded,
+/turf/simulated/floor/tiled/steel_grid,
+/area/cruise/arrivals/left)
 "gi" = (
 /obj/effect/wallframe_spawn/no_grille,
 /turf/simulated/floor/plating,
@@ -684,6 +824,13 @@
 	},
 /turf/simulated/floor,
 /area/cruise/exterior/sea)
+"gn" = (
+/obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/medbay)
 "go" = (
 /obj/effect/floor_decal/industrial/custodial/fulltile,
 /obj/effect/floor_decal/corner/mauve/full,
@@ -699,6 +846,12 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/cruise/casino/bar)
+"gw" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/engineering/left)
 "gA" = (
 /obj/structure/hygiene/shower{
 	pixel_y = 0;
@@ -719,6 +872,9 @@
 /area/cruise/gym)
 "gK" = (
 /obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/primary_storage)
 "gL" = (
@@ -742,15 +898,24 @@
 /obj/machinery/light/spot{
 	dir = 1
 	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/storage/tools)
 "gX" = (
-/obj/structure/catwalk,
 /obj/machinery/power/apc{
 	dir = 1;
 	name = "_North APC";
 	pixel_y = 24
 	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/locker)
 "ha" = (
@@ -759,6 +924,16 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/cruise/hallway/first)
+"hb" = (
+/obj/structure/catwalk,
+/obj/effect/floor_decal/corner/pink/border{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/library)
 "hc" = (
 /obj/machinery/atmospherics/portables_connector,
 /obj/machinery/portable_atmospherics/canister/air/airlock,
@@ -789,6 +964,13 @@
 "hm" = (
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/hallway/first)
+"ho" = (
+/obj/structure/table/bench/padded,
+/obj/machinery/light/spot{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/steel_grid,
+/area/cruise/arrivals/right)
 "hp" = (
 /obj/structure/bed/chair/armchair/black{
 	dir = 1
@@ -800,6 +982,12 @@
 	dir = 1;
 	name = "_North APC";
 	pixel_y = 24
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
 	},
 /turf/simulated/floor/plating,
 /area/cruise/storage/tools)
@@ -829,10 +1017,23 @@
 	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/dormitory)
+"hG" = (
+/obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/cargo/main)
+"hH" = (
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/engineering/right)
 "hI" = (
 /obj/structure/catwalk,
 /obj/machinery/light/spot{
 	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
 /turf/simulated/floor/plating,
 /area/cruise/cargo/main)
@@ -857,6 +1058,9 @@
 "ic" = (
 /obj/structure/rack,
 /obj/item/clothing/head/bio_hood/general,
+/obj/effect/decal/cleanable/cobweb2{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/cruise/maintenance/disposal)
 "id" = (
@@ -918,6 +1122,12 @@
 	name = "_North APC";
 	pixel_y = 24
 	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/arrivals)
 "iQ" = (
@@ -955,6 +1165,10 @@
 	name = "_West APC";
 	pixel_x = -25
 	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/structure/cable,
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/primary_storage)
 "jb" = (
@@ -966,6 +1180,9 @@
 /obj/structure/catwalk,
 /obj/effect/floor_decal/corner/green/border{
 	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/medbay)
@@ -1015,10 +1232,13 @@
 "js" = (
 /obj/effect/wallframe_spawn,
 /turf/simulated/floor/plating,
-/area/cruise/arrivals/left)
+/area/cruise/arrivals/right)
 "jt" = (
 /obj/machinery/light/small{
 	dir = 2
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/gym)
@@ -1027,7 +1247,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/steel_grid,
-/area/cruise/arrivals/left)
+/area/cruise/arrivals/right)
 "jw" = (
 /obj/structure/closet/l3closet/security,
 /obj/machinery/light/spot{
@@ -1061,9 +1281,11 @@
 /turf/simulated/floor/wood/maple,
 /area/cruise/exterior/sea)
 "jI" = (
-/obj/structure/catwalk,
 /obj/machinery/light/small{
 	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/casino)
@@ -1098,8 +1320,26 @@
 	pixel_x = 27;
 	pixel_y = 2
 	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/medical/morgue)
+"jV" = (
+/obj/machinery/power/apc{
+	dir = 4;
+	name = "_East APC";
+	pixel_x = 27;
+	pixel_y = 2
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/structure/cable{
+	icon_state = "16-0"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/storage/primary)
 "jW" = (
 /turf/simulated/wall/r_wall,
 /area/cruise/hallway/first)
@@ -1113,11 +1353,10 @@
 /area/cruise/hallway/first)
 "kc" = (
 /turf/simulated/wall,
-/area/cruise/arrivals/right)
+/area/cruise/arrivals/left)
 "kd" = (
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
-/area/cruise/maintenance/engineering/right)
+/turf/simulated/floor/tiled/steel_grid,
+/area/cruise/arrivals/right)
 "ki" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -1128,6 +1367,13 @@
 /obj/machinery/door/blast/shutters/open,
 /turf/exterior/water,
 /area/cruise/cargo/main/dock)
+"kn" = (
+/obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/engineering)
 "kq" = (
 /turf/simulated/wall,
 /area/cruise/hotel/spa/sauna)
@@ -1153,6 +1399,12 @@
 	name = "_North APC";
 	pixel_y = 24
 	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/cargo)
 "ky" = (
@@ -1164,6 +1416,9 @@
 "kz" = (
 /obj/structure/catwalk,
 /obj/machinery/door/airlock/double,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/security_starboard)
 "kB" = (
@@ -1178,6 +1433,13 @@
 /obj/item/flashlight/lamp/floodlamp,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/cruise/engineering/foyer)
+"kJ" = (
+/obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/primary_storage)
 "kK" = (
 /obj/structure/bed/chair/rounded/beige{
 	dir = 4
@@ -1196,6 +1458,9 @@
 /obj/machinery/light/small{
 	dir = 2
 	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/casino)
 "kP" = (
@@ -1210,6 +1475,29 @@
 /obj/structure/flora/pottedplant/bamboo,
 /turf/simulated/floor/wood/maple,
 /area/cruise/exterior/sea)
+"kU" = (
+/obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/storage/primary)
+"kV" = (
+/obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/casino)
+"kY" = (
+/obj/structure/boulder{
+	desc = "A very aesthetic natural marble rock, aptly chosen to be almost impossible to climb."
+	},
+/turf/simulated/floor/wood/maple,
+/area/cruise/hallway/first)
 "lc" = (
 /turf/simulated/floor/carpet/red,
 /area/cruise/hallway/first)
@@ -1221,6 +1509,9 @@
 	dir = 1;
 	name = "_North APC";
 	pixel_y = 24
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
 	},
 /turf/simulated/floor/plating,
 /area/cruise/medical/surgery)
@@ -1246,14 +1537,21 @@
 "lt" = (
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/exterior/sea)
+"lu" = (
+/obj/structure/catwalk,
+/obj/abstract/landmark/start{
+	name = "Station Engineer"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/engineering/foyer)
 "lw" = (
 /obj/abstract/landmark/start,
 /obj/abstract/landmark/start,
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/hallway/first)
-"lx" = (
-/turf/simulated/floor/tiled/steel_grid,
-/area/cruise/arrivals/left)
 "ly" = (
 /obj/effect/floor_decal/corner/green/full,
 /obj/machinery/door/airlock/glass,
@@ -1326,10 +1624,19 @@
 	},
 /turf/simulated/floor/tiled/freezer,
 /area/cruise/kitchen/freezer)
+"mp" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/engineering/right)
 "mr" = (
 /obj/structure/catwalk,
 /obj/effect/floor_decal/corner/green/border{
 	dir = 6
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/medbay)
@@ -1360,6 +1667,7 @@
 /obj/machinery/light/small{
 	dir = 2
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/library)
 "mz" = (
@@ -1381,6 +1689,12 @@
 /obj/structure/flora/pottedplant/largebush,
 /turf/simulated/floor/wood/maple,
 /area/cruise/hallway/first)
+"mN" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/casino)
 "mO" = (
 /turf/simulated/wall,
 /area/cruise/storage/primary)
@@ -1424,6 +1738,9 @@
 "ng" = (
 /obj/structure/catwalk,
 /obj/effect/floor_decal/corner/green/bordercorner,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/medbay)
 "ni" = (
@@ -1448,6 +1765,9 @@
 /area/cruise/maintenance/engineering/left)
 "no" = (
 /obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/cargo/main)
 "nt" = (
@@ -1508,8 +1828,21 @@
 	name = "_South APC";
 	pixel_y = -24
 	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/structure/cable,
 /turf/simulated/floor/plating,
 /area/cruise/storage/art)
+"nV" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/storage/tools)
 "nW" = (
 /obj/machinery/light/spot{
 	dir = 4
@@ -1540,6 +1873,9 @@
 /obj/structure/catwalk,
 /obj/machinery/door/airlock/glass,
 /obj/structure/sign/warning/shock,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/engineering/foyer)
 "oq" = (
@@ -1577,6 +1913,13 @@
 	},
 /turf/simulated/floor/wood/bamboo,
 /area/cruise/gym)
+"oH" = (
+/obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/cargo/main)
 "oI" = (
 /obj/structure/sign/warning/nosmoking_1,
 /turf/simulated/wall/r_wall/prepainted,
@@ -1629,12 +1972,26 @@
 "pg" = (
 /turf/simulated/wall/r_wall/hull,
 /area/cruise/maintenance/arrivals)
-"pn" = (
+"ph" = (
 /obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/casino)
+"pn" = (
 /obj/machinery/power/apc{
 	name = "_South APC";
 	pixel_y = -24
 	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/structure/cable,
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/cruise/security/vault)
 "pp" = (
@@ -1655,6 +2012,12 @@
 /obj/structure/reagent_dispensers/fueltank,
 /turf/simulated/floor/reinforced,
 /area/cruise/engineering/engine/right)
+"pF" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/engineering/left)
 "pH" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -1760,11 +2123,17 @@
 /obj/effect/floor_decal/corner/orange/border{
 	dir = 2
 	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/casino)
 "qE" = (
 /obj/machinery/light/small{
 	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/arrivals)
@@ -1925,6 +2294,13 @@
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/reinforced,
 /area/cruise/engineering/engine/left)
+"rO" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/cargo)
 "rP" = (
 /turf/simulated/floor/tiled/freezer,
 /area/cruise/medical/restrooms)
@@ -1935,6 +2311,12 @@
 	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/library)
+"rT" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/engineering/engine/left)
 "rV" = (
 /obj/effect/floor_decal/techfloor/orange{
 	dir = 5
@@ -1960,6 +2342,14 @@
 	},
 /turf/simulated/floor/tiled,
 /area/cruise/crew/locker)
+"si" = (
+/obj/structure/ladder,
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/library)
 "sl" = (
 /obj/machinery/light/spot{
 	dir = 8
@@ -2000,11 +2390,38 @@
 	},
 /turf/simulated/floor/tiled,
 /area/cruise/security/lobby)
+"sA" = (
+/obj/machinery/door/airlock/glass,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/steel_ridged,
+/area/cruise/maintenance/engineering)
+"sE" = (
+/obj/structure/catwalk,
+/obj/structure/cable,
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/medbay)
 "sF" = (
 /obj/effect/floor_decal/corner/lime/diagonal,
 /obj/structure/closet/cabinet,
 /turf/simulated/floor/tiled,
 /area/cruise/crew/locker)
+"sG" = (
+/obj/machinery/light/small{
+	dir = 2
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/gym)
 "sI" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -2063,6 +2480,12 @@
 	},
 /turf/simulated/floor,
 /area/cruise/exterior/sea)
+"ts" = (
+/obj/machinery/light/spot{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/steel_grid,
+/area/cruise/arrivals/left)
 "tu" = (
 /obj/effect/floor_decal/corner/red/diagonal,
 /obj/structure/ladder,
@@ -2081,6 +2504,18 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/dormitory)
+"tA" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/security_starboard)
 "tB" = (
 /obj/structure/closet/secure_closet/captains,
 /obj/effect/floor_decal/corner/orange{
@@ -2088,6 +2523,28 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/exterior/sea)
+"tC" = (
+/obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/cargo)
+"tD" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/engineering/right)
 "tE" = (
 /obj/effect/floor_decal/corner/red/three_quarters{
 	dir = 8
@@ -2102,12 +2559,24 @@
 	pixel_x = 27;
 	pixel_y = 2
 	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/crew/locker)
 "tG" = (
 /obj/structure/flora/pottedplant/smelly,
 /turf/simulated/floor/wood/maple,
 /area/cruise/exterior/sea)
+"tH" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/library)
 "tJ" = (
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/engineering)
@@ -2230,9 +2699,27 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/cruise/security/armory)
+"uJ" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/engineering/engine/right)
+"uK" = (
+/obj/structure/cable{
+	icon_state = "16-0"
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/locker)
 "uQ" = (
 /obj/structure/catwalk,
 /obj/machinery/door/airlock/autoname,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/primary_storage)
 "uV" = (
@@ -2244,9 +2731,22 @@
 	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/casino)
+"vd" = (
+/obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/casino)
 "vf" = (
 /turf/simulated/floor/tiled/techmaint,
 /area/cruise/hallway/first/parking)
+"vg" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/security_starboard)
 "vi" = (
 /turf/simulated/wall/walnut,
 /area/turbolift/cruise/fore/first)
@@ -2302,10 +2802,6 @@
 "vy" = (
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/gym)
-"vB" = (
-/obj/effect/wallframe_spawn,
-/turf/simulated/floor/plating,
-/area/cruise/arrivals/right)
 "vC" = (
 /obj/structure/hygiene/toilet,
 /turf/simulated/floor/tiled/freezer,
@@ -2320,6 +2816,9 @@
 /obj/structure/catwalk,
 /obj/machinery/light/small{
 	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/medbay)
@@ -2366,10 +2865,20 @@
 /obj/machinery/door/airlock/double/glass,
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/hallway/first/parking)
-"wb" = (
-/obj/machinery/door/airlock/double/glass,
+"vZ" = (
+/obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/engineering/left)
+"wb" = (
+/obj/machinery/door/airlock/double/glass,
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/engineering/right)
 "wg" = (
 /obj/effect/floor_decal/corner/green/three_quarters{
 	dir = 1
@@ -2388,16 +2897,6 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/cruise/hallway/first/parking)
-"wj" = (
-/obj/structure/catwalk,
-/obj/machinery/power/apc{
-	dir = 4;
-	name = "_East APC";
-	pixel_x = 27;
-	pixel_y = 2
-	},
-/turf/simulated/floor/plating,
-/area/cruise/maintenance/engineering/right)
 "wm" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -2432,6 +2931,9 @@
 "wI" = (
 /obj/structure/catwalk,
 /obj/machinery/door/airlock/autoname,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/casino)
 "wJ" = (
@@ -2463,6 +2965,10 @@
 /obj/structure/flora/pottedplant/orientaltree,
 /turf/simulated/floor/wood/maple,
 /area/cruise/exterior/sea)
+"wR" = (
+/obj/effect/wallframe_spawn/reinforced/hull,
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/engineering/right)
 "wS" = (
 /obj/structure/catwalk,
 /obj/effect/floor_decal/corner/pink/border{
@@ -2477,6 +2983,9 @@
 	},
 /obj/machinery/light/small{
 	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/library)
@@ -2495,10 +3004,9 @@
 "wZ" = (
 /turf/simulated/wall,
 /area/cruise/maintenance/locker)
-"xg" = (
-/obj/machinery/door/airlock/double/glass,
-/turf/simulated/floor/tiled/steel_grid,
-/area/cruise/arrivals/left)
+"xf" = (
+/turf/simulated/wall,
+/area/cruise/arrivals/right)
 "xh" = (
 /obj/effect/floor_decal/corner/white/border{
 	dir = 8
@@ -2527,6 +3035,12 @@
 /obj/machinery/door/airlock/autoname,
 /turf/simulated/floor/tiled/freezer,
 /area/cruise/medical/reception)
+"xo" = (
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/steel_grid,
+/area/cruise/arrivals/right)
 "xp" = (
 /obj/effect/wallframe_spawn/reinforced/hull,
 /turf/simulated/floor/plating,
@@ -2548,6 +3062,16 @@
 "xD" = (
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/engineering/foyer)
+"xG" = (
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/structure/cable,
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/gym)
 "xH" = (
 /obj/abstract/landmark/start{
 	name = "Chief Medical Officer"
@@ -2560,6 +3084,13 @@
 /obj/machinery/light/navigation,
 /turf/exterior/water,
 /area/cruise/exterior/sea)
+"xK" = (
+/obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/primary_storage)
 "xM" = (
 /obj/effect/floor_decal/corner/red/border{
 	dir = 2
@@ -2570,6 +3101,13 @@
 /obj/machinery/optable,
 /turf/simulated/floor/wood/mahogany,
 /area/cruise/hotel/spa/massageroom)
+"xQ" = (
+/obj/machinery/door/airlock/double/glass,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/engineering/left)
 "xS" = (
 /obj/structure/ladder,
 /obj/structure/lattice,
@@ -2596,8 +3134,23 @@
 	pixel_x = 27;
 	pixel_y = 2
 	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/medical/restrooms)
+"ya" = (
+/obj/structure/catwalk,
+/obj/machinery/power/apc{
+	dir = 1;
+	name = "_North APC";
+	pixel_y = 24
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/incinerator)
 "yc" = (
 /turf/simulated/wall,
 /area/cruise/security)
@@ -2622,6 +3175,12 @@
 	name = "_South APC";
 	pixel_y = -24
 	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/casino/bar)
 "yh" = (
@@ -2629,6 +3188,12 @@
 	dir = 1;
 	name = "_North APC";
 	pixel_y = 24
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
 	},
 /turf/simulated/floor/plating,
 /area/cruise/medical/medbay)
@@ -2680,6 +3245,12 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/exterior/sea)
+"yw" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/engineering/left)
 "yy" = (
 /obj/effect/floor_decal/corner/orange{
 	dir = 6
@@ -2692,8 +3263,19 @@
 	dir = 2
 	},
 /obj/machinery/door/airlock/autoname,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/gym)
+"yA" = (
+/obj/structure/catwalk,
+/obj/machinery/door/airlock,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/primary_storage)
 "yE" = (
 /obj/machinery/door/airlock/double,
 /turf/simulated/floor/tiled,
@@ -2701,6 +3283,9 @@
 "yF" = (
 /obj/effect/floor_decal/corner/orange/bordercorner{
 	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/casino)
@@ -2755,15 +3340,14 @@
 /obj/machinery/door/airlock/autoname,
 /turf/simulated/floor/tiled/white,
 /area/cruise/medical/reception)
-"yW" = (
-/obj/effect/floor_decal/industrial/warning/fulltile,
-/obj/machinery/door/airlock/glass,
-/turf/simulated/floor/tiled/steel_grid,
-/area/cruise/arrivals/right)
 "za" = (
 /obj/machinery/door/airlock/glass,
 /turf/simulated/floor/tiled/freezer,
 /area/cruise/medical/storage)
+"zd" = (
+/obj/machinery/door/airlock/double/glass,
+/turf/simulated/floor/tiled/steel_grid,
+/area/cruise/arrivals/left)
 "zf" = (
 /turf/simulated/wall/r_wall/hull,
 /area/cruise/maintenance/gym)
@@ -2776,6 +3360,14 @@
 "zs" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/cruise/security/vault)
+"zt" = (
+/obj/structure/ladder,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/medbay)
 "zw" = (
 /obj/abstract/landmark/start{
 	name = "Quartermaster"
@@ -2799,11 +3391,6 @@
 /obj/effect/floor_decal/industrial/firstaid,
 /turf/simulated/floor/wood/maple,
 /area/cruise/hallway/first)
-"zG" = (
-/obj/machinery/door/airlock/autoname,
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
-/area/cruise/maintenance/primary_storage)
 "zH" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -2851,6 +3438,9 @@
 /obj/effect/floor_decal/corner/pink/border{
 	dir = 8
 	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/library)
 "zY" = (
@@ -2870,6 +3460,9 @@
 	dir = 2
 	},
 /obj/machinery/door/airlock/autoname,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/casino)
 "Ad" = (
@@ -2881,6 +3474,22 @@
 	},
 /turf/simulated/floor/plating,
 /area/cruise/crew)
+"Ag" = (
+/obj/structure/cable,
+/turf/simulated/floor/plating,
+/area/cruise/engineering/engine/right)
+"Ah" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/arrivals)
+"Ai" = (
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/steel_grid,
+/area/cruise/arrivals/left)
 "Ao" = (
 /obj/machinery/atmospherics/unary/freezer,
 /turf/simulated/floor/plating,
@@ -2903,14 +3512,39 @@
 /turf/simulated/floor/tiled,
 /area/cruise/security)
 "Av" = (
-/obj/structure/catwalk,
 /obj/machinery/power/apc{
 	areastring = null;
 	name = "_South APC";
 	pixel_y = -24
 	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/janitor)
+"Ax" = (
+/obj/machinery/power/apc{
+	dir = 4;
+	name = "_East APC";
+	pixel_x = 27;
+	pixel_y = 2
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/disposal)
+"Ay" = (
+/obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/structure/cable,
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/engineering)
 "AB" = (
 /obj/abstract/landmark/start{
 	name = "Cargo Technician"
@@ -2925,6 +3559,16 @@
 /obj/structure/sign/double/map/right,
 /turf/simulated/floor/wood/maple,
 /area/cruise/hallway/first)
+"AI" = (
+/obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/medbay)
 "AQ" = (
 /turf/simulated/wall/r_wall,
 /area/cruise/security)
@@ -2957,29 +3601,58 @@
 /obj/effect/wallframe_spawn/no_grille,
 /turf/simulated/floor/plating,
 /area/cruise/crew)
+"Bf" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/engineering/right)
 "Bj" = (
 /obj/structure/catwalk,
 /obj/machinery/door/airlock/autoname,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/security_starboard)
 "Bk" = (
 /obj/structure/closet/secure_closet/hydroponics/hydro,
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/botany)
-"Bl" = (
-/obj/effect/floor_decal/corner/orange/border{
-	dir = 10
-	},
-/turf/simulated/floor/plating,
-/area/cruise/casino/bar)
 "Bm" = (
 /obj/structure/window/basic/full,
 /turf/simulated/floor/tiled/techfloor,
 /area/cruise/hallway/first)
+"Br" = (
+/obj/structure/catwalk,
+/obj/effect/floor_decal/corner/pink/border{
+	dir = 2
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/library)
 "Bs" = (
 /obj/structure/flora/pottedplant/decorative,
 /turf/simulated/floor/wood/maple,
 /area/cruise/exterior/sea)
+"Bu" = (
+/obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/medbay)
 "Bz" = (
 /turf/simulated/wall/r_wall/hull,
 /area/cruise/maintenance/security_starboard)
@@ -3009,18 +3682,16 @@
 /obj/machinery/floodlight,
 /turf/simulated/floor/reinforced,
 /area/cruise/maintenance/engineering)
-"BU" = (
-/obj/machinery/light/spot{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/steel_grid,
-/area/cruise/arrivals/left)
 "BX" = (
 /obj/machinery/atmospherics/portables_connector,
 /obj/machinery/portable_atmospherics/canister/air,
 /obj/effect/floor_decal/industrial/outline/blue,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/cruise/exterior/sea)
+"Cd" = (
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/gym)
 "Cg" = (
 /obj/structure/catwalk,
 /obj/effect/floor_decal/corner/pink/border{
@@ -3031,6 +3702,10 @@
 	name = "_West APC";
 	pixel_x = -25
 	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/structure/cable,
 /turf/simulated/floor/plating,
 /area/cruise/hallway/library)
 "Ci" = (
@@ -3041,6 +3716,12 @@
 "Ct" = (
 /turf/simulated/floor/wood/bamboo,
 /area/cruise/hotel/spa/sauna)
+"Cu" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/library)
 "Cy" = (
 /obj/effect/floor_decal/corner/paleblue/full,
 /obj/structure/rack,
@@ -3063,11 +3744,24 @@
 /area/cruise/maintenance/ventilation)
 "CD" = (
 /obj/structure/catwalk,
-/obj/machinery/light/small{
+/obj/effect/floor_decal/corner/green/border{
 	dir = 4
 	},
+/obj/machinery/light/spot{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
 /turf/simulated/floor/plating,
-/area/cruise/maintenance/engineering/left)
+/area/cruise/maintenance/medbay)
+"CF" = (
+/obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/engineering/right)
 "CH" = (
 /obj/effect/floor_decal/techfloor/orange{
 	dir = 9
@@ -3081,7 +3775,19 @@
 	},
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
-/area/cruise/maintenance/engineering/right)
+/area/cruise/maintenance/engineering/left)
+"CO" = (
+/obj/structure/catwalk,
+/obj/machinery/power/apc{
+	dir = 1;
+	name = "_North APC";
+	pixel_y = 24
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/crew/restrooms)
 "CR" = (
 /obj/machinery/door/airlock/autoname,
 /turf/simulated/floor/tiled/techmaint,
@@ -3097,6 +3803,9 @@
 	dir = 8;
 	name = "_West APC";
 	pixel_x = -25
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
 	},
 /turf/simulated/floor/plating,
 /area/cruise/security/brig)
@@ -3130,6 +3839,15 @@
 /obj/structure/sign/warning/high_voltage,
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/engineering)
+"Dm" = (
+/obj/effect/floor_decal/corner/orange/border{
+	dir = 10
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/casino/bar)
 "Dn" = (
 /obj/structure/window/basic{
 	dir = 2
@@ -3139,6 +3857,9 @@
 /area/cruise/maintenance/disposal)
 "Do" = (
 /obj/machinery/door/airlock/glass,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/storage/tools)
 "Dp" = (
@@ -3148,6 +3869,12 @@
 "Dr" = (
 /turf/simulated/floor/tiled/steel_ridged,
 /area/cruise/exterior/sea)
+"Dy" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/storage/tools)
 "Dz" = (
 /obj/structure/bed/chair,
 /turf/simulated/floor/lino,
@@ -3161,6 +3888,9 @@
 /obj/effect/floor_decal/corner/orange/border{
 	dir = 10
 	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/casino)
 "DG" = (
@@ -3170,6 +3900,10 @@
 	name = "_East APC";
 	pixel_x = 27;
 	pixel_y = 2
+	},
+/obj/structure/cable,
+/obj/structure/cable{
+	icon_state = "0-8"
 	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/engineering)
@@ -3191,12 +3925,14 @@
 /turf/simulated/floor/wood/maple,
 /area/cruise/exterior/sea)
 "DM" = (
-/obj/structure/catwalk,
 /obj/machinery/power/apc{
 	dir = 4;
 	name = "_East APC";
 	pixel_x = 27;
 	pixel_y = 2
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
 	},
 /turf/simulated/floor/plating,
 /area/cruise/casino)
@@ -3212,6 +3948,26 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/exterior/sea)
+"DR" = (
+/obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/medbay)
+"DU" = (
+/obj/effect/floor_decal/corner/pink/border{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/library)
 "DW" = (
 /obj/abstract/landmark/start{
 	name = "Station Engineer"
@@ -3263,6 +4019,9 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/medbay)
 "Ek" = (
@@ -3271,6 +4030,13 @@
 	},
 /turf/simulated/floor/tiled/freezer,
 /area/cruise/medical/restrooms)
+"Em" = (
+/obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/engineering/foyer)
 "En" = (
 /obj/machinery/atmospherics/unary/freezer,
 /turf/simulated/floor/plating,
@@ -3335,6 +4101,16 @@
 /obj/structure/flora/pottedplant/fern,
 /turf/simulated/floor/wood/maple,
 /area/cruise/exterior/sea)
+"EX" = (
+/obj/structure/catwalk,
+/obj/effect/floor_decal/corner/pink/bordercorner{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/library)
 "Fa" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -3381,12 +4157,11 @@
 /obj/effect/floor_decal/ntlogo,
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/hallway/first)
-"Fz" = (
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
-/area/cruise/crew/restrooms)
 "FB" = (
 /obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/storage/primary)
 "FD" = (
@@ -3411,6 +4186,14 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/cruise/casino)
+"FT" = (
+/obj/structure/catwalk,
+/obj/machinery/door/airlock/autoname,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/cargo/main)
 "Gd" = (
 /turf/simulated/wall,
 /area/cruise/maintenance/primary_storage)
@@ -3423,6 +4206,13 @@
 /obj/machinery/door/airlock/glass,
 /turf/simulated/floor/plating,
 /area/cruise/security)
+"Gl" = (
+/obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/medbay)
 "Gm" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
 	id_tag = "lower_level_dock_pump"
@@ -3457,6 +4247,11 @@
 /obj/machinery/door/blast/shutters/open,
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/cargo/main)
+"GH" = (
+/obj/effect/floor_decal/corner/b_green/full,
+/obj/machinery/optable,
+/turf/simulated/floor/tiled/white,
+/area/cruise/medical/surgery)
 "GJ" = (
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 4
@@ -3506,7 +4301,12 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/steel_grid,
-/area/cruise/arrivals/right)
+/area/cruise/arrivals/left)
+"Hd" = (
+/obj/effect/floor_decal/industrial/warning/fulltile,
+/obj/machinery/door/airlock/glass,
+/turf/simulated/floor/tiled/steel_grid,
+/area/cruise/arrivals/left)
 "Hf" = (
 /obj/machinery/door/airlock/glass,
 /turf/simulated/floor/tiled/steel_ridged,
@@ -3540,15 +4340,6 @@
 	},
 /turf/simulated/floor/carpet/green,
 /area/cruise/casino/smoking)
-"Hr" = (
-/obj/machinery/power/apc{
-	dir = 4;
-	name = "_East APC";
-	pixel_x = 27;
-	pixel_y = 2
-	},
-/turf/simulated/floor/plating,
-/area/cruise/maintenance/disposal)
 "Hu" = (
 /obj/structure/bed/chair/wood/walnut{
 	dir = 4
@@ -3566,10 +4357,13 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/cruise/medical/morgue)
 "HG" = (
-/obj/structure/catwalk,
 /obj/machinery/light/small{
 	dir = 1
 	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/locker)
 "HK" = (
@@ -3604,6 +4398,12 @@
 /obj/effect/floor_decal/corner/orange/bordercorner{
 	dir = 2
 	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/casino)
 "Ib" = (
@@ -3621,11 +4421,23 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/structure/cable{
+	icon_state = "16-0"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/medbay)
 "Ir" = (
 /obj/effect/floor_decal/corner/orange/border{
 	dir = 2
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/casino)
@@ -3638,16 +4450,12 @@
 "Iy" = (
 /turf/simulated/floor/carpet/purple,
 /area/cruise/casino)
-"IA" = (
-/turf/simulated/wall/r_wall/hull,
-/area/cruise/arrivals/left)
 "IB" = (
-/obj/effect/floor_decal/corner/purple/full,
-/obj/abstract/landmark/start{
-	name = "Janitor"
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
-/turf/simulated/wall,
-/area/cruise/maintenance/casino)
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/engineering/right)
 "IC" = (
 /obj/effect/floor_decal/corner/red/border{
 	dir = 4
@@ -3702,13 +4510,24 @@
 	name = "_West APC";
 	pixel_x = -25
 	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/security/lobby)
 "Jf" = (
-/obj/effect/decal/cleanable/cobweb2,
 /obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/disposal)
+"Ji" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/engineering/left)
 "Jo" = (
 /obj/structure/flora/pottedplant/smalltree,
 /turf/simulated/floor/wood/maple,
@@ -3734,10 +4553,19 @@
 "Jq" = (
 /turf/simulated/floor/tiled/white,
 /area/cruise/hallway/first)
-"Js" = (
-/obj/structure/table/bench/padded,
-/turf/simulated/floor/tiled/steel_grid,
-/area/cruise/arrivals/left)
+"Ju" = (
+/obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/arrivals)
 "Jw" = (
 /turf/simulated/floor/tiled/techmaint,
 /area/cruise/cargo/main)
@@ -3754,6 +4582,9 @@
 	name = "_East APC";
 	pixel_x = 27;
 	pixel_y = 2
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
 	},
 /turf/simulated/floor/plating,
 /area/cruise/arrivals/left)
@@ -3779,6 +4610,19 @@
 /obj/structure/lattice,
 /turf/exterior/water,
 /area/cruise/arrivals/leisuredock)
+"JV" = (
+/obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/storage/primary)
 "JW" = (
 /obj/effect/floor_decal/corner/paleblue/full,
 /obj/machinery/light/spot{
@@ -3789,10 +4633,20 @@
 "JZ" = (
 /turf/simulated/floor/wood/mahogany,
 /area/cruise/hotel/spa/massageroom)
+"Ka" = (
+/obj/structure/cable{
+	icon_state = "16-0"
+	},
+/turf/simulated/floor/tiled/steel_grid,
+/area/cruise/engineering/foyer)
 "Kj" = (
 /turf/simulated/wall/r_wall,
 /area/cruise/maintenance/security_starboard)
 "Kk" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/engineering/right)
 "Km" = (
@@ -3818,6 +4672,9 @@
 "Kz" = (
 /obj/structure/catwalk,
 /obj/machinery/door/airlock/autoname,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/locker)
 "KD" = (
@@ -3837,6 +4694,16 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/exterior/sea)
+"KI" = (
+/obj/machinery/power/apc{
+	dir = 4;
+	name = "_East APC";
+	pixel_x = 27;
+	pixel_y = 2
+	},
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/engineering/left)
 "KJ" = (
 /obj/structure/railing/mapped{
 	dir = 1
@@ -3914,11 +4781,24 @@
 /obj/machinery/door/airlock/autoname,
 /turf/simulated/floor/plating,
 /area/cruise/hallway/first)
+"Lt" = (
+/obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/engineering/right)
 "Lu" = (
 /obj/machinery/power/apc{
 	dir = 1;
 	name = "_North APC";
 	pixel_y = 24
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
 	},
 /turf/simulated/floor/plating,
 /area/cruise/arrivals/leisure)
@@ -3929,15 +4809,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/casino)
-"LB" = (
-/obj/machinery/power/apc{
-	dir = 4;
-	name = "_East APC";
-	pixel_x = 27;
-	pixel_y = 2
-	},
-/turf/simulated/floor/plating,
-/area/cruise/storage/primary)
 "LC" = (
 /obj/machinery/door/airlock/glass,
 /turf/simulated/floor/tiled/steel_ridged,
@@ -3951,6 +4822,24 @@
 	},
 /turf/simulated/floor/carpet/green,
 /area/cruise/casino/smoking)
+"LF" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/dormitory)
+"LG" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/gym)
 "LH" = (
 /turf/simulated/floor/wood/usedup,
 /area/cruise/hallway/library)
@@ -3960,10 +4849,6 @@
 	},
 /turf/simulated/floor/wood/bamboo,
 /area/cruise/gym)
-"LR" = (
-/obj/machinery/door/airlock/double/glass,
-/turf/simulated/floor/plating,
-/area/cruise/maintenance/engineering/right)
 "LU" = (
 /obj/effect/floor_decal/corner/red/full,
 /turf/simulated/floor/tiled,
@@ -3983,12 +4868,22 @@
 /turf/simulated/wall,
 /area/cruise/maintenance/engineering)
 "Ma" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/security_starboard)
 "Mc" = (
 /obj/machinery/door/airlock/autoname,
 /turf/simulated/floor/plating,
 /area/cruise/hallway/library)
+"Me" = (
+/obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/engineering/right)
 "Mf" = (
 /obj/effect/floor_decal/techfloor/orange{
 	dir = 2
@@ -4008,10 +4903,10 @@
 /turf/simulated/floor/tiled,
 /area/cruise/janitor)
 "Mk" = (
-/obj/effect/floor_decal/corner/red/diagonal,
 /obj/machinery/light/small{
 	dir = 4
 	},
+/obj/effect/floor_decal/corner/red/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/cruise/storage/art)
 "Mm" = (
@@ -4080,9 +4975,11 @@
 /turf/simulated/floor,
 /area/cruise/exterior/sea)
 "MK" = (
-/obj/structure/ladder,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/plating,
-/area/cruise/maintenance/engineering/left)
+/area/cruise/maintenance/engineering/right)
 "MM" = (
 /obj/effect/floor_decal/corner/paleblue/full,
 /turf/simulated/floor/tiled,
@@ -4113,6 +5010,9 @@
 	dir = 1;
 	name = "_North APC";
 	pixel_y = 24
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
 	},
 /turf/simulated/floor/plating,
 /area/cruise/medical/reception)
@@ -4174,14 +5074,38 @@
 /turf/simulated/floor/tiled/white,
 /area/cruise/medical/reception)
 "Ns" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/storage/tools)
+"Nt" = (
+/obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/engineering/foyer)
+"Nu" = (
+/obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/engineering)
 "Nx" = (
 /obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/steel_grid,
-/area/cruise/arrivals/right)
+/area/cruise/arrivals/left)
+"Ny" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/casino)
 "Nz" = (
 /turf/simulated/wall/r_wall/hull,
 /area/cruise/maintenance/engineering/right)
@@ -4191,6 +5115,12 @@
 	areastring = null;
 	name = "_South APC";
 	pixel_y = -24
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
 	},
 /turf/simulated/floor/plating,
 /area/cruise/cargo/office)
@@ -4243,23 +5173,32 @@
 	pixel_x = 27;
 	pixel_y = 2
 	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/ventilation)
-"NS" = (
+"NU" = (
 /obj/structure/catwalk,
-/obj/effect/floor_decal/corner/green/border{
-	dir = 4
-	},
-/obj/machinery/light/spot{
-	dir = 4
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
 /turf/simulated/floor/plating,
-/area/cruise/maintenance/medbay)
+/area/cruise/maintenance/dormitory)
+"NV" = (
+/obj/effect/floor_decal/corner/orange/bordercorner{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/casino)
 "NW" = (
 /obj/effect/floor_decal/industrial/warning/fulltile,
 /obj/machinery/door/airlock/glass,
 /turf/simulated/floor/tiled/steel_grid,
-/area/cruise/arrivals/left)
+/area/cruise/arrivals/right)
 "NX" = (
 /obj/machinery/door/morgue,
 /turf/simulated/floor/wood/walnut,
@@ -4278,6 +5217,13 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/cruise/medical/reception)
+"Oj" = (
+/obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/storage/primary)
 "Ok" = (
 /obj/structure/ladder,
 /obj/effect/floor_decal/industrial/outline/grey,
@@ -4291,6 +5237,9 @@
 /obj/effect/floor_decal/industrial/traffic/full,
 /obj/structure/window/reinforced{
 	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
 /turf/simulated/floor/plating,
 /area/cruise/hallway/first/parking)
@@ -4307,6 +5256,10 @@
 	name = "_South APC";
 	pixel_y = -24
 	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/cruise/gym)
 "Ow" = (
@@ -4367,6 +5320,12 @@
 	name = "_North APC";
 	pixel_y = 24
 	},
+/obj/structure/cable{
+	icon_state = "16-0"
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/hallway/first/parking)
 "Pb" = (
@@ -4378,6 +5337,13 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/engineering/foyer)
+"Pf" = (
+/obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/cargo/main)
 "Ph" = (
 /obj/structure/catwalk,
 /obj/machinery/door/airlock/autoname,
@@ -4451,6 +5417,22 @@
 /obj/structure/ladder,
 /turf/simulated/floor/wood/walnut,
 /area/cruise/casino/bar)
+"PS" = (
+/obj/structure/catwalk,
+/obj/effect/floor_decal/corner/pink/border{
+	dir = 2
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/gym)
+"PT" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/engineering/foyer)
 "PU" = (
 /obj/machinery/door/airlock/glass,
 /turf/simulated/floor/tiled,
@@ -4462,6 +5444,14 @@
 /obj/machinery/door/airlock/double/glass,
 /turf/simulated/floor/tiled/white,
 /area/cruise/hallway/first)
+"PZ" = (
+/obj/structure/catwalk,
+/obj/machinery/door/airlock/autoname,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/cargo)
 "Qc" = (
 /obj/structure/tank_rack/oxygen,
 /obj/structure/catwalk,
@@ -4477,8 +5467,18 @@
 /obj/abstract/landmark/start{
 	name = "Janitor"
 	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/casino)
+"Qm" = (
+/obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/arrivals)
 "Qn" = (
 /obj/structure/flora/pottedplant/subterranean,
 /turf/simulated/floor/wood/maple,
@@ -4489,6 +5489,9 @@
 	name = "_North APC";
 	pixel_y = 24
 	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/botany)
 "Qp" = (
@@ -4497,14 +5500,31 @@
 	name = "_South APC";
 	pixel_y = -24
 	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/structure/cable{
+	icon_state = "16-0"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/library)
 "Qt" = (
 /obj/structure/fitness/punchingbag,
 /turf/simulated/floor/wood/bamboo,
 /area/cruise/gym)
+"Qu" = (
+/obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/medbay)
 "Qw" = (
 /obj/structure/ladder,
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/medbay)
 "Qy" = (
@@ -4521,6 +5541,7 @@
 	name = "_South APC";
 	pixel_y = -24
 	},
+/obj/structure/cable,
 /turf/simulated/floor/plating,
 /area/cruise/security/checkpoint)
 "QG" = (
@@ -4565,12 +5586,18 @@
 	name = "_North APC";
 	pixel_y = 24
 	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/medical/storage)
 "QT" = (
 /obj/structure/catwalk,
 /obj/effect/floor_decal/corner/orange/bordercorner{
 	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
 	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/casino)
@@ -4585,14 +5612,39 @@
 /obj/machinery/door/airlock/glass,
 /turf/simulated/floor/tiled,
 /area/cruise/security/checkpoint)
+"Re" = (
+/obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/medbay)
 "Rh" = (
 /obj/structure/flora/pottedplant/sticky,
 /turf/simulated/floor/wood/maple,
 /area/cruise/exterior/sea)
+"Ro" = (
+/obj/machinery/door/airlock/autoname,
+/obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/primary_storage)
 "Rp" = (
 /obj/machinery/vending/cola,
 /turf/simulated/floor/lino,
 /area/cruise/crew)
+"Rr" = (
+/obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/medbay)
 "Rt" = (
 /obj/structure/table/gamblingtable,
 /turf/simulated/floor/carpet/magenta,
@@ -4621,6 +5673,12 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/cruise/exterior/sea)
+"RB" = (
+/obj/machinery/light/spot{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/steel_grid,
+/area/cruise/arrivals/left)
 "RC" = (
 /obj/effect/floor_decal/corner/b_green/full,
 /turf/simulated/floor/tiled/white,
@@ -4634,6 +5692,12 @@
 "RI" = (
 /turf/exterior/water,
 /area/cruise/arrivals/leisuredock)
+"RJ" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/gym)
 "RK" = (
 /obj/structure/ladder,
 /turf/simulated/floor/tiled/dark/monotile,
@@ -4642,6 +5706,9 @@
 /obj/structure/catwalk,
 /obj/machinery/light/spot{
 	dir = 2
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
 /turf/simulated/floor/plating,
 /area/cruise/cargo/main)
@@ -4682,6 +5749,9 @@
 "Sa" = (
 /obj/structure/catwalk,
 /obj/machinery/door/airlock/glass,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/engineering/foyer)
 "Sd" = (
@@ -4706,9 +5776,16 @@
 	},
 /turf/simulated/floor,
 /area/cruise/exterior/sea)
-"Sm" = (
-/turf/simulated/wall,
-/area/cruise/medical/restrooms)
+"Sl" = (
+/obj/structure/catwalk,
+/obj/effect/floor_decal/corner/pink/border{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/casino)
 "Sn" = (
 /obj/machinery/door/airlock/double/glass,
 /turf/simulated/floor/carpet/red,
@@ -4724,6 +5801,7 @@
 	name = "_South APC";
 	pixel_y = -24
 	},
+/obj/structure/cable,
 /turf/simulated/floor/plating,
 /area/cruise/security/armory)
 "Ss" = (
@@ -4792,10 +5870,41 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/engineering/foyer)
+"SU" = (
+/obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/locker)
+"SW" = (
+/obj/structure/cable{
+	icon_state = "0-2";
+	pixel_y = 1
+	},
+/obj/machinery/power/debug_items/infinite_generator,
+/turf/simulated/floor/plating,
+/area/cruise/engineering/engine/left)
 "Ta" = (
 /obj/structure/closet/secure_closet/cargotech,
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/cargo/main)
+"Tb" = (
+/obj/structure/cable{
+	icon_state = "16-0"
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/dormitory)
+"Tc" = (
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/library)
 "Tf" = (
 /obj/structure/bed/sofa/right/beige{
 	dir = 4
@@ -4819,6 +5928,13 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/exterior/sea)
+"Tu" = (
+/obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/dormitory)
 "Tx" = (
 /obj/structure/catwalk,
 /obj/machinery/power/apc{
@@ -4828,13 +5944,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/cruise/hotel/spa/restroom)
-"TA" = (
-/obj/structure/table/bench/padded,
-/obj/machinery/light/spot{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/steel_grid,
-/area/cruise/arrivals/left)
 "TC" = (
 /obj/machinery/door/airlock/autoname,
 /turf/simulated/floor/tiled/freezer,
@@ -4895,28 +6004,47 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/exterior/sea)
+"Ut" = (
+/obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/ventilation)
 "Uv" = (
 /obj/structure/flora/pottedplant/minitree,
 /turf/simulated/floor/wood/maple,
 /area/cruise/hallway/first)
 "Uy" = (
-/obj/structure/catwalk,
 /obj/machinery/power/apc{
 	dir = 4;
 	name = "_East APC";
 	pixel_x = 27;
 	pixel_y = 2
 	},
+/obj/structure/cable,
 /turf/simulated/floor/plating,
 /area/cruise/casino/smoking)
 "Uz" = (
 /obj/structure/window/reinforced{
 	dir = 4
 	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/hallway/first/parking)
 "UB" = (
 /obj/machinery/door/airlock/autoname,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/hallway/first/parking)
 "UC" = (
@@ -4970,6 +6098,13 @@
 /obj/effect/floor_decal/corner/purple/full,
 /turf/simulated/floor/tiled,
 /area/cruise/janitor)
+"UV" = (
+/obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/security_starboard)
 "UW" = (
 /obj/structure/table/bench/wooden,
 /obj/machinery/light/small{
@@ -4990,12 +6125,28 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/cruise/hallway/first)
-"Vd" = (
-/obj/machinery/light/spot{
-	dir = 4
+"Vb" = (
+/obj/structure/cable{
+	icon_state = "16-0"
 	},
-/turf/simulated/floor/tiled/steel_grid,
-/area/cruise/arrivals/left)
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/cargo)
+"Ve" = (
+/obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/medbay)
 "Vf" = (
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 1
@@ -5040,6 +6191,12 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/cruise/hallway/first)
+"Vu" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/library)
 "VA" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 8
@@ -5092,6 +6249,12 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/exterior/sea)
+"VQ" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/gym)
 "VS" = (
 /obj/structure/table,
 /obj/item/card/id/captains_spare,
@@ -5131,6 +6294,15 @@
 /obj/structure/flora/pottedplant/crystal,
 /turf/simulated/floor/wood/maple,
 /area/cruise/exterior/sea)
+"Wi" = (
+/obj/structure/cable{
+	icon_state = "16-0"
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/library)
 "Wk" = (
 /obj/structure/catwalk,
 /obj/machinery/door/airlock/autoname,
@@ -5144,10 +6316,6 @@
 /obj/structure/sign/warning/moving_parts,
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/engineering)
-"Wp" = (
-/obj/effect/wallframe_spawn/reinforced/hull,
-/turf/simulated/floor/plating,
-/area/cruise/maintenance/engineering/right)
 "Ws" = (
 /obj/structure/flora/pottedplant/decorative,
 /obj/machinery/light/spot{
@@ -5168,6 +6336,15 @@
 /obj/structure/table/woodentable/maple,
 /turf/simulated/floor/wood/maple,
 /area/cruise/hallway/first)
+"Wz" = (
+/obj/structure/cable{
+	icon_state = "16-0"
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/engineering/foyer)
 "WA" = (
 /obj/structure/catwalk,
 /obj/machinery/light/small{
@@ -5192,6 +6369,16 @@
 /obj/machinery/door/airlock,
 /turf/simulated/floor/tiled/freezer,
 /area/cruise/cargo/main)
+"WI" = (
+/obj/structure/catwalk,
+/obj/effect/floor_decal/corner/pink/border{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/library)
 "WK" = (
 /turf/simulated/wall/r_wall,
 /area/cruise/storage/tools)
@@ -5214,12 +6401,19 @@
 	name = "_South APC";
 	pixel_y = -24
 	},
+/obj/structure/cable,
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/hallway/first)
 "WS" = (
 /turf/simulated/wall/r_wall/hull,
 /area/cruise/maintenance/library)
 "WV" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/botany)
 "WX" = (
@@ -5253,11 +6447,23 @@
 /area/cruise/hotel/spa/laundry)
 "Xf" = (
 /obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/ventilation)
+"Xg" = (
+/obj/structure/cable{
+	icon_state = "32-4"
+	},
+/turf/simulated/floor/tiled/steel_grid,
+/area/cruise/engineering/foyer)
 "Xh" = (
 /obj/structure/catwalk,
 /obj/machinery/door/airlock/autoname,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/cargo/main)
 "Xn" = (
@@ -5269,20 +6475,17 @@
 	},
 /turf/simulated/floor,
 /area/cruise/exterior/sea)
+"Xq" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/library)
 "Xr" = (
 /obj/structure/rack,
 /obj/effect/floor_decal/corner/orange/full,
 /turf/simulated/floor/tiled/white,
 /area/cruise/hotel/spa/laundry)
-"Xs" = (
-/obj/structure/catwalk,
-/obj/machinery/power/apc{
-	dir = 1;
-	name = "_North APC";
-	pixel_y = 24
-	},
-/turf/simulated/floor/plating,
-/area/cruise/maintenance/incinerator)
 "Xy" = (
 /turf/simulated/floor/wood/maple,
 /area/cruise/hallway/first)
@@ -5296,6 +6499,12 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/cruise/medical/reception)
+"XN" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/engineering/right)
 "XO" = (
 /obj/machinery/computer/fission,
 /turf/simulated/floor/tiled,
@@ -5306,6 +6515,9 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/exterior/sea)
+"XR" = (
+/turf/simulated/wall/r_wall/hull,
+/area/cruise/arrivals/left)
 "XS" = (
 /obj/machinery/door/airlock/double,
 /turf/simulated/floor/wood/usedup,
@@ -5334,6 +6546,10 @@
 	name = "_West APC";
 	pixel_x = -25
 	},
+/obj/structure/cable,
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/arrivals/right)
 "Yb" = (
@@ -5354,11 +6570,15 @@
 /turf/simulated/floor/tiled/white,
 /area/cruise/medical/reception)
 "Ym" = (
-/obj/structure/railing/mapped{
-	dir = 8
+/obj/structure/catwalk,
+/obj/effect/floor_decal/corner/pink/border{
+	dir = 2
 	},
-/turf/simulated/floor/tiled/steel_grid,
-/area/cruise/arrivals/left)
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/gym)
 "Yo" = (
 /turf/simulated/wall/r_wall,
 /area/cruise/maintenance/library)
@@ -5374,15 +6594,15 @@
 /turf/simulated/floor/lino,
 /area/cruise/crew)
 "Yx" = (
-/obj/structure/catwalk,
 /obj/machinery/power/apc{
 	dir = 4;
 	name = "_East APC";
 	pixel_x = 27;
 	pixel_y = 2
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
-/area/cruise/maintenance/engineering/left)
+/area/cruise/maintenance/engineering/right)
 "Yz" = (
 /obj/abstract/landmark/start{
 	name = "Security Officer"
@@ -5396,9 +6616,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/gym)
-"YB" = (
-/turf/simulated/wall,
-/area/cruise/arrivals/left)
 "YM" = (
 /obj/effect/floor_decal/corner/red/diagonal,
 /turf/simulated/floor/tiled/white,
@@ -5429,6 +6646,16 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/exterior/sea)
+"Ze" = (
+/obj/effect/floor_decal/corner/pink/border{
+	dir = 2
+	},
+/obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/gym)
 "Zf" = (
 /obj/structure/rack,
 /obj/item/clothing/suit/bio_suit/general,
@@ -5457,6 +6684,13 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/cruise/exterior/sea)
+"Zn" = (
+/obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/cargo)
 "Zp" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 9
@@ -5488,12 +6722,26 @@
 	name = "_South APC";
 	pixel_y = -24
 	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/cargo/main)
 "ZD" = (
 /obj/structure/window/basic/full,
 /turf/simulated/floor/tiled/techfloor,
 /area/cruise/security/checkpoint)
+"ZE" = (
+/obj/structure/catwalk,
+/obj/machinery/door/airlock/autoname,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/medbay)
 "ZG" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -5503,6 +6751,12 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/exterior/sea)
+"ZL" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/dormitory)
 "ZM" = (
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/maintenance/engineering)
@@ -5511,7 +6765,7 @@
 /area/cruise/hotel/spa/restroom)
 "ZR" = (
 /turf/simulated/floor/tiled/steel_grid,
-/area/cruise/arrivals/right)
+/area/cruise/arrivals/left)
 "ZW" = (
 /obj/structure/table,
 /turf/simulated/floor/tiled/steel_grid,
@@ -20302,7 +21556,7 @@ me
 me
 SG
 us
-MX
+Nu
 MY
 SG
 me
@@ -20559,7 +21813,7 @@ me
 me
 SG
 MY
-MX
+kn
 MY
 SG
 me
@@ -20816,7 +22070,7 @@ me
 me
 SG
 Jb
-Hf
+sA
 Jb
 SG
 me
@@ -21073,7 +22327,7 @@ me
 me
 zx
 ZM
-MX
+kn
 ZM
 zx
 me
@@ -21330,7 +22584,7 @@ me
 me
 Xa
 ZM
-MX
+kn
 ZM
 Xa
 me
@@ -21587,7 +22841,7 @@ me
 me
 Xa
 ZM
-MX
+kn
 ZM
 Xa
 me
@@ -21844,7 +23098,7 @@ me
 me
 Xa
 ZM
-MX
+kn
 ZM
 Xa
 me
@@ -22101,7 +23355,7 @@ me
 me
 Xa
 ZM
-MX
+kn
 Um
 Xa
 me
@@ -22358,7 +23612,7 @@ me
 me
 Xa
 ZM
-MX
+kn
 ZM
 Xa
 me
@@ -22615,7 +23869,7 @@ KK
 KK
 Xa
 Et
-MX
+kn
 ZM
 Xa
 Wn
@@ -22850,51 +24104,51 @@ UC
 UC
 UC
 nn
-aR
-aR
-aR
-aR
-aR
-aR
-aR
-aR
-aR
-aR
-aR
-aR
-aR
-aR
-aR
-aR
-aR
-aR
-aR
-aR
+Ji
+yw
+yw
+yw
+yw
+yw
+yw
+yw
+yw
+yw
+yw
+yw
+yw
+yw
+yw
+yw
+yw
+yw
+yw
+yw
+xQ
+MX
+kn
+MX
 wb
-MX
-MX
-MX
-LR
-Kk
-Kk
-Kk
-Kk
-Kk
-Kk
-Kk
-Kk
-Kk
-Kk
-Kk
-Kk
-Kk
-Kk
-Kk
-Kk
-Kk
-Kk
-Kk
-Kk
+MK
+MK
+MK
+MK
+MK
+MK
+MK
+MK
+MK
+MK
+MK
+MK
+MK
+MK
+MK
+tD
+MK
+MK
+MK
+XN
 Nz
 UC
 UC
@@ -23107,51 +24361,51 @@ UC
 UC
 UC
 nn
-aR
+pF
 WC
-WC
-CD
-WC
-WC
-WC
-WC
-CD
+KI
+CM
 WC
 WC
 WC
 WC
-CD
+CM
 WC
 WC
 WC
 WC
-CD
-Yx
+CM
 WC
-MX
+WC
+WC
+WC
+CM
+WC
+cJ
+Ay
 DG
-MX
-kd
-wj
-CM
-kd
-kd
-kd
-kd
-CM
-kd
-kd
-kd
-kd
-CM
-kd
-kd
-kd
-kd
-CM
-kd
-kd
+Ay
+Me
+Yx
 Kk
+cM
+cM
+cM
+cM
+Kk
+cM
+cM
+cM
+cM
+Kk
+cM
+cM
+cM
+Lt
+Kk
+cM
+cM
+IB
 Nz
 UC
 UC
@@ -23364,7 +24618,7 @@ UC
 UC
 UC
 Mq
-aR
+pF
 ne
 xT
 lW
@@ -23404,12 +24658,12 @@ xT
 xT
 xT
 xT
-Ci
+dI
 xT
 lW
 dz
-Kk
-Wp
+IB
+wR
 UC
 UC
 UC
@@ -23621,7 +24875,7 @@ UC
 UC
 UC
 nn
-aR
+pF
 WC
 xT
 xD
@@ -23642,9 +24896,9 @@ Eh
 Eh
 Eh
 rl
-OH
+Em
 KW
-OH
+Em
 rl
 Eh
 Eh
@@ -23660,12 +24914,12 @@ eA
 eA
 vt
 xD
-bE
-bE
+Wz
+PT
 xD
 xT
-kd
-Kk
+cM
+IB
 Nz
 UC
 UC
@@ -23878,7 +25132,7 @@ UC
 UC
 UC
 nn
-aR
+pF
 WC
 Ci
 xD
@@ -23899,9 +25153,9 @@ Eh
 Eh
 Eh
 rl
-OH
+Em
 xD
-OH
+Em
 rl
 Eh
 Eh
@@ -23921,8 +25175,8 @@ ri
 xD
 xD
 Ci
-kd
-Kk
+cM
+IB
 Nz
 UC
 UC
@@ -24135,7 +25389,7 @@ UC
 UC
 UC
 nn
-aR
+pF
 ne
 xT
 xD
@@ -24156,9 +25410,9 @@ Eh
 Eh
 Eh
 rl
-OH
+Em
 xD
-OH
+Em
 rl
 Eh
 Eh
@@ -24179,7 +25433,7 @@ xD
 xD
 xT
 dz
-Kk
+IB
 Nz
 UC
 UC
@@ -24392,7 +25646,7 @@ UC
 UC
 UC
 nn
-aR
+pF
 WC
 xT
 xD
@@ -24413,9 +25667,9 @@ Eh
 Eh
 Eh
 rl
-OH
+Em
 xD
-OH
+Em
 kH
 Eh
 Eh
@@ -24435,8 +25689,8 @@ cl
 vt
 xD
 xT
-kd
-Kk
+cM
+IB
 Nz
 UC
 UC
@@ -24649,7 +25903,7 @@ UC
 UC
 UC
 Mq
-aR
+pF
 WC
 xT
 Ec
@@ -24670,9 +25924,9 @@ xD
 xD
 xD
 rl
-OH
+Em
 xD
-OH
+Em
 KF
 Eh
 Eh
@@ -24692,9 +25946,9 @@ Wb
 cl
 vt
 xT
-kd
-Kk
-Wp
+cM
+IB
+wR
 UC
 UC
 UC
@@ -24906,7 +26160,7 @@ UC
 UC
 UC
 nn
-aR
+pF
 ne
 xT
 oT
@@ -24927,9 +26181,9 @@ xD
 xD
 xD
 rl
-OH
+Em
 xD
-OH
+Em
 jm
 xD
 xD
@@ -24950,7 +26204,7 @@ Wb
 vD
 xT
 dz
-Kk
+IB
 Nz
 UC
 UC
@@ -25163,7 +26417,7 @@ UC
 UC
 UC
 nn
-aR
+pF
 WC
 xT
 oT
@@ -25177,23 +26431,23 @@ hS
 hS
 hS
 hS
-aZ
-hS
-OH
-dn
-dn
-dn
-dn
-OH
+SW
+rT
+eD
+lu
+lu
+lu
+lu
+dj
 xD
-OH
-OH
-OH
-OH
-OH
-OH
-Wb
-Wb
+Nt
+eD
+eD
+eD
+eD
+eD
+uJ
+Ag
 Wb
 Wt
 Wt
@@ -25206,8 +26460,8 @@ Wb
 Wb
 vD
 xT
-kd
-Kk
+cM
+IB
 Nz
 UC
 UC
@@ -25420,7 +26674,7 @@ UC
 UC
 UC
 nn
-aR
+pF
 WC
 xT
 oT
@@ -25434,7 +26688,7 @@ hS
 hS
 hS
 hS
-hS
+aZ
 hS
 OH
 dn
@@ -25463,8 +26717,8 @@ Wb
 Wb
 vD
 xT
-kd
-Kk
+cM
+IB
 Nz
 UC
 UC
@@ -25677,7 +26931,7 @@ UC
 UC
 UC
 nn
-aR
+pF
 ne
 xT
 oT
@@ -25721,7 +26975,7 @@ Ok
 vD
 xT
 dz
-Kk
+IB
 Nz
 UC
 UC
@@ -25934,7 +27188,7 @@ UC
 UC
 UC
 Mq
-aR
+pF
 WC
 xT
 pR
@@ -25977,9 +27231,9 @@ Wb
 MT
 iC
 xT
-kd
-Kk
-Wp
+cM
+IB
+wR
 UC
 UC
 UC
@@ -26191,7 +27445,7 @@ UC
 UC
 UC
 nn
-aR
+pF
 WC
 xT
 xD
@@ -26234,8 +27488,8 @@ MT
 iC
 xD
 xT
-kd
-Kk
+cM
+IB
 Nz
 UC
 UC
@@ -26448,7 +27702,7 @@ UC
 UC
 UC
 nn
-aR
+pF
 ne
 xT
 xD
@@ -26470,7 +27724,7 @@ EG
 wW
 Lk
 sy
-xD
+Xg
 xD
 rl
 Eh
@@ -26492,7 +27746,7 @@ xD
 xD
 xT
 dz
-Kk
+IB
 Nz
 UC
 UC
@@ -26705,7 +27959,7 @@ UC
 UC
 UC
 nn
-aR
+pF
 WC
 Ci
 xD
@@ -26727,7 +27981,7 @@ ep
 ep
 EG
 xD
-xD
+Ka
 xD
 rl
 Eh
@@ -26748,8 +28002,8 @@ wV
 xD
 xD
 Ci
-kd
-Kk
+cM
+IB
 Nz
 UC
 UC
@@ -26962,7 +28216,7 @@ UC
 UC
 UC
 nn
-aR
+pF
 WC
 xT
 xT
@@ -27005,8 +28259,8 @@ xD
 xD
 xD
 xT
-kd
-Kk
+cM
+IB
 Nz
 UC
 UC
@@ -27219,7 +28473,7 @@ UC
 UC
 UC
 Mq
-aR
+pF
 ne
 xT
 Ao
@@ -27263,8 +28517,8 @@ Ci
 xT
 xT
 dz
-Kk
-Wp
+IB
+wR
 UC
 UC
 UC
@@ -27476,10 +28730,10 @@ UC
 UC
 UC
 nn
-aR
-WC
+gw
+vZ
 Xh
-Xf
+Ut
 cj
 Xf
 Xf
@@ -27488,10 +28742,10 @@ no
 no
 no
 no
-Th
-kP
-kP
-kP
+PZ
+tC
+rO
+Zn
 kP
 Th
 ep
@@ -27501,26 +28755,26 @@ xD
 xD
 xD
 DD
-kd
-kd
-kd
-kd
-kd
-kd
-kd
-kd
-kd
-kd
-kd
-kd
-kd
-kd
-kd
-kd
-kd
-kd
-kd
-Kk
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+cM
+IB
 Nz
 UC
 UC
@@ -27734,7 +28988,7 @@ UC
 UC
 nn
 aR
-MK
+aR
 qb
 NP
 FP
@@ -27748,7 +29002,7 @@ Ta
 qb
 kx
 ra
-Wm
+Vb
 Wm
 lQ
 tn
@@ -27757,27 +29011,27 @@ Lk
 iV
 xD
 xD
-kd
+cM
 bi
-Kk
-Kk
-Kk
-Kk
+hH
+hH
+hH
+hH
 bi
-Kk
-Kk
-Kk
-Hr
-bi
-Kk
-Kk
-Kk
-Kk
-bi
-Kk
-kd
-Kk
-Kk
+hH
+hH
+hH
+Ax
+cA
+MK
+MK
+MK
+MK
+cA
+MK
+CF
+Bf
+mp
 Nz
 UC
 UC
@@ -28003,7 +29257,7 @@ Yb
 Ta
 Ta
 qb
-Xh
+FT
 qb
 gE
 gE
@@ -28032,7 +29286,7 @@ xz
 xz
 xz
 xz
-kd
+cM
 bK
 Nz
 Nz
@@ -28290,7 +29544,7 @@ GQ
 GQ
 xz
 tz
-qg
+aw
 eo
 xI
 UC
@@ -28546,8 +29800,8 @@ GQ
 GQ
 GQ
 xz
-Xs
-qg
+ya
+LF
 eo
 UC
 UC
@@ -28774,7 +30028,7 @@ yr
 qK
 yr
 yr
-no
+oH
 oq
 wU
 wU
@@ -28804,7 +30058,7 @@ GQ
 GQ
 xz
 fs
-qg
+aw
 oY
 UC
 UC
@@ -29051,7 +30305,7 @@ Zk
 bj
 Zk
 bj
-Fz
+CO
 LV
 LV
 LV
@@ -29061,7 +30315,7 @@ GQ
 GQ
 cD
 tz
-qg
+aw
 eo
 UC
 UC
@@ -29288,7 +30542,7 @@ qK
 yr
 yr
 yr
-no
+oH
 qb
 lD
 AW
@@ -29318,7 +30572,7 @@ GQ
 GQ
 xz
 tz
-qg
+aw
 eo
 UC
 UC
@@ -29543,9 +30797,9 @@ oc
 yr
 yr
 yr
+Pf
 no
-no
-no
+dg
 qb
 OE
 AW
@@ -29565,7 +30819,7 @@ bj
 bj
 bj
 bj
-zG
+Ro
 Gd
 Gd
 Gd
@@ -29575,7 +30829,7 @@ Gd
 dq
 dq
 tz
-qg
+aw
 eo
 UC
 UC
@@ -29790,6 +31044,7 @@ UC
 UC
 UC
 Mm
+Pf
 no
 no
 no
@@ -29799,10 +31054,9 @@ no
 no
 no
 no
-no
-no
+hG
 qb
-Xh
+FT
 qb
 Yv
 AW
@@ -29822,17 +31076,17 @@ UX
 UX
 UX
 bj
-gK
+ag
 ja
-gK
-gK
-gK
-gK
+kJ
+kJ
+kJ
+kJ
 uQ
+Tu
 tz
 tz
-tz
-qg
+aw
 eo
 UC
 UC
@@ -30047,7 +31301,7 @@ UC
 UC
 UC
 xp
-no
+oH
 bn
 DZ
 Jw
@@ -30086,10 +31340,10 @@ Gd
 Gd
 Ph
 Gd
-qg
-qg
-tz
-qg
+Tb
+ZL
+NU
+LF
 oY
 UC
 UC
@@ -30304,7 +31558,7 @@ UC
 UC
 UC
 Mm
-no
+oH
 xk
 Mf
 Jw
@@ -30346,7 +31600,7 @@ RR
 hE
 tz
 tz
-qg
+aw
 eo
 UC
 UC
@@ -30603,7 +31857,7 @@ RR
 hz
 qg
 tz
-qg
+aw
 eo
 UC
 UC
@@ -30818,7 +32072,7 @@ UC
 UC
 UC
 Mm
-no
+oH
 xk
 Mf
 Jw
@@ -30860,7 +32114,7 @@ RR
 PC
 qg
 tz
-qg
+aw
 eo
 UC
 UC
@@ -31075,7 +32329,7 @@ UC
 UC
 UC
 Mm
-no
+oH
 xk
 Mf
 Jw
@@ -31103,11 +32357,11 @@ xj
 UD
 UD
 GJ
-FB
-FB
-FB
-Zj
-gK
+Oj
+JV
+kU
+yA
+xK
 Gd
 Zh
 qf
@@ -31117,7 +32371,7 @@ RR
 dq
 dq
 tz
-qg
+aw
 eo
 UC
 UC
@@ -31332,7 +32586,7 @@ UC
 UC
 UC
 xp
-no
+oH
 xk
 Mf
 Jw
@@ -31361,7 +32615,7 @@ ty
 ty
 WY
 FB
-LB
+jV
 nL
 Gd
 Zj
@@ -31374,7 +32628,7 @@ ox
 bG
 dq
 fs
-qg
+aw
 oY
 UC
 UC
@@ -31589,7 +32843,7 @@ UC
 UC
 UC
 Mm
-no
+oH
 rV
 qi
 Jw
@@ -31631,7 +32885,7 @@ Lm
 ox
 dq
 tz
-qg
+aw
 eo
 UC
 UC
@@ -31859,7 +33113,7 @@ Qy
 Qy
 Xn
 HG
-aT
+uK
 jC
 IF
 IF
@@ -31888,7 +33142,7 @@ Lm
 ox
 dq
 tz
-qg
+aw
 eo
 UC
 UC
@@ -32103,7 +33357,7 @@ UC
 UC
 UC
 du
-Gf
+vd
 oF
 eB
 jA
@@ -32115,7 +33369,7 @@ Qy
 Qy
 qd
 Xn
-ap
+SU
 pn
 zs
 cQ
@@ -32145,7 +33399,7 @@ ox
 ox
 dq
 tz
-qg
+aw
 eo
 UC
 UC
@@ -32360,7 +33614,7 @@ UC
 UC
 UC
 du
-Gf
+vd
 oF
 eB
 jA
@@ -32402,7 +33656,7 @@ iK
 iK
 iK
 tz
-qg
+aw
 eo
 UC
 UC
@@ -32617,7 +33871,7 @@ UC
 UC
 UC
 oW
-Gf
+vd
 uX
 eB
 jA
@@ -32659,7 +33913,7 @@ rG
 rG
 iK
 fs
-qg
+aw
 oY
 UC
 UC
@@ -32874,7 +34128,7 @@ UC
 UC
 UC
 du
-Gf
+vd
 oF
 eB
 eB
@@ -32916,7 +34170,7 @@ ZP
 VK
 iK
 tz
-qg
+aw
 eo
 UC
 UC
@@ -33139,13 +34393,13 @@ fA
 fA
 bd
 cE
-Gf
-Gf
-Gf
+ph
+ph
+ph
 aE
-oF
-Gf
-IB
+ph
+kV
+eB
 UU
 UU
 uf
@@ -33173,7 +34427,7 @@ gA
 gA
 iK
 Tx
-qg
+LF
 eo
 UC
 UC
@@ -33398,7 +34652,7 @@ cX
 cX
 cX
 cX
-Gf
+oF
 oF
 oF
 Qi
@@ -33430,7 +34684,7 @@ iK
 iK
 iK
 tz
-qg
+aw
 eo
 UC
 UC
@@ -33655,10 +34909,10 @@ Wa
 Wa
 fa
 cX
-Gf
 oF
 oF
-Gf
+oF
+mN
 eB
 UU
 UU
@@ -33687,7 +34941,7 @@ JZ
 AF
 Zs
 tz
-qg
+aw
 eo
 UC
 UC
@@ -33944,7 +35198,7 @@ xP
 bh
 Zs
 fs
-qg
+aw
 oY
 UC
 UC
@@ -34201,7 +35455,7 @@ JZ
 AF
 Zs
 XT
-qg
+LF
 eo
 UC
 UC
@@ -34458,7 +35712,7 @@ Zs
 Zs
 Zs
 tz
-qg
+aw
 eo
 UC
 UC
@@ -34715,7 +35969,7 @@ fu
 fu
 lO
 tz
-qg
+aw
 eo
 UC
 UC
@@ -34972,7 +36226,7 @@ fu
 fu
 qQ
 tz
-qg
+aw
 eo
 UC
 UC
@@ -35229,7 +36483,7 @@ fu
 fu
 qQ
 fs
-qg
+aw
 oY
 UC
 UC
@@ -35486,7 +36740,7 @@ fu
 fu
 qQ
 qO
-qg
+LF
 eo
 UC
 UC
@@ -35725,7 +36979,7 @@ Xy
 Xy
 Xy
 Xy
-Xy
+kY
 Xy
 Xy
 Xy
@@ -35743,7 +36997,7 @@ jq
 kq
 kq
 tz
-qg
+aw
 eo
 UC
 UC
@@ -36000,7 +37254,7 @@ Yu
 cB
 kq
 tz
-qg
+aw
 eo
 UC
 UC
@@ -36257,7 +37511,7 @@ gO
 cB
 kq
 tz
-qg
+aw
 eo
 UC
 UC
@@ -36514,7 +37768,7 @@ Ct
 cB
 kq
 fs
-qg
+aw
 oY
 UC
 UC
@@ -36771,7 +38025,7 @@ yl
 cB
 kq
 tz
-qg
+aw
 eo
 UC
 UC
@@ -37028,7 +38282,7 @@ Ct
 cB
 kq
 US
-qg
+LF
 eo
 UC
 UC
@@ -37285,7 +38539,7 @@ dl
 cB
 kq
 tz
-qg
+aw
 eo
 UC
 UC
@@ -37542,7 +38796,7 @@ cB
 cB
 kq
 tz
-qg
+aw
 eo
 UC
 UC
@@ -38015,8 +39269,8 @@ UC
 UC
 du
 Gf
-yF
-Bl
+NV
+Dm
 fE
 fE
 IQ
@@ -38312,8 +39566,8 @@ CA
 ua
 AQ
 oB
-Ma
-Ma
+vg
+ga
 Bz
 UC
 UC
@@ -38530,7 +39784,7 @@ UC
 du
 du
 id
-wS
+Sl
 wS
 wS
 rz
@@ -38787,7 +40041,7 @@ UC
 xS
 du
 wJ
-Gf
+mN
 eB
 eB
 fE
@@ -39044,7 +40298,7 @@ UC
 UC
 du
 wJ
-Gf
+Ny
 pX
 YM
 YM
@@ -39301,7 +40555,7 @@ UC
 UC
 oW
 wJ
-oF
+mN
 eB
 YM
 YM
@@ -39557,7 +40811,7 @@ UC
 UC
 UC
 du
-wJ
+cK
 nR
 pq
 tu
@@ -40071,8 +41325,8 @@ UC
 UC
 UC
 zf
-YA
-vy
+Ze
+Cd
 eu
 Oq
 ls
@@ -40328,10 +41582,10 @@ UC
 UC
 UC
 zf
-YA
-vy
-vy
-jt
+Ym
+RJ
+xG
+sG
 ls
 VN
 ed
@@ -40588,7 +41842,7 @@ KM
 YA
 vy
 vy
-vy
+VQ
 ls
 ed
 ed
@@ -40845,7 +42099,7 @@ zf
 YA
 vy
 vy
-vy
+VQ
 ls
 ed
 ed
@@ -40882,7 +42136,7 @@ OC
 IN
 AQ
 eH
-Ma
+tA
 Bz
 UC
 UC
@@ -41123,12 +42377,12 @@ Xy
 Lq
 Sx
 Sx
-Sx
-Sx
-Sx
-Sx
-Sx
-Sx
+Re
+Qu
+Ve
+DR
+AI
+sE
 Sx
 WA
 Sx
@@ -41359,7 +42613,7 @@ zf
 YA
 vy
 vy
-vy
+VQ
 ls
 VE
 ed
@@ -41382,7 +42636,7 @@ eP
 BQ
 jU
 En
-Sx
+Gl
 AQ
 AQ
 AQ
@@ -41616,7 +42870,7 @@ zf
 YA
 vy
 vy
-vy
+VQ
 dC
 dC
 dC
@@ -41639,7 +42893,7 @@ Hz
 SA
 SA
 BQ
-Sx
+Gl
 AQ
 Gw
 yc
@@ -42127,10 +43381,10 @@ UC
 UC
 UC
 zf
-YA
-vy
-vy
-vy
+PS
+RJ
+RJ
+LG
 Mc
 LH
 LH
@@ -42153,7 +43407,7 @@ jG
 iQ
 XU
 BQ
-Sx
+Gl
 AQ
 yI
 yG
@@ -42410,7 +43664,7 @@ iQ
 iQ
 XU
 BQ
-Sx
+Gl
 AQ
 yG
 yc
@@ -42641,10 +43895,10 @@ UC
 UC
 UC
 WS
-rJ
-su
-su
-su
+Br
+Vu
+Xq
+Wi
 dC
 lH
 LH
@@ -42667,7 +43921,7 @@ fo
 iQ
 SA
 BQ
-Sx
+Gl
 AQ
 yT
 yc
@@ -42900,8 +44154,8 @@ UC
 WS
 rJ
 su
-su
-su
+tH
+si
 dC
 lH
 LH
@@ -42924,7 +44178,7 @@ Io
 za
 Io
 QS
-Sx
+Rr
 AQ
 AQ
 AQ
@@ -43157,7 +44411,7 @@ UC
 JA
 rJ
 su
-su
+Cu
 mx
 dC
 lH
@@ -43181,9 +44435,9 @@ cw
 SO
 Io
 BQ
-Sx
+Bu
 dp
-Qw
+zt
 AQ
 MW
 AQ
@@ -43414,8 +44668,8 @@ UC
 WS
 rJ
 su
-su
-su
+Cu
+Tc
 dC
 dC
 dC
@@ -43440,13 +44694,13 @@ cw
 BQ
 ng
 xY
-NS
+CD
 jc
 mr
-Sx
-Sx
-Sx
-Sx
+Qu
+Qu
+AI
+bL
 BI
 gc
 ds
@@ -43671,11 +44925,11 @@ UC
 WS
 cT
 rR
-rR
-rR
-rR
-rR
-rR
+hb
+DU
+DU
+WI
+WI
 wT
 Cg
 WO
@@ -43696,20 +44950,20 @@ cw
 cw
 BQ
 fZ
-Sm
-Sm
-Sm
-Sm
-Sm
-Sm
-Sm
-Sx
+dB
+dB
+dB
+dB
+dB
+dB
+dB
+Gl
 BI
 uI
 Zg
 Kj
-oB
-Ma
+UV
+ga
 Bz
 UC
 UC
@@ -43953,14 +45207,14 @@ cw
 cw
 BQ
 fZ
-Sm
+dB
 bf
 Zt
-Sm
+dB
 Ek
 bf
-Sm
-Sx
+dB
+Gl
 Ue
 Ue
 Ue
@@ -44191,7 +45445,7 @@ bZ
 Fw
 Fw
 Yo
-cT
+EX
 zR
 nv
 Jq
@@ -44210,19 +45464,19 @@ cw
 cw
 BQ
 MZ
-Sm
+dB
 vC
 rP
-Sm
+dB
 rP
 Fl
-Sm
-Sx
-Sx
+dB
+gn
+Qu
 Ej
-Wk
-pW
-pW
+ZE
+Ju
+Qm
 pg
 xS
 UC
@@ -44468,17 +45722,17 @@ oO
 BQ
 IV
 oO
-Sm
+dB
 yk
-Sm
+dB
 yk
-Sm
-Sm
+dB
+dB
 BQ
 BQ
 BQ
 BQ
-Ye
+Ah
 pW
 lF
 UC
@@ -44705,7 +45959,7 @@ RI
 KJ
 Fw
 WK
-Ns
+nV
 Ns
 QE
 wM
@@ -45219,7 +46473,7 @@ Nj
 Fw
 Sf
 WK
-Ns
+Dy
 ce
 ce
 wM
@@ -45506,7 +46760,7 @@ dL
 dL
 dL
 dL
-Ye
+Ah
 pW
 pg
 UC
@@ -45733,7 +46987,7 @@ RI
 KJ
 Fw
 WK
-Ns
+Dy
 ce
 ce
 wM
@@ -46017,7 +47271,7 @@ Yi
 dL
 RN
 Ms
-Ms
+GH
 jn
 dL
 Ye
@@ -46504,30 +47758,30 @@ Km
 Fw
 Fw
 WK
-YB
+kc
 VZ
 uV
 wM
 Rc
 wM
-YB
-YB
-YB
+kc
+kc
+kc
 TD
 Xy
 TV
 Fk
 cC
 TD
-kc
-kc
-kc
-kc
-kc
-kc
-kc
-kc
-kc
+xf
+xf
+xf
+xf
+xf
+xf
+xf
+xf
+xf
 dL
 dL
 dL
@@ -46753,23 +48007,23 @@ UC
 UC
 UC
 UC
-IA
-Ym
-Ym
-Ym
-Ym
-Ym
-lx
-BU
-lx
-lx
-lx
-lx
-lx
-BU
-lx
-lx
-xg
+XR
+Nx
+Nx
+Nx
+Nx
+Nx
+ZR
+RB
+ZR
+ZR
+ZR
+ZR
+ZR
+RB
+ZR
+ZR
+zd
 hm
 hm
 hm
@@ -46777,22 +48031,22 @@ hm
 hm
 hm
 ni
-ZR
-ZR
+kd
+kd
 EB
-ZR
-ZR
-ZR
-ZR
+kd
+kd
+kd
+kd
 EB
-ZR
-ZR
-ZR
-ZR
+kd
+kd
+kd
+kd
 EB
-ZR
-ZR
-ZR
+kd
+kd
+kd
 rn
 UC
 UC
@@ -47010,46 +48264,46 @@ UC
 UC
 UC
 UC
-IA
+XR
 Hh
-lx
-lx
-lx
-lx
-lx
-lx
-lx
-lx
-lx
-lx
-lx
-lx
-lx
-lx
-lx
+ZR
+ZR
+ZR
+ZR
+ZR
+ZR
+ZR
+ZR
+ZR
+ZR
+ZR
+ZR
+ZR
+ZR
+ZR
 hm
 hm
 hm
 hm
 hm
 hm
-ZR
-ZR
-ZR
-ZR
-ZR
-ZR
-ZR
-ZR
-ZR
-ZR
-ZR
-ZR
-ZR
-ZR
-ZR
-ZR
-ZR
+kd
+kd
+kd
+kd
+kd
+kd
+kd
+kd
+kd
+kd
+kd
+kd
+kd
+kd
+kd
+kd
+kd
 rn
 UC
 UC
@@ -47267,46 +48521,46 @@ UC
 UC
 UC
 UC
-IA
-ju
-ju
-ju
-ju
-ju
-ju
-ju
-ju
-ju
-ju
-ju
-ju
-ju
-ju
-ju
-YB
-hm
-hm
-hm
-hm
-hm
-hm
+XR
+Ai
+Ai
+Ai
+Ai
+Ai
+Ai
+Ai
+Ai
+Ai
+Ai
+Ai
+Ai
+Ai
+Ai
+Ai
 kc
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
+hm
+hm
+hm
+hm
+hm
+hm
+xf
+ju
+ju
+ju
+ju
+ju
+ju
+ju
+ju
+ju
+ju
+ju
+ju
+ju
+ju
+ju
+ju
 rn
 UC
 UC
@@ -47540,14 +48794,14 @@ Up
 Up
 Up
 Up
-js
+eL
 hm
 hm
 fr
 Fx
 hm
 hm
-vB
+js
 ea
 ea
 ea
@@ -47797,14 +49051,14 @@ Up
 Up
 Up
 Up
-js
+eL
 hm
 hm
 NO
 tX
 hm
 hm
-vB
+js
 ea
 ea
 ea
@@ -48054,14 +49308,14 @@ Up
 Up
 Up
 Up
+Hd
+hm
+hm
+lZ
+lZ
+hm
+hm
 NW
-hm
-hm
-lZ
-lZ
-hm
-hm
-yW
 ea
 ea
 ea
@@ -48311,14 +49565,14 @@ Up
 Up
 Up
 Up
+eL
+hm
+hm
+lZ
+lZ
+hm
+hm
 js
-hm
-hm
-lZ
-lZ
-hm
-hm
-vB
 ea
 ea
 ea
@@ -48568,14 +49822,14 @@ Up
 Up
 Up
 Up
-YB
+kc
 Ar
 hm
 lZ
 lZ
 hm
 nt
-kc
+xf
 fz
 ea
 ea
@@ -48825,14 +50079,14 @@ Up
 Up
 Up
 Up
+eL
+hm
+hm
+lZ
+lZ
+hm
+hm
 js
-hm
-hm
-lZ
-lZ
-hm
-hm
-vB
 ea
 ea
 ea
@@ -49082,14 +50336,14 @@ Up
 Up
 Up
 Up
-NW
+Hd
 hm
 hm
 lZ
 lw
 hm
 hm
-yW
+NW
 ea
 ea
 ea
@@ -49339,14 +50593,14 @@ Up
 Up
 Up
 Up
-js
+eL
 hm
 hm
 fr
 Fx
 hm
 hm
-vB
+js
 ea
 ea
 ea
@@ -49596,14 +50850,14 @@ Up
 Up
 Up
 Up
-js
+eL
 hm
 hm
 NO
 tX
 hm
 hm
-vB
+js
 ea
 ea
 ea
@@ -49837,46 +51091,46 @@ UC
 UC
 UC
 UC
-IA
-Ym
-Ym
-Ym
-Ym
-Ym
-Ym
-Ym
-Ym
-Ym
-Ym
-Ym
-Ym
-Ym
-Ym
-Ym
-YB
-hm
-hm
-hm
-hm
-hm
-hm
+XR
+Nx
+Nx
+Nx
+Nx
+Nx
+Nx
+Nx
+Nx
+Nx
+Nx
+Nx
+Nx
+Nx
+Nx
+Nx
 kc
-Nx
-Nx
-Nx
-Nx
-Nx
-Nx
-Nx
-Nx
-Nx
-Nx
-Nx
-Nx
-Nx
-Nx
-Nx
-Nx
+hm
+hm
+hm
+hm
+hm
+hm
+xf
+xo
+xo
+xo
+xo
+xo
+xo
+xo
+xo
+xo
+xo
+xo
+xo
+xo
+xo
+xo
+xo
 rn
 UC
 UC
@@ -50094,23 +51348,23 @@ UC
 UC
 UC
 UC
-IA
+XR
 Hh
-lx
-lx
-lx
-lx
-lx
-lx
-lx
-lx
-lx
-lx
-lx
-lx
-lx
-lx
-xg
+ZR
+ZR
+ZR
+ZR
+ZR
+ZR
+ZR
+ZR
+ZR
+ZR
+ZR
+ZR
+ZR
+ZR
+zd
 hm
 hm
 hm
@@ -50118,22 +51372,22 @@ hm
 hm
 hm
 ni
-ZR
-ZR
-ZR
-ZR
-ZR
-ZR
-ZR
-ZR
-ZR
-ZR
-ZR
-ZR
-ZR
-ZR
-ZR
-ZR
+kd
+kd
+kd
+kd
+kd
+kd
+kd
+kd
+kd
+kd
+kd
+kd
+kd
+kd
+kd
+kd
 rn
 UC
 UC
@@ -50351,43 +51605,43 @@ UC
 UC
 UC
 UC
-IA
-lx
-lx
-lx
-lx
-lx
-lx
-Vd
-lx
-lx
-lx
-lx
-lx
-lx
-lx
-lx
-lx
-hm
-hm
-hm
-hm
-hm
-hm
+XR
 ZR
 ZR
 ZR
+ZR
+ZR
+ZR
+ts
+ZR
+ZR
+ZR
+ZR
+ZR
+ZR
+ZR
+ZR
+ZR
+hm
+hm
+hm
+hm
+hm
+hm
+kd
+kd
+kd
 HK
-ZR
-ZR
-ZR
-ZR
+kd
+kd
+kd
+kd
 HK
-ZR
-ZR
-ZR
+kd
+kd
+kd
 Fg
-GY
+ho
 Fg
 Fg
 Fg
@@ -50619,11 +51873,11 @@ hx
 hx
 hx
 hx
-Js
-Js
-TA
-Js
-Js
+gg
+gg
+GY
+gg
+gg
 hx
 Tq
 vY

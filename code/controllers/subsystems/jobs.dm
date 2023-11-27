@@ -503,7 +503,7 @@ SUBSYSTEM_DEF(jobs)
 			H.forceMove(S.loc)
 		else
 			var/decl/spawnpoint/spawnpoint = job.get_spawnpoint(H.client)
-				H.forceMove(pick(spawnpoint.turfs))
+			H.forceMove(pick(spawnpoint.turfs))
 			spawnpoint.after_join(H)
 
 		// Moving wheelchair if they have one
