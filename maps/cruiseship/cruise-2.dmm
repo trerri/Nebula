@@ -482,12 +482,9 @@
 /turf/simulated/floor/tiled/freezer,
 /area/cruise/hotel/hallway)
 "fC" = (
-/obj/structure/catwalk,
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/turf/simulated/floor,
-/area/cruise/maintenance/restaurant)
+/obj/machinery/door/airlock,
+/turf/simulated/floor/tiled/techfloor,
+/area/cruise/hallway/second)
 "fD" = (
 /turf/simulated/open,
 /area/cruise/maintenance/ventilation)
@@ -606,11 +603,9 @@
 /turf/simulated/floor,
 /area/cruise/exterior)
 "gZ" = (
-/obj/structure/sign/directions/evac{
-	dir = 2
-	},
-/turf/simulated/wall,
-/area/cruise/storage/primary/hotel)
+/obj/abstract/fluid_mapped,
+/turf/simulated/floor/pool/deep,
+/area/cruise/outdoor/pool)
 "hd" = (
 /obj/structure/stairs{
 	dir = 2
@@ -625,6 +620,9 @@
 	pixel_y = 2
 	},
 /obj/structure/cable,
+/obj/random/soap,
+/obj/random/soap,
+/obj/random/soap,
 /turf/simulated/floor/plating,
 /area/cruise/hotel/restrooms)
 "hn" = (
@@ -636,6 +634,12 @@
 	},
 /turf/simulated/floor/carpet/purple,
 /area/cruise/hotel/hallway/premium)
+"hw" = (
+/obj/structure/sign/directions/evac{
+	dir = 8
+	},
+/turf/simulated/wall,
+/area/cruise/hotel/hallway)
 "hC" = (
 /obj/structure/cable{
 	icon_state = "1-8"
@@ -1130,10 +1134,6 @@
 /obj/structure/bed/chair/wood,
 /turf/simulated/floor/wood/yew,
 /area/cruise/outdoor/balcony)
-"mT" = (
-/obj/machinery/door/airlock,
-/turf/simulated/floor/tiled/techfloor,
-/area/cruise/hallway/second)
 "ne" = (
 /obj/machinery/door/airlock,
 /turf/simulated/floor/tiled/steel_grid,
@@ -1420,12 +1420,6 @@
 /obj/structure/lattice,
 /turf/simulated/open,
 /area/cruise/storage/art)
-"ql" = (
-/obj/machinery/light/spot{
-	dir = 4
-	},
-/turf/simulated/floor/carpet/purple,
-/area/cruise/hotel/hallway/premium)
 "qq" = (
 /obj/machinery/power/apc{
 	areastring = null;
@@ -1451,11 +1445,12 @@
 /turf/simulated/floor/tiled,
 /area/cruise/chapel/office)
 "qK" = (
-/obj/machinery/light/spot{
-	dir = 8
+/obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled/freezer,
-/area/cruise/hotel/restrooms)
+/turf/simulated/floor,
+/area/cruise/maintenance/restaurant)
 "qL" = (
 /obj/structure/ladder,
 /obj/structure/lattice,
@@ -2541,6 +2536,12 @@
 /obj/structure/lattice,
 /turf/simulated/open,
 /area/cruise/maintenance/theater)
+"Fi" = (
+/obj/machinery/light/spot{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/purple,
+/area/cruise/hotel/hallway/premium)
 "Fj" = (
 /obj/effect/floor_decal/corner/red/border{
 	dir = 10
@@ -2674,9 +2675,11 @@
 /turf/simulated/wall/r_wall/prepainted,
 /area/cruise/club)
 "GX" = (
-/obj/abstract/fluid_mapped,
-/turf/simulated/floor/pool/deep,
-/area/cruise/outdoor/pool)
+/obj/machinery/light/spot{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/freezer,
+/area/cruise/hotel/restrooms)
 "GY" = (
 /obj/structure/cable{
 	icon_state = "2-4"
@@ -2725,14 +2728,11 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/cruise/exterior)
 "HG" = (
-/obj/structure/cable,
-/obj/machinery/power/apc{
-	areastring = null;
-	name = "_South APC";
-	pixel_y = -24
+/obj/machinery/light{
+	dir = 4
 	},
-/turf/simulated/floor,
-/area/cruise/outdoor/promenade/right)
+/turf/simulated/floor/tiled/white,
+/area/cruise/hallway/second)
 "HK" = (
 /obj/structure/sign/poster/bay_13{
 	pixel_y = 64
@@ -3384,8 +3384,8 @@
 /obj/structure/sign/directions/evac{
 	dir = 2
 	},
-/turf/simulated/floor/carpet/purple,
-/area/cruise/hotel/hallway/premium)
+/turf/simulated/wall,
+/area/cruise/storage/primary/hotel)
 "Ph" = (
 /obj/structure/sign/warning,
 /turf/simulated/wall/r_wall/prepainted,
@@ -3856,12 +3856,6 @@
 "Uj" = (
 /turf/simulated/floor/bluegrid,
 /area/cruise/club)
-"Uk" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/white,
-/area/cruise/hallway/second)
 "Un" = (
 /turf/simulated/open,
 /area/cruise/hallway/second)
@@ -4263,10 +4257,10 @@
 /area/cruise/outdoor/garden)
 "YV" = (
 /obj/structure/sign/directions/evac{
-	dir = 8
+	dir = 2
 	},
-/turf/simulated/wall,
-/area/cruise/hotel/hallway)
+/turf/simulated/floor/carpet/purple,
+/area/cruise/hotel/hallway/premium)
 "YZ" = (
 /obj/structure/railing/mapped{
 	dir = 1
@@ -4285,6 +4279,15 @@
 	},
 /turf/simulated/floor/wood/bamboo,
 /area/cruise/outdoor/pool)
+"Zc" = (
+/obj/structure/cable,
+/obj/machinery/power/apc{
+	areastring = null;
+	name = "_South APC";
+	pixel_y = -24
+	},
+/turf/simulated/floor,
+/area/cruise/outdoor/promenade/right)
 "Zd" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/cruise/exterior)
@@ -19382,7 +19385,7 @@ Rl
 Rl
 Rl
 Rl
-GX
+gZ
 Rl
 dm
 YG
@@ -19397,7 +19400,7 @@ Rl
 Rl
 Rl
 Rl
-GX
+gZ
 Rl
 Rl
 Rl
@@ -20163,16 +20166,16 @@ TO
 Rl
 Rl
 Rl
-GX
-GX
-GX
-GX
-GX
-GX
-GX
-GX
-GX
-GX
+gZ
+gZ
+gZ
+gZ
+gZ
+gZ
+gZ
+gZ
+gZ
+gZ
 Rl
 Rl
 dm
@@ -21691,16 +21694,16 @@ Vn
 Vn
 Ml
 Rl
-GX
-GX
-GX
-GX
-GX
-GX
-GX
-GX
-GX
-GX
+gZ
+gZ
+gZ
+gZ
+gZ
+gZ
+gZ
+gZ
+gZ
+gZ
 Rl
 Rl
 Rl
@@ -26352,8 +26355,8 @@ Zm
 NA
 Zm
 fo
-fC
-HG
+qK
+Zc
 FH
 oi
 nA
@@ -29429,7 +29432,7 @@ Ke
 Ke
 VT
 Ke
-gZ
+OU
 bS
 IN
 ts
@@ -32512,7 +32515,7 @@ bV
 Gt
 ub
 vF
-Uk
+HG
 it
 it
 IN
@@ -33285,7 +33288,7 @@ cQ
 Hl
 cQ
 cQ
-YV
+hw
 IN
 IN
 oc
@@ -33541,7 +33544,7 @@ Un
 cQ
 iw
 iw
-qK
+GX
 fw
 IN
 IN
@@ -42022,7 +42025,7 @@ Qa
 bl
 la
 QI
-OU
+YV
 eP
 DS
 RY
@@ -42793,7 +42796,7 @@ VB
 eP
 eP
 eP
-ql
+Fi
 eP
 hY
 ge
@@ -43304,7 +43307,7 @@ YN
 Ic
 LQ
 QI
-OU
+YV
 eP
 Zv
 Tk
@@ -49455,7 +49458,7 @@ cL
 eF
 Fj
 Gt
-mT
+fC
 Gt
 Gt
 Gt
