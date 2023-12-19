@@ -32,12 +32,12 @@
 		/datum/computer_file/program/camera_monitor,
 		/datum/computer_file/program/reports
 	)
-
+/*
 /datum/job/captain/equip(var/mob/living/carbon/human/H)
 	. = ..()
 	if(.)
-		H.implant_loyalty(src)
-
+		H.implant_loyalty(src) //this was erroring but implants arent used in 21st century yet right
+*/
 /datum/job/captain/get_access()
 	return get_all_station_access()
 

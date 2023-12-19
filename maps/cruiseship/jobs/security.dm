@@ -84,12 +84,12 @@
 		/datum/computer_file/program/reports
 	)
 	event_categories = list(ASSIGNMENT_SECURITY)
-
+/*
 /datum/job/hos/equip(var/mob/living/carbon/human/H)
 	. = ..()
 	if(.)
-		H.implant_loyalty(H)
-
+		H.implant_loyalty(H) //see captain.dm
+*/
 /datum/job/warden
 	title = "Warden"
 	department_types = list(/decl/department/security)

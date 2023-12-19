@@ -160,12 +160,12 @@
 	)
 	skill_points = 20
 	software_on_spawn = list(/datum/computer_file/program/reports)
-
+/*
 /datum/job/lawyer/equip(var/mob/living/carbon/human/H)
 	. = ..()
 	if(.)
-		H.implant_loyalty(H)
-
+		H.implant_loyalty(H) //see captain.dm
+*/
 /obj/item/card/id/cargo
 	name = "identification card"
 	desc = "A card issued to cargo staff."

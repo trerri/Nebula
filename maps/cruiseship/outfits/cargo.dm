@@ -21,7 +21,7 @@
 	uniform = /obj/item/clothing/under/cargotech
 	id_type = /obj/item/card/id/cargo
 	pda_type = /obj/item/modular_computer/pda/cargo
-
+/*
 /decl/hierarchy/outfit/job/cargo/mining
 	name = "Job - Shaft miner"
 	uniform = /obj/item/clothing/under/miner
@@ -32,4 +32,5 @@
 
 /decl/hierarchy/outfit/job/cargo/mining/Initialize()
 	. = ..()
-	BACKPACK_OVERRIDE_ENGINEERING
+	BACKPACK_OVERRIDE_ENGINEERING //this stuff was erroring but thankfully there arent any miners hahaha :)
+*/

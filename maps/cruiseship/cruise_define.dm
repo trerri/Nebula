@@ -10,11 +10,11 @@
 	lobby_tracks = list(
 		/decl/music_track/absconditus
 	)
-
+/*
 	allowed_spawns = list(
 		/decl/spawnpoint/arrivals
-	)
-
+	) i have no clue what this does :D
+*/
 	shuttle_docked_message = "The disembarkation ferry has docked."
 	shuttle_leaving_dock = "The disembarkation ferry has departed from home dock."
 	shuttle_called_message = "The disembarkation ferry has left."

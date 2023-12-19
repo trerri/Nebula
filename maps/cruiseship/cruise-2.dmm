@@ -59,7 +59,9 @@
 /turf/simulated/wall/r_wall,
 /area/cruise/outdoor/balcony)
 "aJ" = (
-/obj/structure/sign/poster/bay_51,
+/obj/structure/sign/poster/bay_51{
+	pixel_y = 64
+	},
 /turf/simulated/floor/tiled/white,
 /area/cruise/hallway/second)
 "aN" = (
@@ -472,8 +474,8 @@
 /obj/structure/sign/directions/evac{
 	dir = 2
 	},
-/turf/simulated/wall,
-/area/cruise/hallway/second)
+/turf/simulated/floor/wood/walnut,
+/area/cruise/outdoor/promenade)
 "fD" = (
 /turf/simulated/open,
 /area/cruise/maintenance/ventilation)
@@ -592,7 +594,6 @@
 /turf/simulated/floor,
 /area/cruise/exterior)
 "gZ" = (
-/obj/item/beach_ball,
 /obj/abstract/fluid_mapped,
 /turf/simulated/floor/pool/deep,
 /area/cruise/outdoor/pool)
@@ -724,7 +725,9 @@
 /turf/simulated/floor/tiled/freezer,
 /area/cruise/hotel/restrooms)
 "iy" = (
-/obj/structure/sign/poster/bay_12,
+/obj/structure/sign/poster/bay_12{
+	pixel_y = 64
+	},
 /turf/simulated/floor/tiled/white,
 /area/cruise/hallway/second)
 "iM" = (
@@ -2214,7 +2217,12 @@
 /turf/simulated/floor/tiled/white,
 /area/cruise/outdoor/pool)
 "Bu" = (
-/obj/structure/sign/poster/bay_14,
+/obj/structure/sign/poster/bay_14{
+	pixel_y = 64
+	},
+/obj/structure/sign/directions/evac{
+	dir = 2
+	},
 /turf/simulated/floor/tiled/white,
 /area/cruise/hallway/second)
 "By" = (
@@ -2403,7 +2411,12 @@
 /turf/simulated/wall,
 /area/cruise/maintenance/hotel)
 "DZ" = (
-/obj/structure/sign/poster/bay_1,
+/obj/structure/sign/poster/bay_1{
+	pixel_y = 64
+	},
+/obj/machinery/light/spot{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/white,
 /area/cruise/hallway/second)
 "Eb" = (
@@ -2515,7 +2528,9 @@
 /turf/simulated/floor/plating,
 /area/cruise/outdoor/pool)
 "FF" = (
-/obj/structure/sign/poster/bay_37,
+/obj/structure/sign/poster/bay_37{
+	pixel_y = 64
+	},
 /turf/simulated/floor/tiled/white,
 /area/cruise/hallway/second)
 "FG" = (
@@ -2625,9 +2640,11 @@
 /turf/simulated/wall/r_wall/prepainted,
 /area/cruise/club)
 "GX" = (
-/obj/abstract/fluid_mapped,
-/turf/simulated/floor/pool/deep,
-/area/cruise/outdoor/pool)
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/cruise/hallway/second)
 "GY" = (
 /obj/structure/cable{
 	icon_state = "2-4"
@@ -2676,13 +2693,15 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/cruise/exterior)
 "HG" = (
-/obj/structure/sign/directions/evac{
-	dir = 2
+/obj/machinery/light/spot{
+	dir = 4
 	},
-/turf/simulated/wall,
-/area/cruise/hotel/hallway)
+/turf/simulated/floor/carpet/purple,
+/area/cruise/hotel/hallway/premium)
 "HK" = (
-/obj/structure/sign/poster/bay_13,
+/obj/structure/sign/poster/bay_13{
+	pixel_y = 64
+	},
 /turf/simulated/floor/tiled/white,
 /area/cruise/hallway/second)
 "HL" = (
@@ -3077,6 +3096,12 @@
 "Ma" = (
 /turf/simulated/wall,
 /area/cruise/outdoor/pool)
+"Mc" = (
+/obj/structure/sign/directions/evac{
+	dir = 2
+	},
+/turf/simulated/wall,
+/area/cruise/storage/primary/hotel)
 "Mg" = (
 /obj/machinery/light/small,
 /turf/simulated/floor/tiled/white,
@@ -3257,7 +3282,9 @@
 /turf/simulated/floor/asteroid,
 /area/cruise/hotel/restaurant)
 "Ob" = (
-/obj/structure/sign/poster/bay_6,
+/obj/structure/sign/poster/bay_6{
+	pixel_y = 64
+	},
 /turf/simulated/floor/tiled/white,
 /area/cruise/hallway/second)
 "Oe" = (
@@ -3320,10 +3347,10 @@
 /area/cruise/hotel/rooms)
 "OU" = (
 /obj/structure/sign/directions/evac{
-	dir = 2
+	dir = 8
 	},
 /turf/simulated/wall,
-/area/cruise/outdoor/promenade/right)
+/area/cruise/hotel/hallway)
 "Ph" = (
 /obj/structure/sign/warning,
 /turf/simulated/wall/r_wall/prepainted,
@@ -3438,7 +3465,9 @@
 /turf/simulated/floor,
 /area/cruise/maintenance/club)
 "Qo" = (
-/obj/structure/sign/poster/bay_16,
+/obj/structure/sign/poster/bay_16{
+	pixel_y = 64
+	},
 /turf/simulated/floor/tiled/white,
 /area/cruise/hallway/second)
 "Qp" = (
@@ -3540,7 +3569,9 @@
 /turf/simulated/floor/wood/yew,
 /area/cruise/outdoor/balcony)
 "Rt" = (
-/obj/structure/sign/poster/bay_27,
+/obj/structure/sign/poster/bay_27{
+	pixel_y = 64
+	},
 /turf/simulated/floor/tiled/white,
 /area/cruise/hallway/second)
 "Ru" = (
@@ -3699,7 +3730,12 @@
 /turf/simulated/open,
 /area/cruise/storage/primary/hotel)
 "Tj" = (
-/obj/structure/sign/poster/bay_36,
+/obj/structure/sign/poster/bay_36{
+	pixel_y = 64
+	},
+/obj/machinery/light/spot{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/white,
 /area/cruise/hallway/second)
 "Tk" = (
@@ -3750,7 +3786,9 @@
 /turf/simulated/floor/wood/bamboo,
 /area/cruise/outdoor/pool)
 "TP" = (
-/obj/structure/sign/poster/bay_57,
+/obj/structure/sign/poster/bay_57{
+	pixel_y = 64
+	},
 /turf/simulated/floor/tiled/white,
 /area/cruise/hallway/second)
 "TR" = (
@@ -3914,7 +3952,9 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/cruise/storage/primary/hotel)
 "VW" = (
-/obj/structure/sign/poster/bay_15,
+/obj/structure/sign/poster/bay_15{
+	pixel_y = 64
+	},
 /turf/simulated/floor/tiled/white,
 /area/cruise/hallway/second)
 "VY" = (
@@ -3987,7 +4027,9 @@
 /turf/simulated/floor,
 /area/cruise/maintenance/restaurant)
 "WX" = (
-/obj/structure/sign/poster/bay_17,
+/obj/structure/sign/poster/bay_17{
+	pixel_y = 64
+	},
 /turf/simulated/floor/tiled/white,
 /area/cruise/hallway/second)
 "WY" = (
@@ -4168,10 +4210,10 @@
 /area/cruise/outdoor/garden)
 "YV" = (
 /obj/structure/sign/directions/evac{
-	dir = 8
+	dir = 2
 	},
-/turf/simulated/wall,
-/area/cruise/hotel/rooms)
+/turf/simulated/floor/carpet/purple,
+/area/cruise/hotel/hallway/premium)
 "YZ" = (
 /obj/structure/railing/mapped{
 	dir = 1
@@ -19287,7 +19329,7 @@ Rl
 Rl
 Rl
 Rl
-GX
+gZ
 Rl
 dm
 YG
@@ -20068,16 +20110,16 @@ TO
 Rl
 Rl
 Rl
-GX
-GX
-GX
-GX
-GX
-GX
-GX
-GX
-GX
-GX
+gZ
+gZ
+gZ
+gZ
+gZ
+gZ
+gZ
+gZ
+gZ
+gZ
 Rl
 Rl
 dm
@@ -21596,16 +21638,16 @@ Vn
 Vn
 Ml
 Rl
-GX
-GX
-GX
-GX
-GX
-GX
-GX
-GX
-GX
-GX
+gZ
+gZ
+gZ
+gZ
+gZ
+gZ
+gZ
+gZ
+gZ
+gZ
 Rl
 Rl
 Rl
@@ -29334,11 +29376,11 @@ Ke
 Ke
 VT
 Ke
-fY
+Mc
 bS
 IN
 ts
-HG
+uL
 uL
 HP
 lt
@@ -30617,7 +30659,7 @@ In
 In
 Gt
 it
-BB
+mJ
 Un
 Un
 qK
@@ -31137,7 +31179,7 @@ oj
 qK
 IN
 IN
-YV
+oc
 oc
 oc
 oc
@@ -32413,11 +32455,11 @@ it
 it
 it
 it
-it
+bV
 Gt
 ub
 vF
-NF
+GX
 it
 BG
 IN
@@ -32668,8 +32710,8 @@ it
 it
 it
 it
-bV
-Gt
+it
+pj
 pj
 Gt
 Gt
@@ -32677,7 +32719,7 @@ Gt
 Gt
 Gt
 uL
-EL
+IN
 IN
 oc
 oc
@@ -32934,7 +32976,7 @@ km
 EJ
 he
 uL
-IN
+EL
 IN
 pT
 AD
@@ -33190,7 +33232,7 @@ cQ
 cQ
 Hl
 cQ
-uL
+OU
 IN
 IN
 oc
@@ -33946,7 +33988,7 @@ Va
 JF
 Va
 jA
-it
+vb
 it
 it
 wx
@@ -34204,7 +34246,7 @@ jA
 jA
 jA
 mt
-vb
+it
 it
 wx
 Un
@@ -34219,7 +34261,7 @@ bt
 iw
 iw
 uL
-EL
+IN
 IN
 oc
 oc
@@ -34476,7 +34518,7 @@ iw
 cQ
 cQ
 uL
-IN
+EL
 IN
 pT
 AD
@@ -35761,7 +35803,7 @@ iw
 Rx
 zR
 uL
-EL
+IN
 IN
 oc
 oc
@@ -36018,7 +36060,7 @@ iw
 cQ
 cQ
 uL
-IN
+EL
 IN
 pT
 AD
@@ -37288,7 +37330,7 @@ mt
 mt
 mt
 mt
-vb
+it
 it
 it
 ch
@@ -37801,7 +37843,7 @@ Gt
 Gt
 Gt
 Gt
-it
+vb
 it
 it
 it
@@ -38574,7 +38616,7 @@ vn
 vn
 vn
 vn
-vb
+it
 it
 ch
 it
@@ -38831,7 +38873,7 @@ XC
 XC
 XC
 vn
-it
+vb
 it
 ch
 it
@@ -41652,8 +41694,8 @@ IK
 wy
 Iy
 it
-it
 uU
+it
 it
 it
 it
@@ -41927,7 +41969,7 @@ Qa
 bl
 la
 QI
-eP
+YV
 eP
 DS
 RY
@@ -42184,7 +42226,7 @@ QI
 QI
 QI
 QI
-hq
+eP
 eP
 DS
 fd
@@ -42434,7 +42476,7 @@ wx
 Un
 JK
 it
-fC
+Gt
 Gt
 KP
 Gt
@@ -42443,7 +42485,7 @@ eP
 eP
 eP
 eP
-OU
+nU
 dH
 nU
 nU
@@ -42686,7 +42728,7 @@ Gt
 Gt
 Gt
 Gt
-vb
+it
 wx
 Un
 JK
@@ -42698,7 +42740,7 @@ VB
 eP
 eP
 eP
-eP
+HG
 eP
 hY
 ge
@@ -43209,7 +43251,7 @@ YN
 Ic
 LQ
 QI
-eP
+YV
 eP
 Zv
 Tk
@@ -46798,7 +46840,7 @@ kJ
 Uj
 GR
 Gt
-vb
+it
 it
 it
 it
@@ -47055,7 +47097,7 @@ kJ
 Uj
 GR
 Gt
-it
+vb
 it
 it
 it
@@ -48854,7 +48896,7 @@ Uj
 Uj
 GR
 Gt
-vb
+it
 it
 it
 it
@@ -49111,7 +49153,7 @@ GR
 GR
 GR
 Gt
-it
+vb
 it
 it
 it
@@ -51433,7 +51475,7 @@ xi
 xi
 xi
 qT
-HX
+fC
 HX
 HX
 HX
