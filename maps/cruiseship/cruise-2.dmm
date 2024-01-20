@@ -635,11 +635,9 @@
 /turf/simulated/floor/carpet/purple,
 /area/cruise/hotel/hallway/premium)
 "hw" = (
-/obj/structure/sign/directions/evac{
-	dir = 8
-	},
-/turf/simulated/wall,
-/area/cruise/hotel/hallway)
+/obj/structure/sign/directions/emergencyexit,
+/turf/simulated/floor/tiled/white,
+/area/cruise/hallway/second)
 "hC" = (
 /obj/structure/cable{
 	icon_state = "1-8"
@@ -696,8 +694,9 @@
 /turf/simulated/floor/tiled/white,
 /area/cruise/outdoor/promenade/right)
 "hZ" = (
-/turf/simulated/open,
-/area/cruise/hotel/rooms/premium)
+/obj/structure/sign/directions/gathering,
+/turf/simulated/floor/tiled/white,
+/area/cruise/hallway/second)
 "ic" = (
 /turf/simulated/wall,
 /area/cruise/maintenance/restaurant)
@@ -724,11 +723,12 @@
 /turf/simulated/floor/wood/mahogany,
 /area/cruise/hotel/reception)
 "ir" = (
-/obj/machinery/light/small{
+/obj/structure/table/steel_reinforced,
+/obj/structure/sign/directions/emergencyexit{
 	dir = 4
 	},
-/turf/simulated/open,
-/area/cruise/hotel/rooms/premium)
+/turf/simulated/floor/tiled/techfloor,
+/area/cruise/club)
 "it" = (
 /turf/simulated/floor/tiled/white,
 /area/cruise/hallway/second)
@@ -881,6 +881,20 @@
 /obj/structure/closet/secure_closet/freezer/meat,
 /turf/simulated/floor/tiled/white/monotile,
 /area/cruise/exterior)
+"jZ" = (
+/obj/structure/table/reinforced,
+/obj/effect/floor_decal/corner/beige,
+/obj/effect/floor_decal/corner/yellow{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/lightgrey{
+	dir = 1
+	},
+/obj/item/eftpos{
+	eftpos_name = "Bar EFTPOS scanner"
+	},
+/turf/simulated/floor/tiled,
+/area/cruise/kitchen)
 "ka" = (
 /obj/machinery/atmospherics/unary/heater,
 /turf/simulated/floor,
@@ -1092,6 +1106,15 @@
 /obj/machinery/door/airlock,
 /turf/simulated/floor/tiled/white,
 /area/cruise/hotel/restaurant)
+"mB" = (
+/obj/effect/floor_decal/industrial/traffic{
+	dir = 1
+	},
+/obj/structure/sign/directions/emergencyexit{
+	dir = 2
+	},
+/turf/simulated/floor/carpet/blue2,
+/area/cruise/hotel/hallway)
 "mC" = (
 /obj/effect/floor_decal/industrial/warning/dust/corner{
 	dir = 1
@@ -1499,6 +1522,12 @@
 	},
 /turf/simulated/floor/pool/deep,
 /area/cruise/outdoor/pool)
+"rk" = (
+/obj/structure/sign/directions/emergencyexit{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/cruise/hallway/second)
 "rm" = (
 /obj/structure/curtain/open/bed,
 /obj/effect/wallframe_spawn/reinforced,
@@ -1654,6 +1683,12 @@
 	},
 /turf/simulated/floor/wood/bamboo,
 /area/cruise/outdoor/pool)
+"tk" = (
+/obj/structure/sign/directions/emergencyexit{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/purple,
+/area/cruise/hotel/hallway/premium)
 "tn" = (
 /obj/effect/floor_decal/corner/red/border{
 	dir = 1
@@ -1763,6 +1798,9 @@
 /area/cruise/exterior)
 "uw" = (
 /obj/structure/table/reinforced,
+/obj/item/eftpos{
+	eftpos_name = "Bar EFTPOS scanner"
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/cruise/hallway/second)
 "uB" = (
@@ -2251,9 +2289,6 @@
 /obj/structure/sign/poster/bay_14{
 	pixel_y = 64
 	},
-/obj/structure/sign/directions/evac{
-	dir = 2
-	},
 /turf/simulated/floor/tiled/white,
 /area/cruise/hallway/second)
 "By" = (
@@ -2525,6 +2560,12 @@
 	},
 /turf/simulated/floor/tiled,
 /area/cruise/chapel/main)
+"EX" = (
+/obj/structure/sign/directions/emergencyexit{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/blue2,
+/area/cruise/hotel/hallway)
 "Fd" = (
 /obj/structure/cable{
 	icon_state = "1-4"
@@ -2605,6 +2646,12 @@
 	},
 /turf/simulated/floor,
 /area/cruise/maintenance/kitchen)
+"Gb" = (
+/obj/structure/sign/directions/emergencyexit{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/cruise/outdoor/promenade)
 "Gi" = (
 /obj/machinery/power/apc{
 	dir = 1;
@@ -3214,6 +3261,15 @@
 /obj/structure/table/woodentable_reinforced/ebony,
 /turf/simulated/floor/carpet/purple,
 /area/cruise/chapel/main)
+"MW" = (
+/obj/effect/floor_decal/corner/purple/diagonal{
+	dir = 4
+	},
+/obj/structure/sign/directions/emergencyexit{
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
+/area/cruise/bar)
 "MY" = (
 /obj/effect/floor_decal/corner/mauve{
 	dir = 5
@@ -3317,6 +3373,12 @@
 /obj/structure/flora/pottedplant/aquatic,
 /turf/simulated/floor/asteroid,
 /area/cruise/hotel/restaurant)
+"NY" = (
+/obj/structure/sign/directions/emergencyexit{
+	dir = 4
+	},
+/turf/simulated/floor/blackgrid,
+/area/cruise/club)
 "Ob" = (
 /obj/structure/sign/poster/bay_6{
 	pixel_y = 64
@@ -3345,6 +3407,10 @@
 "Oj" = (
 /turf/simulated/floor/tiled,
 /area/cruise/outdoor/pool)
+"Ok" = (
+/obj/structure/sign/directions/gathering,
+/turf/simulated/floor/wood/bamboo,
+/area/cruise/outdoor/garden)
 "Ol" = (
 /obj/structure/railing/mapped{
 	dir = 4
@@ -3382,11 +3448,14 @@
 /turf/simulated/floor/carpet,
 /area/cruise/hotel/rooms)
 "OU" = (
-/obj/structure/sign/directions/evac{
-	dir = 2
+/obj/machinery/light/spot{
+	dir = 1
 	},
-/turf/simulated/wall,
-/area/cruise/storage/primary/hotel)
+/obj/structure/sign/directions/emergencyexit{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
+/area/cruise/hallway/second)
 "Ph" = (
 /obj/structure/sign/warning,
 /turf/simulated/wall/r_wall/prepainted,
@@ -4071,6 +4140,13 @@
 	},
 /turf/simulated/open,
 /area/cruise/maintenance/theater)
+"WR" = (
+/obj/structure/table/woodentable_reinforced/ebony/walnut,
+/obj/item/eftpos{
+	eftpos_name = "Bar EFTPOS scanner"
+	},
+/turf/simulated/floor/wood/mahogany,
+/area/cruise/hotel/reception)
 "WT" = (
 /turf/simulated/floor,
 /area/cruise/maintenance/restaurant)
@@ -4257,9 +4333,7 @@
 /turf/simulated/floor/wood/walnut,
 /area/cruise/outdoor/garden)
 "YV" = (
-/obj/structure/sign/directions/evac{
-	dir = 2
-	},
+/obj/structure/sign/directions/emergencyexit,
 /turf/simulated/floor/carpet/purple,
 /area/cruise/hotel/hallway/premium)
 "YZ" = (
@@ -27617,7 +27691,7 @@ rO
 rO
 rO
 rO
-ji
+jZ
 ig
 ig
 ig
@@ -29433,8 +29507,8 @@ Ke
 Ke
 VT
 Ke
-OU
-bS
+fY
+mB
 IN
 ts
 uL
@@ -33289,8 +33363,8 @@ cQ
 Hl
 cQ
 cQ
-hw
-IN
+uL
+EX
 IN
 oc
 OL
@@ -37123,7 +37197,7 @@ RW
 RW
 dW
 mt
-LP
+MW
 LP
 fN
 LP
@@ -37900,7 +37974,7 @@ Gt
 Gt
 Gt
 Gt
-vb
+OU
 it
 it
 it
@@ -38430,7 +38504,7 @@ fk
 fk
 RG
 RG
-QM
+WR
 RG
 RG
 DS
@@ -39972,7 +40046,7 @@ fk
 fk
 RG
 RG
-QM
+WR
 RG
 RG
 DS
@@ -40472,7 +40546,7 @@ HR
 HR
 HR
 Gt
-it
+hZ
 it
 ch
 it
@@ -42026,7 +42100,7 @@ Qa
 bl
 la
 QI
-YV
+eP
 eP
 DS
 RY
@@ -42283,7 +42357,7 @@ QI
 QI
 QI
 QI
-eP
+YV
 eP
 DS
 fd
@@ -42785,7 +42859,7 @@ Gt
 Gt
 Gt
 Gt
-it
+hw
 wx
 Un
 JK
@@ -44339,12 +44413,12 @@ QI
 eP
 eP
 Zv
-hZ
-hZ
-hZ
-hZ
-hZ
-Zv
+Tk
+zv
+Tk
+sz
+em
+Jd
 cJ
 aN
 nA
@@ -44595,13 +44669,13 @@ CP
 QI
 eP
 eP
-Zv
-hZ
-hZ
-hZ
-hZ
-hZ
-Zv
+Wa
+sX
+sX
+sX
+sX
+sX
+zw
 aN
 aN
 nA
@@ -44853,12 +44927,12 @@ QI
 eP
 eP
 Zv
-hZ
-hZ
-ir
-hZ
-hZ
-Zv
+jd
+mg
+Sj
+sz
+qR
+Jd
 BY
 aN
 nA
@@ -45367,12 +45441,12 @@ QI
 eP
 eP
 Zv
-hZ
-hZ
-hZ
-hZ
-hZ
-Zv
+Tk
+zv
+Tk
+sz
+em
+Jd
 fU
 bM
 nA
@@ -45600,7 +45674,7 @@ Nm
 cA
 Yl
 GR
-kh
+ir
 kh
 kh
 kJ
@@ -45623,13 +45697,13 @@ CP
 QI
 eP
 eP
-Zv
-hZ
-hZ
-hZ
-hZ
-hZ
-Zv
+Wa
+sX
+sX
+sX
+sX
+sX
+zw
 aN
 aN
 nA
@@ -45881,12 +45955,12 @@ QI
 eP
 eP
 Zv
-hZ
-hZ
-ir
-hZ
-hZ
-Zv
+jd
+mg
+Sj
+sz
+qR
+Jd
 BY
 aN
 nA
@@ -46395,12 +46469,12 @@ QI
 eP
 eP
 Zv
-hZ
-hZ
-hZ
-hZ
-hZ
-Zv
+Tk
+zv
+Tk
+sz
+em
+Jd
 aN
 aN
 nA
@@ -46651,13 +46725,13 @@ CP
 QI
 eP
 eP
-Zv
-hZ
-hZ
-hZ
-hZ
-hZ
-Zv
+Wa
+sX
+sX
+sX
+sX
+sX
+zw
 aN
 aN
 nA
@@ -46909,12 +46983,12 @@ QI
 eP
 eP
 Zv
-hZ
-hZ
-ir
-hZ
-hZ
-Zv
+jd
+mg
+Sj
+sz
+qR
+Jd
 BY
 aN
 nA
@@ -47411,7 +47485,7 @@ kJ
 Uj
 GR
 Gt
-it
+rk
 it
 it
 it
@@ -47420,15 +47494,15 @@ YN
 kt
 CP
 QI
-eP
+tk
 eP
 Zv
-hZ
-hZ
-hZ
-hZ
-hZ
-Zv
+Tk
+zv
+Tk
+sz
+em
+Jd
 aN
 aN
 nA
@@ -47679,13 +47753,13 @@ CP
 QI
 eP
 eP
-Zv
-hZ
-hZ
-hZ
-hZ
-hZ
-Zv
+Wa
+sX
+sX
+sX
+sX
+sX
+zw
 aN
 aN
 nA
@@ -47913,7 +47987,7 @@ Hz
 cA
 Yl
 GR
-kJ
+NY
 Uj
 Uj
 kJ
@@ -47937,12 +48011,12 @@ QI
 eP
 eP
 Zv
-hZ
-hZ
-ir
-hZ
-hZ
-Zv
+jd
+mg
+Sj
+sz
+qR
+Jd
 BY
 aN
 nA
@@ -48451,12 +48525,12 @@ QI
 eP
 eP
 Zv
-hZ
-hZ
-hZ
-hZ
-hZ
-Zv
+Tk
+zv
+Tk
+sz
+em
+Jd
 aN
 aN
 nA
@@ -48707,13 +48781,13 @@ CP
 QI
 eP
 eP
-Zv
-hZ
-hZ
-hZ
-hZ
-hZ
-Zv
+Wa
+sX
+sX
+sX
+sX
+sX
+zw
 aN
 aN
 nA
@@ -48965,12 +49039,12 @@ QI
 eP
 eP
 Zv
-hZ
-hZ
-ir
-hZ
-hZ
-Zv
+jd
+mg
+Sj
+sz
+qR
+Jd
 BY
 aN
 nA
@@ -49479,12 +49553,12 @@ QI
 eP
 eP
 Zv
-hZ
-hZ
-hZ
-hZ
-hZ
-Zv
+Tk
+zv
+Tk
+sz
+em
+Jd
 aN
 aN
 nA
@@ -49735,13 +49809,13 @@ la
 QI
 eP
 eP
-Zv
-hZ
-hZ
-hZ
-hZ
-hZ
-Zv
+Wa
+sX
+sX
+sX
+sX
+sX
+zw
 aN
 aN
 nA
@@ -49993,12 +50067,12 @@ QI
 eP
 eP
 Zv
-hZ
-hZ
-ir
-hZ
-hZ
-Zv
+jd
+mg
+Sj
+sz
+qR
+Jd
 BY
 aN
 nA
@@ -50761,7 +50835,7 @@ YN
 kt
 CP
 rT
-no
+Gb
 no
 no
 no
@@ -52548,7 +52622,7 @@ wS
 wS
 wS
 SK
-rI
+Ok
 rI
 rI
 rI

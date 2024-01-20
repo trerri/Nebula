@@ -383,6 +383,13 @@
 "cw" = (
 /turf/simulated/floor/tiled/freezer,
 /area/cruise/medical/storage)
+"cz" = (
+/obj/effect/floor_decal/corner/blue/diagonal,
+/obj/effect/floor_decal/industrial/traffic{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
+/area/cruise/hotel/spa/laundry)
 "cA" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -611,6 +618,9 @@
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/brigdoor/northleft,
 /obj/machinery/door/window/brigdoor/southleft,
+/obj/item/eftpos{
+	eftpos_name = "Bar EFTPOS scanner"
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/cruise/security/lobby)
 "dQ" = (
@@ -793,6 +803,18 @@
 	icon_state = "1-4"
 	},
 /obj/structure/catwalk,
+/turf/simulated/floor/plating,
+/area/cruise/maintenance/casino)
+"fg" = (
+/obj/effect/floor_decal/corner/orange/border{
+	dir = 2
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/item/eftpos{
+	eftpos_name = "Bar EFTPOS scanner"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/casino)
 "fj" = (
@@ -1349,6 +1371,9 @@
 /obj/structure/closet/secure_closet,
 /obj/structure/railing/mapped{
 	dir = 8
+	},
+/obj/effect/floor_decal/industrial/traffic/corner{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
 /area/cruise/hotel/spa/laundry)
@@ -2038,6 +2063,20 @@
 /obj/structure/ladder,
 /turf/simulated/floor/tiled/techmaint,
 /area/cruise/storage/primary)
+"nN" = (
+/obj/structure/table/woodentable/walnut,
+/obj/item/eftpos{
+	eftpos_name = "Bar EFTPOS scanner"
+	},
+/turf/simulated/floor/wood/walnut,
+/area/cruise/casino/bar)
+"nQ" = (
+/obj/effect/floor_decal/corner/blue/diagonal,
+/obj/effect/floor_decal/industrial/traffic/corner{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/cruise/hotel/spa/laundry)
 "nR" = (
 /obj/machinery/power/apc{
 	name = "_South APC";
@@ -2125,6 +2164,9 @@
 "oG" = (
 /obj/structure/window/basic,
 /obj/structure/table/glass,
+/obj/item/eftpos{
+	eftpos_name = "Bar EFTPOS scanner"
+	},
 /turf/simulated/floor/tiled/white,
 /area/cruise/medical/reception)
 "oH" = (
@@ -3034,6 +3076,12 @@
 	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/casino)
+"vb" = (
+/obj/item/eftpos{
+	eftpos_name = "Bar EFTPOS scanner"
+	},
+/turf/simulated/floor/tiled/white,
+/area/cruise/hallway/first)
 "vd" = (
 /obj/structure/catwalk,
 /obj/structure/cable{
@@ -4297,6 +4345,9 @@
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
+/obj/item/eftpos{
+	eftpos_name = "Bar EFTPOS scanner"
+	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/casino)
 "DG" = (
@@ -5081,6 +5132,10 @@
 /obj/machinery/computer/teleporter,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/cruise/exterior/sea)
+"JN" = (
+/obj/structure/sign/directions/gathering,
+/turf/simulated/floor/tiled/steel_grid,
+/area/cruise/hallway/first)
 "JS" = (
 /obj/machinery/door/blast/shutters/open,
 /obj/structure/catwalk,
@@ -5895,6 +5950,10 @@
 /obj/machinery/door/airlock/autoname,
 /turf/simulated/floor/lino,
 /area/cruise/maintenance/primary_storage)
+"Pj" = (
+/obj/structure/sign/directions/gathering,
+/turf/simulated/floor/wood/maple,
+/area/cruise/hallway/first)
 "Ps" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -34643,7 +34702,7 @@ zZ
 fU
 nD
 qQ
-fu
+nQ
 fu
 GX
 GX
@@ -34900,7 +34959,7 @@ cb
 cb
 cb
 Mu
-fu
+cz
 fu
 fu
 fu
@@ -36667,7 +36726,7 @@ UC
 UC
 du
 Gf
-Ir
+fg
 cX
 mw
 fa
@@ -36924,7 +36983,7 @@ UC
 UC
 du
 Gf
-Ir
+fg
 cX
 fa
 Rt
@@ -37467,7 +37526,7 @@ Xy
 Xy
 Xy
 Xy
-Jq
+vb
 Jq
 qQ
 Xb
@@ -38485,7 +38544,7 @@ XA
 XA
 eF
 TD
-Xy
+Pj
 Xy
 kK
 kK
@@ -39500,7 +39559,7 @@ HD
 PQ
 rz
 rz
-NM
+nN
 fa
 qL
 Hu
@@ -49277,7 +49336,7 @@ Ai
 Ai
 Ai
 kc
-hm
+JN
 hm
 hm
 hm
@@ -51847,7 +51906,7 @@ Nx
 Nx
 Nx
 kc
-hm
+JN
 hm
 hm
 hm
