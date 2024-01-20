@@ -1540,7 +1540,8 @@
 /area/cruise/outdoor/promenade)
 "rY" = (
 /obj/structure/hygiene/sink{
-	dir = 2
+	dir = 2;
+	pixel_y = -12
 	},
 /turf/simulated/floor/tiled/freezer,
 /area/cruise/hotel/restrooms)
@@ -31998,7 +31999,7 @@ it
 it
 it
 it
-pj
+Gt
 oj
 oj
 it
@@ -34058,7 +34059,7 @@ cQ
 cQ
 iw
 iw
-iw
+rY
 uL
 IN
 IN
@@ -34315,7 +34316,7 @@ gC
 cQ
 bt
 iw
-iw
+rY
 uL
 IN
 IN
