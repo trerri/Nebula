@@ -277,7 +277,7 @@
 	},
 /obj/structure/catwalk,
 /turf/simulated/floor,
-/area/cruise/cargo/storage)
+/area/cruise/chapel/main)
 "cW" = (
 /obj/machinery/door/airlock/double/glass,
 /turf/simulated/floor/tiled/white,
@@ -695,8 +695,8 @@
 /area/cruise/outdoor/promenade/right)
 "hZ" = (
 /obj/structure/sign/directions/gathering,
-/turf/simulated/floor/tiled/white,
-/area/cruise/hallway/second)
+/turf/simulated/floor/wood/bamboo,
+/area/cruise/outdoor/garden)
 "ic" = (
 /turf/simulated/wall,
 /area/cruise/maintenance/restaurant)
@@ -723,12 +723,17 @@
 /turf/simulated/floor/wood/mahogany,
 /area/cruise/hotel/reception)
 "ir" = (
-/obj/structure/table/steel_reinforced,
-/obj/structure/sign/directions/emergencyexit{
-	dir = 4
+/obj/structure/catwalk,
+/obj/machinery/power/apc{
+	dir = 8;
+	name = "_West APC";
+	pixel_x = -25
 	},
-/turf/simulated/floor/tiled/techfloor,
-/area/cruise/club)
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/simulated/floor,
+/area/cruise/cargo/storage)
 "it" = (
 /turf/simulated/floor/tiled/white,
 /area/cruise/hallway/second)
@@ -881,20 +886,6 @@
 /obj/structure/closet/secure_closet/freezer/meat,
 /turf/simulated/floor/tiled/white/monotile,
 /area/cruise/exterior)
-"jZ" = (
-/obj/structure/table/reinforced,
-/obj/effect/floor_decal/corner/beige,
-/obj/effect/floor_decal/corner/yellow{
-	dir = 8
-	},
-/obj/effect/floor_decal/corner/lightgrey{
-	dir = 1
-	},
-/obj/item/eftpos{
-	eftpos_name = "Bar EFTPOS scanner"
-	},
-/turf/simulated/floor/tiled,
-/area/cruise/kitchen)
 "ka" = (
 /obj/machinery/atmospherics/unary/heater,
 /turf/simulated/floor,
@@ -920,6 +911,9 @@
 	icon_state = "2-4"
 	},
 /obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
 /turf/simulated/floor,
 /area/cruise/kitchen)
 "kh" = (
@@ -1106,15 +1100,6 @@
 /obj/machinery/door/airlock,
 /turf/simulated/floor/tiled/white,
 /area/cruise/hotel/restaurant)
-"mB" = (
-/obj/effect/floor_decal/industrial/traffic{
-	dir = 1
-	},
-/obj/structure/sign/directions/emergencyexit{
-	dir = 2
-	},
-/turf/simulated/floor/carpet/blue2,
-/area/cruise/hotel/hallway)
 "mC" = (
 /obj/effect/floor_decal/industrial/warning/dust/corner{
 	dir = 1
@@ -1157,6 +1142,12 @@
 /obj/structure/bed/chair/wood,
 /turf/simulated/floor/wood/yew,
 /area/cruise/outdoor/balcony)
+"nc" = (
+/obj/structure/sign/directions/emergencyexit{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/cruise/hallway/second)
 "ne" = (
 /obj/machinery/door/airlock,
 /turf/simulated/floor/tiled/steel_grid,
@@ -1392,6 +1383,11 @@
 /obj/machinery/door/airlock/double/glass,
 /turf/simulated/floor/tiled,
 /area/cruise/chapel/main)
+"pC" = (
+/obj/effect/floor_decal/corner/paleblue/full,
+/obj/structure/sign/warning,
+/turf/simulated/floor/tiled/white,
+/area/cruise/outdoor/pool)
 "pH" = (
 /obj/structure/railing/mapped{
 	dir = 8
@@ -1522,12 +1518,6 @@
 	},
 /turf/simulated/floor/pool/deep,
 /area/cruise/outdoor/pool)
-"rk" = (
-/obj/structure/sign/directions/emergencyexit{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/white,
-/area/cruise/hallway/second)
 "rm" = (
 /obj/structure/curtain/open/bed,
 /obj/effect/wallframe_spawn/reinforced,
@@ -1683,12 +1673,6 @@
 	},
 /turf/simulated/floor/wood/bamboo,
 /area/cruise/outdoor/pool)
-"tk" = (
-/obj/structure/sign/directions/emergencyexit{
-	dir = 4
-	},
-/turf/simulated/floor/carpet/purple,
-/area/cruise/hotel/hallway/premium)
 "tn" = (
 /obj/effect/floor_decal/corner/red/border{
 	dir = 1
@@ -1774,6 +1758,12 @@
 	},
 /turf/simulated/floor/tiled,
 /area/cruise/hotel/restaurant)
+"up" = (
+/obj/structure/sign/directions/emergencyexit{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/blue2,
+/area/cruise/hotel/hallway)
 "uq" = (
 /turf/simulated/wall/r_wall,
 /area/cruise/theater/stage)
@@ -1811,8 +1801,11 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/storage/emergency2)
 "uH" = (
-/turf/simulated/floor/wood/walnut,
-/area/cruise/outdoor/garden)
+/obj/structure/sign/directions/emergencyexit{
+	dir = 4
+	},
+/turf/simulated/floor/blackgrid,
+/area/cruise/club)
 "uJ" = (
 /obj/structure/synthesized_instrument/synthesizer/piano,
 /turf/simulated/floor/wood/walnut,
@@ -1975,7 +1968,7 @@
 "wS" = (
 /obj/effect/wallframe_spawn/reinforced,
 /turf/simulated/floor/plating,
-/area/cruise/outdoor/garden)
+/area/cruise/outdoor/promenade)
 "xg" = (
 /obj/machinery/door/airlock/glass,
 /turf/simulated/floor/tiled/white,
@@ -2525,7 +2518,7 @@
 "Ei" = (
 /obj/effect/wallframe_spawn/reinforced/hull,
 /turf/simulated/floor/plating,
-/area/cruise/outdoor/garden)
+/area/cruise/outdoor/promenade)
 "Et" = (
 /turf/simulated/open,
 /area/turbolift/cruise/aft/second)
@@ -2560,12 +2553,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/cruise/chapel/main)
-"EX" = (
-/obj/structure/sign/directions/emergencyexit{
-	dir = 8
-	},
-/turf/simulated/floor/carpet/blue2,
-/area/cruise/hotel/hallway)
 "Fd" = (
 /obj/structure/cable{
 	icon_state = "1-4"
@@ -2631,6 +2618,20 @@
 /obj/machinery/light,
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/exterior)
+"FQ" = (
+/obj/structure/table/reinforced,
+/obj/effect/floor_decal/corner/beige,
+/obj/effect/floor_decal/corner/yellow{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/lightgrey{
+	dir = 1
+	},
+/obj/item/eftpos{
+	eftpos_name = "Bar EFTPOS scanner"
+	},
+/turf/simulated/floor/tiled,
+/area/cruise/kitchen)
 "FX" = (
 /obj/structure/railing/mapped,
 /turf/simulated/floor/tiled/white,
@@ -2646,12 +2647,6 @@
 	},
 /turf/simulated/floor,
 /area/cruise/maintenance/kitchen)
-"Gb" = (
-/obj/structure/sign/directions/emergencyexit{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/white,
-/area/cruise/outdoor/promenade)
 "Gi" = (
 /obj/machinery/power/apc{
 	dir = 1;
@@ -2915,6 +2910,12 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/cruise/outdoor/promenade/left)
+"IU" = (
+/obj/structure/sign/directions/emergencyexit{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/cruise/outdoor/promenade)
 "IX" = (
 /turf/simulated/floor,
 /area/cruise/maintenance/kitchen)
@@ -3261,15 +3262,6 @@
 /obj/structure/table/woodentable_reinforced/ebony,
 /turf/simulated/floor/carpet/purple,
 /area/cruise/chapel/main)
-"MW" = (
-/obj/effect/floor_decal/corner/purple/diagonal{
-	dir = 4
-	},
-/obj/structure/sign/directions/emergencyexit{
-	dir = 4
-	},
-/turf/simulated/floor/tiled,
-/area/cruise/bar)
 "MY" = (
 /obj/effect/floor_decal/corner/mauve{
 	dir = 5
@@ -3345,9 +3337,14 @@
 /turf/simulated/floor,
 /area/cruise/outdoor/balcony)
 "NP" = (
-/obj/machinery/door/airlock/double/glass,
-/turf/simulated/floor/tiled/white,
-/area/cruise/outdoor/garden)
+/obj/effect/floor_decal/industrial/traffic{
+	dir = 1
+	},
+/obj/structure/sign/directions/emergencyexit{
+	dir = 2
+	},
+/turf/simulated/floor/carpet/blue2,
+/area/cruise/hotel/hallway)
 "NQ" = (
 /obj/abstract/fluid_mapped,
 /obj/effect/floor_decal/spline/fancy{
@@ -3373,12 +3370,6 @@
 /obj/structure/flora/pottedplant/aquatic,
 /turf/simulated/floor/asteroid,
 /area/cruise/hotel/restaurant)
-"NY" = (
-/obj/structure/sign/directions/emergencyexit{
-	dir = 4
-	},
-/turf/simulated/floor/blackgrid,
-/area/cruise/club)
 "Ob" = (
 /obj/structure/sign/poster/bay_6{
 	pixel_y = 64
@@ -3407,10 +3398,6 @@
 "Oj" = (
 /turf/simulated/floor/tiled,
 /area/cruise/outdoor/pool)
-"Ok" = (
-/obj/structure/sign/directions/gathering,
-/turf/simulated/floor/wood/bamboo,
-/area/cruise/outdoor/garden)
 "Ol" = (
 /obj/structure/railing/mapped{
 	dir = 4
@@ -3457,9 +3444,11 @@
 /turf/simulated/floor/tiled/white,
 /area/cruise/hallway/second)
 "Ph" = (
-/obj/structure/sign/warning,
-/turf/simulated/wall/r_wall/prepainted,
-/area/cruise/outdoor/pool)
+/obj/structure/sign/directions/emergencyexit{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/purple,
+/area/cruise/hotel/hallway/premium)
 "Pj" = (
 /obj/effect/floor_decal/corner/red/full,
 /turf/simulated/floor/tiled,
@@ -3639,6 +3628,15 @@
 /obj/structure/catwalk,
 /turf/simulated/floor,
 /area/cruise/maintenance/club)
+"QV" = (
+/obj/effect/floor_decal/corner/purple/diagonal{
+	dir = 4
+	},
+/obj/structure/sign/directions/emergencyexit{
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
+/area/cruise/bar)
 "QW" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -3822,7 +3820,7 @@
 /area/cruise/outdoor/pool)
 "SK" = (
 /turf/simulated/wall/r_wall/prepainted,
-/area/cruise/outdoor/garden)
+/area/cruise/outdoor/promenade)
 "ST" = (
 /obj/machinery/light{
 	dir = 4
@@ -4097,6 +4095,13 @@
 /obj/structure/catwalk,
 /turf/simulated/floor,
 /area/cruise/maintenance/bar)
+"Wg" = (
+/obj/structure/table/steel_reinforced,
+/obj/structure/sign/directions/emergencyexit{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/cruise/club)
 "Wj" = (
 /obj/structure/catwalk,
 /obj/structure/cable{
@@ -4104,6 +4109,10 @@
 	},
 /turf/simulated/floor,
 /area/cruise/maintenance/kitchen)
+"Wk" = (
+/obj/structure/sign/directions/gathering,
+/turf/simulated/floor/tiled/white,
+/area/cruise/hallway/second)
 "Wo" = (
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 10
@@ -4140,13 +4149,6 @@
 	},
 /turf/simulated/open,
 /area/cruise/maintenance/theater)
-"WR" = (
-/obj/structure/table/woodentable_reinforced/ebony/walnut,
-/obj/item/eftpos{
-	eftpos_name = "Bar EFTPOS scanner"
-	},
-/turf/simulated/floor/wood/mahogany,
-/area/cruise/hotel/reception)
 "WT" = (
 /turf/simulated/floor,
 /area/cruise/maintenance/restaurant)
@@ -4180,6 +4182,13 @@
 "Xf" = (
 /turf/simulated/wall,
 /area/cruise/storage/emergency2)
+"Xg" = (
+/obj/structure/table/woodentable_reinforced/ebony/walnut,
+/obj/item/eftpos{
+	eftpos_name = "Bar EFTPOS scanner"
+	},
+/turf/simulated/floor/wood/mahogany,
+/area/cruise/hotel/reception)
 "Xl" = (
 /obj/abstract/fluid_mapped,
 /obj/effect/floor_decal/spline/fancy{
@@ -4331,7 +4340,7 @@
 "YR" = (
 /obj/machinery/door/airlock/double/glass,
 /turf/simulated/floor/wood/walnut,
-/area/cruise/outdoor/garden)
+/area/cruise/outdoor/promenade)
 "YV" = (
 /obj/structure/sign/directions/emergencyexit,
 /turf/simulated/floor/carpet/purple,
@@ -21273,8 +21282,8 @@ Gl
 Gl
 Vn
 WL
-Ph
-Vn
+Gl
+pC
 WL
 Gl
 Gl
@@ -27691,7 +27700,7 @@ rO
 rO
 rO
 rO
-jZ
+FQ
 ig
 ig
 ig
@@ -29487,7 +29496,7 @@ rO
 rO
 Gw
 BH
-BH
+ir
 kc
 wA
 Rw
@@ -29508,7 +29517,7 @@ Ke
 VT
 Ke
 fY
-mB
+NP
 IN
 ts
 uL
@@ -33364,7 +33373,7 @@ Hl
 cQ
 cQ
 uL
-EX
+up
 IN
 oc
 OL
@@ -37197,7 +37206,7 @@ RW
 RW
 dW
 mt
-MW
+QV
 LP
 fN
 LP
@@ -38504,7 +38513,7 @@ fk
 fk
 RG
 RG
-WR
+Xg
 RG
 RG
 DS
@@ -40046,7 +40055,7 @@ fk
 fk
 RG
 RG
-WR
+Xg
 RG
 RG
 DS
@@ -40546,7 +40555,7 @@ HR
 HR
 HR
 Gt
-hZ
+Wk
 it
 ch
 it
@@ -45674,7 +45683,7 @@ Nm
 cA
 Yl
 GR
-ir
+Wg
 kh
 kh
 kJ
@@ -47485,7 +47494,7 @@ kJ
 Uj
 GR
 Gt
-rk
+nc
 it
 it
 it
@@ -47494,7 +47503,7 @@ YN
 kt
 CP
 QI
-tk
+Ph
 eP
 Zv
 Tk
@@ -47987,7 +47996,7 @@ Hz
 cA
 Yl
 GR
-NY
+uH
 Uj
 Uj
 kJ
@@ -49532,7 +49541,7 @@ bX
 cL
 eF
 Fj
-Gt
+xQ
 fC
 Gt
 Gt
@@ -50835,7 +50844,7 @@ YN
 kt
 CP
 rT
-Gb
+IU
 no
 no
 no
@@ -52353,11 +52362,11 @@ vQ
 bf
 aZ
 Ei
-KR
-NP
+no
+PR
 SK
-KR
-NP
+no
+PR
 SK
 HX
 HX
@@ -52366,14 +52375,14 @@ HX
 HX
 SK
 SK
-uH
+HX
 YR
 SK
 wS
 wS
 wS
 SK
-uH
+HX
 YR
 SK
 SK
@@ -52383,11 +52392,11 @@ HX
 HX
 HX
 SK
-KR
-NP
+no
+PR
 SK
-KR
-NP
+no
+PR
 Ei
 aZ
 DH
@@ -52622,7 +52631,7 @@ wS
 wS
 wS
 SK
-Ok
+hZ
 rI
 rI
 rI
