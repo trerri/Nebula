@@ -58,6 +58,20 @@
 	name = "\improper Cryogenic Storage"
 	icon_state = "direction_cryo"
 
+/obj/structure/sign/directions/emergencyexit
+	name = "\improper Emergency Exit"
+	icon_state = "emergencyexit"
+
+/obj/structure/sign/directions/emergencyexit/on_update_icon
+var/image/I = mutable_appearance(icon, icon_state, COLOR_WHITE)
+			I.appearance_flags |= RESET_COLOR
+			I.pixel_x = offset_on_overlay_x
+			I.pixel_y = offset_on_overlay_y
+			add_overlay(I)
+
+/obj/structure/sign/directions/gathering
+	name = "\improper Gathering Point Here"
+	icon_state = "gathering"
 
 /////////////////////////////////////////////////////
 // Hangar Signs
