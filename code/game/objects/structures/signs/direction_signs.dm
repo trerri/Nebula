@@ -62,7 +62,7 @@
 	name = "\improper Emergency Exit"
 	icon_state = "emergencyexit"
 
-/obj/structure/sign/directions/emergencyexit/Initialize()
+/obj/structure/sign/directions/emergencyexit/Initialize(ml = TRUE)
 	. = ..()
 	set_light(1,5,COLOR_GREEN)
 	update_light()
