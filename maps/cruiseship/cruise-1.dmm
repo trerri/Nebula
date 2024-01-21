@@ -409,7 +409,7 @@
 /obj/machinery/door/airlock/double/glass{
 	dir = 4
 	},
-/turf/simulated/floor/wood/maple,
+/turf/simulated/floor/tiled,
 /area/cruise/hallway/first)
 "cD" = (
 /obj/machinery/door/airlock/autoname,
@@ -4635,10 +4635,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/cruise/security/lobby)
 "Fk" = (
-/obj/structure/railing/mapped{
-	dir = 1
-	},
-/turf/simulated/floor/wood/maple,
+/turf/simulated/floor/tiled,
 /area/cruise/hallway/first)
 "Fl" = (
 /obj/structure/hygiene/toilet{
@@ -6717,13 +6714,10 @@
 /turf/simulated/floor/tiled,
 /area/cruise/security)
 "TV" = (
-/obj/structure/railing/mapped{
-	dir = 2
-	},
 /obj/machinery/door/airlock/double/glass{
 	dir = 4
 	},
-/turf/simulated/floor/wood/maple,
+/turf/simulated/floor/tiled,
 /area/cruise/hallway/first)
 "TX" = (
 /turf/simulated/floor/tiled,
@@ -48639,7 +48633,7 @@ kc
 kc
 kc
 TD
-Xy
+Fk
 TV
 Fk
 cC
