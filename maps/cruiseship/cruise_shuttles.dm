@@ -6,6 +6,8 @@
 	special_dock_targets = list(
 		/datum/shuttle/autodock/ferry = "FERRY DOCK"
 	)
+	base_turf = /turf/exterior/water
+	base_area = /area/cruise/arrivals/left
 
 /obj/effect/shuttle_landmark/escapedock
 	name = "External Vessel Dock"
@@ -14,6 +16,8 @@
 	special_dock_targets = list(
 
 	)
+	base_turf = /turf/exterior/water
+	base_area = /area/cruise/arrivals/right
 
 /obj/effect/shuttle_landmark/cargodock
 	name = "Supply Vessel Dock"
@@ -22,19 +26,23 @@
 	special_dock_targets = list(
 		/datum/shuttle/autodock/ferry = "CARGO DOCK"
 	)
+	base_turf = /turf/exterior/water
+	base_area = /area/cruise/cargo/main/dock
 
 /datum/shuttle/autodock/ferry
 	name = "Nanotravel Ferry"
 	shuttle_area = /area/shuttle/ferry
 	dock_target = "cruise_shuttle_ferry"
 	warmup_time = 10
+	knockdown = 0
+	move_time = 0
 
 	location = 0
 	waypoint_station = "nav_cruise_ferry"
-	waypoint_offsite = "nav_example_offsite"
+	waypoint_offsite = "nav_cruise_cargo"
 	docking_cues = list(
-		"STARBOARD" = "cruise_shuttle_ferry",
-		"CARGO" = "cruise_shuttle_cargo"
+		"FERRY DOCK" = "cruise_shuttle_ferry",
+		"CARGO DOCK" = "cruise_shuttle_cargo"
 	)
 	ceiling_type = /turf/simulated/floor/shuttle_ceiling
 

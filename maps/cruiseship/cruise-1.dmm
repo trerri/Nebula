@@ -625,7 +625,9 @@
 /area/cruise/security/lobby)
 "dQ" = (
 /obj/structure/window/reinforced,
-/obj/structure/skele_stand,
+/obj/structure/skele_stand{
+	desc = "We couldn't have done it without him."
+	},
 /turf/simulated/floor/tiled/white,
 /area/cruise/medical/reception)
 "dR" = (
@@ -5965,10 +5967,10 @@
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/engineering)
 "OR" = (
+/obj/effect/floor_decal/corner/pink/full,
 /obj/machinery/computer/shuttle_control{
 	shuttle_tag = "Nanotravel Ferry"
 	},
-/obj/effect/floor_decal/corner/pink/full,
 /turf/simulated/floor/tiled,
 /area/shuttle/ferry)
 "OW" = (
@@ -6330,11 +6332,10 @@
 /turf/simulated/floor/carpet/magenta,
 /area/cruise/casino)
 "Ru" = (
+/obj/effect/floor_decal/corner/pink/full,
 /obj/machinery/door/airlock/glass{
-	id_tag = "FerryDoor";
 	req_access = "access_crew"
 	},
-/obj/effect/floor_decal/corner/pink/full,
 /turf/simulated/floor/tiled,
 /area/shuttle/ferry)
 "Rw" = (
