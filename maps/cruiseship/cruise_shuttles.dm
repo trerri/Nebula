@@ -1,35 +1,43 @@
-/*
-/obj/effect/shuttle_landmark/lower_level
-	name = "Lower Level Dock"
-	landmark_tag = "nav_example_station"
-	docking_controller = "lower_level_dock"
+
+/obj/effect/shuttle_landmark/ferrydock
+	name = "Nanotravel Ferry Dock"
+	landmark_tag = "nav_cruise_ferry"
+	docking_controller = "nt_ferry_dock"
 	special_dock_targets = list(
-		/datum/shuttle/autodock/ferry/example = "STARBOARD"
+		/datum/shuttle/autodock/ferry = "FERRY DOCK"
 	)
 
-/obj/effect/shuttle_landmark/upper_level
-	name = "Upper Level Dock"
+/obj/effect/shuttle_landmark/escapedock
+	name = "External Vessel Dock"
 	landmark_tag = "nav_example_offsite"
-	docking_controller = "upper_level_dock"
+	docking_controller = "escape_dock"
 	special_dock_targets = list(
-		/datum/shuttle/autodock/ferry/example = "PORT"
+
 	)
 
-/datum/shuttle/autodock/ferry/example
-	name = "Testing Site Ferry"
+/obj/effect/shuttle_landmark/cargodock
+	name = "Supply Vessel Dock"
+	landmark_tag = "nav_cruise_cargo"
+	docking_controller = "cargo_dock"
+	special_dock_targets = list(
+		/datum/shuttle/autodock/ferry/example = "CARGO DOCK"
+	)
+
+/datum/shuttle/autodock/ferry
+	name = "Nanotravel Ferry"
 	shuttle_area = /area/shuttle/ferry
-	dock_target = "example_shuttle_starboard"
+	dock_target = "cruise_shuttle_ferry"
 	warmup_time = 10
 
 	location = 0
-	waypoint_station = "nav_example_station"
+	waypoint_station = "nav_cruise_ferry"
 	waypoint_offsite = "nav_example_offsite"
 	docking_cues = list(
-		"STARBOARD" = "example_shuttle_starboard",
-		"PORT" = "example_shuttle_port"
+		"STARBOARD" = "cruise_shuttle_ferry"
+		"CARGO" = "cruise_shuttle_cargo"
 	)
 	ceiling_type = /turf/simulated/floor/shuttle_ceiling
-*/
+
 /obj/abstract/turbolift_spawner/guests/
 	name = "Cruise Ship elevator placeholder"
 	icon = 'icons/obj/turbolift_preview_nowalls_3x3.dmi'
