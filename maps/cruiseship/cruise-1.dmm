@@ -247,6 +247,13 @@
 /obj/machinery/door/airlock/glass,
 /turf/simulated/floor/tiled,
 /area/cruise/security/lobby)
+"bJ" = (
+/obj/effect/floor_decal/corner/white{
+	dir = 5
+	},
+/obj/machinery/door/airlock/glass,
+/turf/simulated/floor/tiled,
+/area/cruise/arrivals/ferrydock)
 "bK" = (
 /obj/machinery/door/airlock/double,
 /obj/structure/cable{
@@ -1272,6 +1279,10 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/engineering/foyer)
+"iJ" = (
+/obj/effect/wallframe_spawn/reinforced/no_grille,
+/turf/simulated/floor/plating,
+/area/cruise/arrivals/ferrydock)
 "iK" = (
 /turf/simulated/wall,
 /area/cruise/hotel/spa/restroom)
@@ -1377,6 +1388,13 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/cruise/hotel/spa/laundry)
+"jk" = (
+/obj/machinery/door/airlock/glass{
+	id_tag = "FerryDoor"
+	},
+/obj/effect/floor_decal/industrial/warning/fulltile,
+/turf/simulated/floor/tiled,
+/area/cruise/arrivals/ferrydock)
 "jl" = (
 /obj/structure/hygiene/shower{
 	pixel_y = 24
@@ -1450,6 +1468,9 @@
 "jx" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/cruise/janitor)
+"jz" = (
+/turf/simulated/floor/tiled,
+/area/cruise/arrivals/ferrydock)
 "jA" = (
 /turf/simulated/floor/tiled/monotile,
 /area/turbolift/cruise/industrial/cargo/first)
@@ -1720,6 +1741,13 @@
 	},
 /turf/simulated/floor/plating,
 /area/cruise/medical/surgery)
+"li" = (
+/obj/machinery/computer/shuttle_control{
+	shuttle_tag = "Nanotravel Ferry"
+	},
+/obj/effect/floor_decal/corner/pink/full,
+/turf/simulated/floor/tiled,
+/area/cruise/arrivals/ferrydock)
 "lm" = (
 /obj/effect/floor_decal/borderfloorblack{
 	dir = 4
@@ -2180,6 +2208,10 @@
 /obj/structure/sign/warning/nosmoking_1,
 /turf/simulated/wall/r_wall/prepainted,
 /area/cruise/hallway/first/parking)
+"oM" = (
+/obj/effect/floor_decal/corner/white/full,
+/turf/simulated/floor/tiled,
+/area/cruise/arrivals/ferrydock)
 "oN" = (
 /obj/structure/sign/warning/detailed,
 /turf/simulated/floor/tiled/dark,
@@ -2196,6 +2228,10 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/cruise/security/brig)
+"oS" = (
+/obj/effect/shuttle_landmark/escapedock,
+/turf/exterior/water,
+/area/cruise/arrivals/emergencydock)
 "oT" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 2
@@ -2331,6 +2367,10 @@
 	},
 /turf/simulated/floor/tiled,
 /area/cruise/engineering/foyer)
+"pU" = (
+/obj/effect/shuttle_landmark/cargodock,
+/turf/exterior/water,
+/area/cruise/cargo/main/dock)
 "pV" = (
 /obj/machinery/teleport/station,
 /turf/simulated/floor/tiled/dark/monotile,
@@ -4670,6 +4710,9 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/engineering/foyer)
+"FG" = (
+/turf/simulated/wall,
+/area/cruise/arrivals/ferrydock)
 "FL" = (
 /obj/machinery/reagent_temperature/cooler,
 /obj/structure/table/glass,
@@ -4741,6 +4784,21 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/cruise/security)
+"Gx" = (
+/obj/structure/bed/chair{
+	dir = 1
+	},
+/obj/machinery/button/alternate/door/bolts{
+	pixel_x = -24;
+	id_tag = "FerryDoor"
+	},
+/obj/machinery/button/alternate/door{
+	pixel_x = 24;
+	id_tag = "FerryDoor"
+	},
+/obj/effect/floor_decal/corner/pink/full,
+/turf/simulated/floor/tiled,
+/area/cruise/arrivals/ferrydock)
 "Gz" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/cruise/botany)
@@ -4935,6 +4993,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/exterior/sea)
+"If" = (
+/obj/effect/shuttle_landmark/ferrydock,
+/turf/simulated/floor/tiled,
+/area/cruise/arrivals/ferrydock)
 "Io" = (
 /turf/simulated/wall,
 /area/cruise/medical/storage)
@@ -5014,6 +5076,14 @@
 /obj/machinery/computer/arcade,
 /turf/simulated/floor/lino,
 /area/cruise/crew)
+"IU" = (
+/obj/machinery/door/airlock/glass{
+	id_tag = "FerryDoor";
+	req_access = "access_crew"
+	},
+/obj/effect/floor_decal/corner/pink/full,
+/turf/simulated/floor/tiled,
+/area/cruise/arrivals/ferrydock)
 "IV" = (
 /obj/structure/catwalk,
 /obj/machinery/door/airlock/autoname,
@@ -5929,6 +5999,12 @@
 	},
 /turf/simulated/floor/plating,
 /area/cruise/hallway/first/parking)
+"OY" = (
+/obj/structure/table/bench,
+/obj/structure/table/bench,
+/obj/effect/floor_decal/corner/white/full,
+/turf/simulated/floor/tiled,
+/area/cruise/arrivals/ferrydock)
 "Pb" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -6685,7 +6761,9 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/maintenance/engineering)
 "Up" = (
-/turf/exterior/water,
+/obj/structure/table/bench,
+/obj/effect/floor_decal/corner/white/full,
+/turf/simulated/floor/tiled,
 /area/cruise/arrivals/ferrydock)
 "Us" = (
 /obj/machinery/light{
@@ -30563,7 +30641,7 @@ lf
 lf
 lf
 lf
-lf
+pU
 Hy
 yr
 yr
@@ -49577,21 +49655,21 @@ UC
 UC
 UC
 ms
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
+oM
+oM
+oM
+oM
+oM
+oM
+oM
+oM
+oM
+FG
+iJ
+iJ
+iJ
+FG
+FG
 eL
 hm
 hm
@@ -49834,21 +49912,21 @@ UC
 UC
 UC
 ms
+oM
 Up
 Up
 Up
+oM
 Up
 Up
 Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
+oM
+bJ
+jz
+jz
+jz
+jz
+iJ
 eL
 hm
 hm
@@ -50091,21 +50169,21 @@ UC
 UC
 UC
 ms
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
+oM
+oM
+oM
+oM
+oM
+oM
+oM
+oM
+oM
+FG
+jz
+jz
+jz
+jz
+jk
 Hd
 hm
 hm
@@ -50348,21 +50426,21 @@ UC
 UC
 UC
 ms
+oM
 Up
 Up
 Up
+oM
 Up
 Up
 Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
+oM
+iJ
+iJ
+FG
+FG
+jz
+iJ
 eL
 hm
 hm
@@ -50605,21 +50683,21 @@ UC
 UC
 UC
 ms
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
+oM
+oM
+oM
+oM
+oM
+oM
+oM
+oM
+oM
+iJ
+li
+Gx
+IU
+If
+FG
 kc
 Ar
 hm
@@ -50629,7 +50707,7 @@ hm
 nt
 xf
 fz
-ea
+oS
 ea
 ea
 ea
@@ -50862,21 +50940,21 @@ UC
 UC
 UC
 ms
+oM
 Up
 Up
 Up
+oM
 Up
 Up
 Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
+oM
+iJ
+iJ
+FG
+FG
+jz
+iJ
 eL
 hm
 hm
@@ -51119,21 +51197,21 @@ UC
 UC
 UC
 ms
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
+oM
+oM
+oM
+oM
+oM
+oM
+oM
+oM
+oM
+FG
+jz
+jz
+jz
+jz
+jk
 Hd
 hm
 hm
@@ -51376,21 +51454,21 @@ UC
 UC
 UC
 ms
+oM
 Up
 Up
 Up
+oM
 Up
+OY
 Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
+oM
+bJ
+jz
+jz
+jz
+jz
+iJ
 eL
 hm
 hm
@@ -51633,21 +51711,21 @@ UC
 UC
 UC
 ms
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
-Up
+oM
+oM
+oM
+oM
+oM
+oM
+oM
+oM
+oM
+FG
+iJ
+iJ
+iJ
+FG
+FG
 eL
 hm
 hm
