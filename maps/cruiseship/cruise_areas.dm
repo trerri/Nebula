@@ -108,33 +108,6 @@
 	icon_state = "library"
 	sound_env = MEDIUM_SOFTFLOOR
 
-/area/cruise/arrivals
-	name = "\improper Public Docking Area"
-	icon_state = "shuttle3"
-	is_outside = OUTSIDE_UNCERTAIN
-
-/area/cruise/arrivals/left
-	name = "Ferry Docking Area/Guest Arrivals"
-
-/area/cruise/arrivals/right
-	name = "External Docking Area/Emergency Escape"
-
-/area/cruise/arrivals/emergencydock
-	name = "\improper External Vessel Dock"
-	icon_state = "shuttlered"
-
-/area/cruise/arrivals/ferrydock
-	name = "\improper NanoTravel Ferry Dock"
-	icon_state = "shuttlegrn"
-
-/area/cruise/arrivals/leisure
-	name = "\improper Customers' Docking Area"
-	icon_state = "research_dock"
-
-/area/cruise/arrivals/leisuredock
-	name = "\improper Customers' Docks"
-	icon_state = "shuttlegrn2"
-
 /area/cruise/chapel
 	area_flags = AREA_FLAG_HOLY
 
@@ -158,6 +131,31 @@
 /area/cruise/chapel/confessional
 	name = "Chapel - Confessional"
 	sound_env = SMALL_SOFTFLOOR
+
+//Docking areas
+
+/area/cruise/arrivals
+	name = "\improper Public Docking Area"
+	icon_state = "shuttle3"
+	is_outside = OUTSIDE_UNCERTAIN
+
+/area/cruise/arrivals/left
+	name = "Ferry Docking Area/Guest Arrivals"
+
+/area/cruise/arrivals/right
+	name = "External Docking Area/Emergency Escape"
+
+/area/shuttle/emergency
+	name = "\improper Coast Guard Rescue Ship"
+	icon_state = "shuttlered"
+
+/area/shuttle/ferry
+	name = "\improper NanoTravel Ferry"
+	icon_state = "shuttlegrn"
+
+/area/cruise/arrivals/leisure
+	name = "\improper Customers' Docking Area"
+	icon_state = "research_dock"
 
 //Engineering
 
