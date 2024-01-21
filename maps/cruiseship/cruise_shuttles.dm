@@ -20,7 +20,7 @@
 	landmark_tag = "nav_cruise_cargo"
 	docking_controller = "cargo_dock"
 	special_dock_targets = list(
-		/datum/shuttle/autodock/ferry/example = "CARGO DOCK"
+		/datum/shuttle/autodock/ferry = "CARGO DOCK"
 	)
 
 /datum/shuttle/autodock/ferry
@@ -33,7 +33,7 @@
 	waypoint_station = "nav_cruise_ferry"
 	waypoint_offsite = "nav_example_offsite"
 	docking_cues = list(
-		"STARBOARD" = "cruise_shuttle_ferry"
+		"STARBOARD" = "cruise_shuttle_ferry",
 		"CARGO" = "cruise_shuttle_cargo"
 	)
 	ceiling_type = /turf/simulated/floor/shuttle_ceiling
