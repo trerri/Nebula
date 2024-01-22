@@ -75,3 +75,8 @@
 	change_power_consumption(initial(active_power_usage) * light_mod , POWER_USE_ACTIVE)
 	if(use_power)
 		set_light(l_range, l_power)
+
+/obj/machinery/floodlight/on
+/obj/machinery/floodlight/on/Initialize(ml = 1)
+	.=..()
+	turn_on(1)
