@@ -4571,7 +4571,7 @@
 /obj/effect/floor_decal/corner/b_green/border{
 	dir = 6
 	},
-/obj/structure/closet/secure_closet/CMO,
+/obj/structure/closet/secure_closet/cmo,
 /turf/simulated/floor/tiled/white,
 /area/cruise/medical/reception)
 "EI" = (
