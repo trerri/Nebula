@@ -52,7 +52,7 @@
 	depth = 3
 	lift_size_x = 3
 	lift_size_y = 3
-	door_type =     null
+	door_type =     /obj/machinery/door/airlock/double
 	wall_type =     /turf/simulated/wall/walnut
 	firedoor_type = null
 	light_type =    null
