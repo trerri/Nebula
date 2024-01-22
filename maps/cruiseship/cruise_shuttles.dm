@@ -66,6 +66,7 @@
 	)
 	floor_departure_sound = 'sound/effects/lift_heavy_start.ogg'
 	floor_arrival_sound = 'sound/effects/lift_heavy_stop.ogg'
+	//ceiling_type = /turf/simulated/floor/wood/walnut //TODO: actually make this possible (yeah right)
 
 /obj/abstract/turbolift_spawner/guests/north
 	depth = 2

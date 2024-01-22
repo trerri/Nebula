@@ -248,10 +248,10 @@
 /turf/simulated/floor/tiled,
 /area/cruise/security/lobby)
 "bK" = (
-/obj/machinery/door/airlock/double,
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+/obj/machinery/door/airlock/double/maintenance,
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/engineering/right)
 "bL" = (
@@ -1630,10 +1630,10 @@
 /area/cruise/exterior/sea)
 "kz" = (
 /obj/structure/catwalk,
-/obj/machinery/door/airlock/double,
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+/obj/machinery/door/airlock/double/maintenance,
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/security_starboard)
 "kB" = (
@@ -2049,7 +2049,7 @@
 /turf/simulated/floor/tiled,
 /area/cruise/crew/locker)
 "nE" = (
-/obj/machinery/door/airlock/double/glass,
+/obj/machinery/door/airlock/double/glass/engineering,
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/engineering/foyer)
 "nI" = (
@@ -3253,8 +3253,8 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/double/glass,
 /obj/structure/catwalk,
+/obj/machinery/door/airlock/double/glass/engineering,
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/engineering/right)
 "wc" = (
@@ -3522,8 +3522,8 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/double/glass,
 /obj/structure/catwalk,
+/obj/machinery/door/airlock/double/glass/engineering,
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/engineering/left)
 "xS" = (
@@ -4055,7 +4055,7 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/cruise/hallway/first/parking)
 "AT" = (
-/obj/machinery/door/airlock/double/glass,
+/obj/machinery/door/airlock/double/glass/medical,
 /turf/simulated/floor/tiled/white,
 /area/cruise/hallway/first)
 "AU" = (
@@ -4368,7 +4368,7 @@
 /area/cruise/crew)
 "DD" = (
 /obj/structure/catwalk,
-/obj/machinery/door/airlock/double,
+/obj/machinery/door/airlock/double/maintenance,
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/engineering/right)
 "DF" = (
@@ -5391,11 +5391,11 @@
 /turf/simulated/floor/plating,
 /area/cruise/arrivals/leisure)
 "Lv" = (
-/obj/machinery/door/airlock/double,
 /obj/effect/floor_decal/corner/orange/border{
 	dir = 8
 	},
 /obj/structure/catwalk,
+/obj/machinery/door/airlock/double/glass/civilian,
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/casino)
 "LC" = (
