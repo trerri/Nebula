@@ -1360,10 +1360,6 @@
 /obj/effect/floor_decal/corner/orange/three_quarters,
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/exterior/sea)
-"je" = (
-/obj/machinery/door/airlock/glass/mining,
-/turf/simulated/floor/tiled,
-/area/cruise/crew)
 "ji" = (
 /obj/effect/floor_decal/corner/blue/diagonal,
 /obj/structure/closet/secure_closet,
@@ -1509,9 +1505,9 @@
 /turf/simulated/floor/tiled/dark,
 /area/cruise/security/armory)
 "jS" = (
-/obj/machinery/door/airlock/double,
-/turf/simulated/floor/tiled/white,
-/area/cruise/hallway/first)
+/obj/machinery/door/airlock/glass/mining,
+/turf/simulated/floor/tiled,
+/area/cruise/crew)
 "jU" = (
 /obj/machinery/power/apc{
 	dir = 4;
@@ -3690,10 +3686,6 @@
 /obj/machinery/door/airlock/civilian,
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/primary_storage)
-"yE" = (
-/obj/machinery/door/airlock/double,
-/turf/simulated/floor/tiled,
-/area/cruise/hotel/spa/laundry)
 "yF" = (
 /obj/effect/floor_decal/corner/orange/bordercorner{
 	dir = 8
@@ -30888,7 +30880,7 @@ wU
 wU
 wU
 wU
-je
+jS
 TX
 TX
 as
@@ -33731,7 +33723,7 @@ qQ
 zA
 SH
 zA
-yE
+zA
 Lm
 Lm
 Lm
@@ -44762,8 +44754,8 @@ dC
 TD
 TD
 TD
-Jq
-jS
+Fk
+Fk
 TD
 TD
 Xy

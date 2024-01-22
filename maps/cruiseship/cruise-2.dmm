@@ -3419,8 +3419,7 @@
 /turf/simulated/floor/tiled/steel_ridged,
 /area/cruise/exterior)
 "OG" = (
-/obj/machinery/door/airlock/double,
-/turf/simulated/floor/carpet/blue2,
+/turf/simulated/floor/tiled,
 /area/cruise/hotel/hallway)
 "OH" = (
 /turf/simulated/open,
@@ -3435,9 +3434,6 @@
 /turf/simulated/floor/carpet,
 /area/cruise/hotel/rooms)
 "OU" = (
-/obj/machinery/light/spot{
-	dir = 1
-	},
 /obj/structure/sign/directions/emergencyexit{
 	dir = 1
 	},
@@ -3468,8 +3464,7 @@
 /turf/simulated/floor,
 /area/cruise/cargo/storage)
 "Pt" = (
-/obj/machinery/door/airlock/double,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/tiled,
 /area/cruise/hallway/second)
 "Pw" = (
 /obj/structure/ladder,
@@ -30805,7 +30800,7 @@ Un
 oj
 IN
 IN
-IN
+OG
 Et
 Et
 Et
@@ -38240,7 +38235,7 @@ ca
 ca
 oV
 pu
-it
+vb
 it
 it
 it
@@ -41579,7 +41574,7 @@ Iy
 Iy
 Iy
 Gt
-it
+Pt
 Pt
 Gt
 Gt

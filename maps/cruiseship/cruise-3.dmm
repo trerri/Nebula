@@ -158,10 +158,6 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/exterior)
-"iq" = (
-/obj/machinery/door/airlock/double,
-/turf/simulated/floor/tiled,
-/area/cruise/outdoor/top)
 "iE" = (
 /obj/effect/wallframe_spawn/reinforced,
 /turf/simulated/floor/plating,
@@ -38005,7 +38001,7 @@ Hl
 WA
 WA
 Hl
-iq
+Hl
 WA
 WA
 Hl
