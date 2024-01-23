@@ -99,7 +99,7 @@
 /turf/simulated/floor,
 /area/cruise/maintenance/hotel/premium)
 "aZ" = (
-/turf/simulated/wall/r_wall/hull,
+/turf/simulated/wall/r_wall/hull/dry,
 /area/cruise/outdoor/promenade)
 "bf" = (
 /obj/structure/railing/mapped{
@@ -842,7 +842,7 @@
 /turf/simulated/wall/r_wall,
 /area/cruise/maintenance/hotel)
 "jz" = (
-/turf/simulated/wall/r_wall/hull,
+/turf/simulated/wall/r_wall/hull/dry,
 /area/cruise/outdoor/pool)
 "jA" = (
 /turf/simulated/wall,
@@ -1065,7 +1065,7 @@
 /turf/simulated/floor/tiled,
 /area/cruise/security/club_checkpoint)
 "lY" = (
-/turf/simulated/wall/r_wall/hull,
+/turf/simulated/wall/r_wall/hull/dry,
 /area/cruise/outdoor/promenade/right)
 "ma" = (
 /obj/structure/catwalk,
@@ -4122,7 +4122,7 @@
 /turf/simulated/open,
 /area/cruise/exterior)
 "Wz" = (
-/turf/simulated/wall/r_wall/hull,
+/turf/simulated/wall/r_wall/hull/dry,
 /area/cruise/outdoor/promenade/left)
 "WB" = (
 /turf/simulated/floor/tiled/dark/monotile,

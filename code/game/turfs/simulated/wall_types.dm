@@ -16,10 +16,15 @@
 
 /turf/simulated/wall/r_wall/hull
 	name = "hull"
-	color = COLOR_HULL
+	color = COLOR_RED
 	paint_color = COLOR_HULL
+	stripe_color = COLOR_DARK_RED
+
+/turf/simulated/wall/r_wall/hull/dry
+	color = COLOR_HULL
 	stripe_color = COLOR_HULL
 
+/*
 /turf/simulated/wall/r_wall/hull/Initialize()
 	. = ..()
 	paint_color = color
@@ -36,6 +41,7 @@
 			var/bleach_factor = rand(10,50)
 			paint_color = adjust_brightness(paint_color, bleach_factor)
 	update_icon()
+*/
 
 /turf/simulated/wall/titanium
 	color = COLOR_SILVER
