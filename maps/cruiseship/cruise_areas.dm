@@ -699,10 +699,6 @@
 /area/turbolift/cruise/industrial/luggage/third
 	name = "Third Deck Primary Storage Lift"
 
-/area/shuttle/ferry
-	name = "\improper Ferry Boat"
-	icon_state = "shuttle"
-
 #undef AMBIENCE_EXTERIOR
 #undef AMBIENCE_OUTDOOR
 #undef AMBIENCE_INDOOR
