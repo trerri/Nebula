@@ -207,6 +207,15 @@
 /obj/machinery/door/airlock/glass/security,
 /turf/simulated/floor/tiled/techfloor,
 /area/cruise/security/lobby)
+"bt" = (
+/obj/effect/floor_decal/corner/white/border{
+	dir = 8
+	},
+/obj/structure/sign/directions/emergencyexit{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/cruise/hallway/first/parking)
 "bx" = (
 /obj/structure/bed/chair/wood/walnut{
 	dir = 4
@@ -380,6 +389,9 @@
 "cw" = (
 /turf/simulated/floor/tiled/freezer,
 /area/cruise/medical/storage)
+"cx" = (
+/turf/simulated/floor/tiled,
+/area/cruise/hallway/first/parking)
 "cz" = (
 /obj/effect/floor_decal/corner/blue/diagonal,
 /obj/effect/floor_decal/industrial/traffic{
@@ -769,6 +781,9 @@
 /obj/machinery/light,
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/exterior/sea)
+"eK" = (
+/turf/simulated/floor/tiled,
+/area/cruise/arrivals/left)
 "eL" = (
 /obj/effect/wallframe_spawn,
 /turf/simulated/floor/plating,
@@ -1388,7 +1403,7 @@
 /turf/simulated/floor/tiled/white,
 /area/cruise/medical/restrooms)
 "jm" = (
-/obj/machinery/floodlight,
+/obj/machinery/floodlight/on,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/cruise/engineering/foyer)
 "jn" = (
@@ -1638,9 +1653,14 @@
 /turf/simulated/floor/wood/maple,
 /area/cruise/hallway/first)
 "kH" = (
-/obj/item/flashlight/lamp/floodlamp,
-/turf/simulated/floor/tiled/steel_ridged,
-/area/cruise/engineering/foyer)
+/obj/effect/floor_decal/corner/white/border{
+	dir = 1
+	},
+/obj/structure/sign/directions/emergencyexit{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/cruise/hallway/first/parking)
 "kJ" = (
 /obj/structure/catwalk,
 /obj/structure/cable{
@@ -1982,7 +2002,7 @@
 /area/cruise/maintenance/medbay)
 "ni" = (
 /obj/machinery/door/airlock/double/glass,
-/turf/simulated/floor/tiled/steel_grid,
+/turf/simulated/floor/tiled,
 /area/cruise/arrivals/right)
 "nj" = (
 /obj/effect/floor_decal/corner/red{
@@ -2582,6 +2602,12 @@
 /obj/machinery/door/airlock/glass/maintenance,
 /turf/simulated/floor/tiled/monotile,
 /area/cruise/security/checkpoint)
+"rD" = (
+/obj/structure/sign/directions/emergencyexit{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/cruise/hallway/first/parking)
 "rG" = (
 /obj/structure/hygiene/shower{
 	pixel_y = 0;
@@ -3229,7 +3255,7 @@
 /area/cruise/engineering/foyer)
 "vY" = (
 /obj/machinery/door/airlock/double/glass/maintenance,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled,
 /area/cruise/hallway/first/parking)
 "vZ" = (
 /obj/structure/catwalk,
@@ -3373,7 +3399,7 @@
 /turf/simulated/floor/tiled,
 /area/cruise/cargo/office)
 "wV" = (
-/obj/machinery/floodlight,
+/obj/machinery/floodlight/on,
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/engineering/foyer)
 "wW" = (
@@ -3753,7 +3779,7 @@
 /area/cruise/medical/storage)
 "zd" = (
 /obj/machinery/door/airlock/double/glass,
-/turf/simulated/floor/tiled/steel_grid,
+/turf/simulated/floor/tiled,
 /area/cruise/arrivals/left)
 "zf" = (
 /turf/simulated/wall/r_wall/hull,
@@ -4969,6 +4995,9 @@
 	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/casino)
+"Is" = (
+/turf/simulated/floor/tiled,
+/area/cruise/arrivals/right)
 "It" = (
 /obj/structure/stairs{
 	dir = 8
@@ -5236,9 +5265,17 @@
 /turf/simulated/floor/wood/maple,
 /area/cruise/hallway/first)
 "KF" = (
-/obj/item/flashlight/lamp/floodlamp/green,
-/turf/simulated/floor/tiled/steel_ridged,
-/area/cruise/engineering/foyer)
+/obj/effect/floor_decal/corner/white/border{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/white/border{
+	dir = 1
+	},
+/obj/structure/sign/directions/emergencyexit{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/cruise/hallway/first/parking)
 "KH" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/effect/floor_decal/corner/orange{
@@ -26511,7 +26548,7 @@ rl
 Em
 xD
 Em
-kH
+rl
 Eh
 Eh
 Eh
@@ -26768,7 +26805,7 @@ rl
 Em
 xD
 Em
-KF
+rl
 Eh
 Eh
 Eh
@@ -49121,14 +49158,14 @@ ZR
 ZR
 ZR
 ZR
-ZR
+eK
 hm
 hm
 hm
 hm
 hm
 hm
-kd
+Is
 kd
 kd
 kd
@@ -52462,14 +52499,14 @@ ZR
 ZR
 ZR
 ZR
-ZR
+eK
 hm
 hm
 hm
 hm
 hm
 hm
-kd
+Is
 kd
 kd
 HK
@@ -52720,11 +52757,11 @@ GY
 gg
 gg
 hx
-yN
+cx
 vY
 hx
 oI
-yN
+cx
 vY
 hx
 hx
@@ -54516,7 +54553,7 @@ So
 So
 xh
 hx
-WM
+KF
 So
 So
 So
@@ -54795,7 +54832,7 @@ vf
 vf
 hx
 hx
-vf
+rD
 vf
 So
 rB
@@ -55039,7 +55076,7 @@ vf
 yn
 hx
 hx
-zI
+kH
 vf
 So
 So
@@ -55533,7 +55570,7 @@ UC
 UC
 rB
 rB
-So
+bt
 So
 So
 vf
@@ -56337,7 +56374,7 @@ vf
 vf
 hx
 hx
-vf
+rD
 vf
 rB
 UC
@@ -56829,7 +56866,7 @@ vf
 vf
 Fn
 hx
-zI
+kH
 vf
 vf
 vf
@@ -58123,7 +58160,7 @@ vf
 yn
 hx
 hx
-zI
+kH
 vf
 So
 So
