@@ -16,7 +16,7 @@
 
 /turf/simulated/wall/r_wall/hull
 	name = "hull"
-	color = COLOR_RED
+	color = COLOR_DARK_RED
 	paint_color = COLOR_HULL
 	stripe_color = COLOR_DARK_RED
 

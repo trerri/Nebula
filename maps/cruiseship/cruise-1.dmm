@@ -2783,6 +2783,10 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/cruise/maintenance/disposal)
+"sJ" = (
+/obj/machinery/door/airlock/double/glass,
+/turf/simulated/floor/wood/usedup,
+/area/cruise/hallway/first)
 "sN" = (
 /turf/simulated/wall,
 /area/cruise/maintenance/arrivals)
@@ -45041,7 +45045,7 @@ LH
 LH
 LH
 LH
-av
+sJ
 Jq
 Jq
 Jq
