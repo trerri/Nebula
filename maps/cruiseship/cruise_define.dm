@@ -11,6 +11,8 @@
 
 	)
 
+	default_spawn = /decl/spawnpoint/cryo
+
 	allowed_latejoin_spawns = list(
 		/decl/spawnpoint/cryo
 	)
