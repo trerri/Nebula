@@ -171,4 +171,4 @@
 
 /obj/structure/wall_frame/hull
 	paint_color = COLOR_HULL
-	stripe_color = COLOR_HULL
+	stripe_color = COLOR_DARK_RED
