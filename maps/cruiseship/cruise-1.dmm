@@ -806,6 +806,11 @@
 /obj/effect/wallframe_spawn/reinforced/no_grille,
 /turf/simulated/floor/plating,
 /area/shuttle/ferry)
+"eY" = (
+/obj/structure/table/gamblingtable,
+/obj/random/single/playing_cards,
+/turf/simulated/floor/carpet/purple,
+/area/cruise/casino)
 "fa" = (
 /turf/simulated/floor/wood/walnut,
 /area/cruise/casino)
@@ -2783,10 +2788,6 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/cruise/maintenance/disposal)
-"sJ" = (
-/obj/machinery/door/airlock/double/glass,
-/turf/simulated/floor/wood/usedup,
-/area/cruise/hallway/first)
 "sN" = (
 /turf/simulated/wall,
 /area/cruise/maintenance/arrivals)
@@ -4861,6 +4862,11 @@
 /obj/machinery/door/airlock/external/glass,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/cruise/maintenance/engineering)
+"Hg" = (
+/obj/structure/table/gamblingtable,
+/obj/random/single/playing_cards,
+/turf/simulated/floor/carpet/magenta,
+/area/cruise/casino)
 "Hh" = (
 /obj/machinery/light/spot{
 	dir = 1
@@ -7485,6 +7491,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/gym)
+"YL" = (
+/obj/machinery/door/airlock/double/glass,
+/turf/simulated/floor/wood/usedup,
+/area/cruise/hallway/first)
 "YM" = (
 /obj/effect/floor_decal/corner/red/diagonal,
 /turf/simulated/floor/tiled/white,
@@ -36819,7 +36829,7 @@ fa
 fa
 fa
 hO
-hO
+eY
 Iy
 QJ
 SK
@@ -37076,7 +37086,7 @@ Rt
 Rt
 fa
 Iy
-hO
+eY
 Iy
 gH
 VO
@@ -39904,7 +39914,7 @@ rz
 NM
 fa
 qL
-Rt
+Hg
 Rt
 qL
 Ev
@@ -40162,7 +40172,7 @@ NM
 fa
 qL
 Rt
-Rt
+Hg
 qL
 Ev
 Ev
@@ -45045,7 +45055,7 @@ LH
 LH
 LH
 LH
-sJ
+YL
 Jq
 Jq
 Jq
