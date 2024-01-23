@@ -1,4 +1,4 @@
-/datum/map/example
+/datum/map/cruise
 	name = "Ship"
 	full_name = "Cruise Ship"
 	path = "cruiseship"
@@ -8,16 +8,16 @@
 	)
 
 	lobby_tracks = list(
-		/decl/music_track/absconditus
+
 	)
-/*
+
 	allowed_spawns = list(
-		/decl/spawnpoint/arrivals
-	) i have no clue what this does :D
-*/
-	shuttle_docked_message = "The disembarkation ferry has docked."
-	shuttle_leaving_dock = "The disembarkation ferry has departed from home dock."
-	shuttle_called_message = "The disembarkation ferry has left."
+		/decl/spawnpoint/cryo
+	)
+
+	shuttle_docked_message = "The ferry has docked."
+	shuttle_leaving_dock = "The ferry has departed from %dock_name%."
+	shuttle_called_message = "The ferry has left."
 	shuttle_recall_message = "The ferry has been recalled."
 	emergency_shuttle_leaving_dock = "The coast guard evacuation ship has departed from %dock_name%."
 	emergency_shuttle_docked_message = "The coast guard evacuation ship has docked."
