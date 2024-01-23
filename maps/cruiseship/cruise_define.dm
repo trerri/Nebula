@@ -21,8 +21,8 @@
 	shuttle_recall_message = "The ferry has been recalled."
 	emergency_shuttle_leaving_dock = "The coast guard evacuation ship has departed from %dock_name%."
 	emergency_shuttle_docked_message = "The coast guard evacuation ship has docked."
-	emergency_shuttle_called_message = "The coast guard has been requested to evacuate the ship."
-	emergency_shuttle_recall_message = "The coast guard has been instructed to return to land."
+	emergency_shuttle_called_message = "The coast guard has been contacted to evacuate the ship."
+	emergency_shuttle_recall_message = "The coast guard vessel has been instructed to return to land."
 
 	default_telecomms_channels = list(
 		COMMON_FREQUENCY_DATA,

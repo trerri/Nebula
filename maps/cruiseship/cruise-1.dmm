@@ -4692,7 +4692,9 @@
 /turf/simulated/floor/tiled,
 /area/cruise/security/lobby)
 "FA" = (
-/obj/structure/closet/secure_closet/medical_wall,
+/obj/structure/closet/secure_closet/medical_wall{
+	pixel_y = 32
+	},
 /turf/simulated/floor/wood/bamboo,
 /area/cruise/gym)
 "FB" = (
@@ -7040,7 +7042,6 @@
 /turf/simulated/floor/tiled/white,
 /area/cruise/hotel/spa/laundry)
 "VN" = (
-/obj/structure/fitness/punchingbag,
 /obj/machinery/light/spot{
 	dir = 1
 	},
@@ -42722,7 +42723,7 @@ vy
 vy
 VQ
 ls
-ed
+Qt
 ed
 ed
 ed
@@ -43236,7 +43237,7 @@ vy
 vy
 jt
 ls
-VE
+ed
 ed
 ed
 ed
@@ -43495,7 +43496,7 @@ VQ
 ls
 VE
 ed
-ed
+VE
 ed
 ed
 ed
