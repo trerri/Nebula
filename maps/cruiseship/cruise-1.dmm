@@ -81,7 +81,7 @@
 /turf/simulated/floor/plating,
 /area/cruise/kitchen/freezer)
 "aK" = (
-/obj/machinery/floodlight,
+/obj/machinery/floodlight/on,
 /turf/simulated/floor/tiled/monotile,
 /area/cruise/hallway/first/parking)
 "aN" = (
@@ -649,6 +649,11 @@
 "ea" = (
 /turf/exterior/water,
 /area/shuttle/emergency)
+"eb" = (
+/obj/structure/catwalk,
+/obj/machinery/door/airlock/maintenance,
+/turf/simulated/floor/plating,
+/area/cruise/security)
 "ed" = (
 /turf/simulated/floor/wood/bamboo,
 /area/cruise/gym)
@@ -676,7 +681,7 @@
 /turf/simulated/floor/tiled,
 /area/cruise/engineering/foyer)
 "es" = (
-/obj/machinery/floodlight,
+/obj/machinery/floodlight/on,
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/hallway/first/parking)
 "eu" = (
@@ -1360,6 +1365,10 @@
 /obj/effect/floor_decal/corner/orange/three_quarters,
 /turf/simulated/floor/tiled/steel_grid,
 /area/cruise/exterior/sea)
+"je" = (
+/obj/machinery/door/airlock/glass/mining,
+/turf/simulated/floor/tiled,
+/area/cruise/crew)
 "ji" = (
 /obj/effect/floor_decal/corner/blue/diagonal,
 /obj/structure/closet/secure_closet,
@@ -1504,10 +1513,6 @@
 /obj/item/gun/projectile/shotgun/pump,
 /turf/simulated/floor/tiled/dark,
 /area/cruise/security/armory)
-"jS" = (
-/obj/machinery/door/airlock/glass/mining,
-/turf/simulated/floor/tiled,
-/area/cruise/crew)
 "jU" = (
 /obj/machinery/power/apc{
 	dir = 4;
@@ -2380,10 +2385,6 @@
 "qm" = (
 /turf/simulated/wall/r_wall,
 /area/cruise/cargo/main)
-"qo" = (
-/obj/machinery/door/airlock/double/glass/maintenance,
-/turf/simulated/floor/tiled/monotile,
-/area/cruise/hallway/first/parking)
 "qr" = (
 /obj/machinery/vending/snack,
 /obj/effect/floor_decal/corner/orange/half{
@@ -3228,7 +3229,7 @@
 /area/cruise/engineering/foyer)
 "vY" = (
 /obj/machinery/door/airlock/double/glass/maintenance,
-/turf/simulated/floor/tiled/steel_grid,
+/turf/simulated/floor/tiled/monotile,
 /area/cruise/hallway/first/parking)
 "vZ" = (
 /obj/structure/catwalk,
@@ -4035,7 +4036,7 @@
 /turf/simulated/wall/r_wall,
 /area/cruise/security)
 "AS" = (
-/obj/machinery/floodlight,
+/obj/machinery/floodlight/on,
 /turf/simulated/floor/tiled/techmaint,
 /area/cruise/hallway/first/parking)
 "AT" = (
@@ -4723,11 +4724,6 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/cruise/maintenance/casino)
-"Gj" = (
-/obj/structure/catwalk,
-/obj/machinery/door/airlock/maintenance,
-/turf/simulated/floor/plating,
-/area/cruise/security)
 "Gl" = (
 /obj/structure/catwalk,
 /obj/structure/cable{
@@ -5619,7 +5615,7 @@
 /obj/effect/floor_decal/corner/white/border{
 	dir = 8
 	},
-/obj/machinery/floodlight,
+/obj/machinery/floodlight/on,
 /turf/simulated/floor/tiled/techmaint,
 /area/cruise/hallway/first/parking)
 "Nd" = (
@@ -30880,7 +30876,7 @@ wU
 wU
 wU
 wU
-jS
+je
 TX
 TX
 as
@@ -40666,7 +40662,7 @@ Nq
 LU
 LU
 LU
-Gj
+eb
 oB
 Ma
 Bz
@@ -43750,7 +43746,7 @@ QX
 OC
 OC
 OC
-Gj
+eb
 oB
 Ma
 Bz
@@ -52724,12 +52720,12 @@ GY
 gg
 gg
 hx
-Tq
+yN
 vY
 hx
 oI
 yN
-qo
+vY
 hx
 hx
 Ol
@@ -52981,12 +52977,12 @@ hx
 hx
 hx
 hx
-yN
-yN
 Tq
 Tq
-yN
-yN
+Tq
+Tq
+Tq
+Tq
 hx
 OW
 On
@@ -53238,16 +53234,16 @@ Tq
 Tq
 Tq
 Tq
-yN
-yN
 Tq
 Tq
-yN
-yN
-yN
-yN
-yN
-yN
+Tq
+Tq
+Tq
+Tq
+Tq
+Tq
+Tq
+Tq
 Tq
 hx
 Qo
@@ -53495,8 +53491,8 @@ Tq
 Tq
 Tq
 Tq
-yN
-yN
+Tq
+Tq
 ch
 ch
 ch
@@ -53504,7 +53500,7 @@ ch
 ch
 ch
 Tq
-yN
+Tq
 Tq
 hx
 lL

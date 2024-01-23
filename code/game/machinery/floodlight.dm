@@ -16,6 +16,8 @@
 	var/l_power = 4 //brightness of light when on, can be negative
 	var/l_range = 12 //outer range of light when on, can be negative
 
+	base_type = /obj/machinery/floodlight
+
 /obj/machinery/floodlight/on_update_icon()
 	icon_state = "flood[panel_open ? "o" : ""][panel_open && get_cell() ? "b" : ""]0[use_power == POWER_USE_ACTIVE]"
 
@@ -77,6 +79,8 @@
 		set_light(l_range, l_power)
 
 /obj/machinery/floodlight/on
+	anchored = TRUE
+
 /obj/machinery/floodlight/on/Initialize(ml = 1)
 	.=..()
 	turn_on(1)
