@@ -150,7 +150,7 @@
 	icon_state = "shuttlered"
 
 /area/shuttle/ferry
-	name = "\improper NanoTravel Ferry"
+	name = "\improper Nanotravel Ferry"
 	icon_state = "shuttlegrn"
 
 /area/cruise/arrivals/leisure
