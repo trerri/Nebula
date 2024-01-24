@@ -4,7 +4,7 @@
 	path = "cruiseship"
 
 	lobby_screens = list(
-		'maps/cruiseship/example_lobby.png'
+		'maps/cruiseship/title.png'
 	)
 
 	lobby_tracks = list(
